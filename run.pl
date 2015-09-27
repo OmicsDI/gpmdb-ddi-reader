@@ -28,11 +28,11 @@ use DDI::GPMDB::Sync;
 #list of downloaded files
 my $data = 'data/files.txt';
 
+# create a sync object that connects to GPMDB ftp server and check if the
+# files from the server are also present in the local storage folder.
+# The local files directory is defined by the $data variable. The fucntions
+# return the list of files that are not yet on the local storage.
 my $sync = DDI::GPMDB::Sync->new();
-$sync->process_files($data);
-
-
-
-
+my @files_to_download = $sync->process_files($data);
 
 

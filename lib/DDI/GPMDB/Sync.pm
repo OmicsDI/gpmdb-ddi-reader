@@ -19,7 +19,6 @@ use strict;
 use warnings;
 use v5.10;
 use Net::FTP;
-use Data::Printer;
 
 sub new {
     my $class = shift;
@@ -58,9 +57,7 @@ sub process_files {
         push(@files_to_download, @list);
     }
 
-    p @files_to_download;
-    exit;
-
+    return @files_to_download;
 }
 
 sub lookup {
