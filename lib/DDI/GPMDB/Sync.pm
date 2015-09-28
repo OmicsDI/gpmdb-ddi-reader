@@ -39,6 +39,7 @@ sub process_files {
     my $data = shift;
 
     my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
+    #my @dir = qw(003);
     $self->{ftp}->cwd('/gpmdb/');
 
     my %files;
@@ -77,7 +78,7 @@ sub lookup {
         next if $ftp_file =~ m/\.pl$/g;
         next if $ftp_file =~ m/\.txt/g;
         next if $ftp_file =~ m/\.xls/g;
-        next if $ftp_file =~ m/^c$/g;
+        next if $ftp_file =~ m/c$/g;
 
         $ftp_file =~ m/.*\/(.*?)$/;
 

@@ -27,6 +27,7 @@ use DDI::GPMDB::Sync;
 
 #list of downloaded files
 my $data = 'data/files.txt';
+my $source_files = '/home/felipevl/Servers/Pathbio/gpmdump/gpmdb';
 
 # create a sync object that connects to GPMDB ftp server and check if the
 # files from the server are also present in the local storage folder.
@@ -35,4 +36,13 @@ my $data = 'data/files.txt';
 my $sync = DDI::GPMDB::Sync->new();
 my @files_to_download = $sync->process_files($data);
 
+for my $file ( @files_to_download ) {
+    chomp $file;
+    my @path = split(/\//, $file);
+    $sync->{ftp}->get("$file", "$source_files/$path[2]/$path[3]") 
+      or die "Failed to retrieve files:", $sync->{ftp}->message;
+}
 
+system("find $source_files -type f > $data");
+
+1;
