@@ -43,7 +43,7 @@ sub process_files {
     my $ignore = shift;
 
     #my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
-    my @dir = qw(003 066 101);
+    my @dir = qw(003 066 101 111 112 201 319 320 321);
     $self->{ftp}->cwd('/gpmdb/');
 
     my %toignore;

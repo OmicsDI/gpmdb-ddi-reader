@@ -25,6 +25,7 @@ use v5.10;
 use lib 'lib';
 use Archive::Tar;
 use DDI::GPMDB::Sync;
+use Data::Printer;
 
 #list of downloaded files
 my $data = 'data/files.txt';
@@ -46,7 +47,9 @@ for my $file ( @files_to_download ) {
 
     $sync->{ftp}->cwd('/gpmdb/');
 
-    if ( $sync->{ftp}->get("gpmdb/$folder/$file.xml.gz", "$source_files/$folder/$file.xml.gz") ) { 
+    say "gpmdb/$folder/$file.xml.gz";
+
+    if ( $sync->{ftp}->get("$folder/$file.xml.gz", "$source_files/$folder/$file.xml.gz") ) { 
       
       say "Fetching zipped model $file";
 
