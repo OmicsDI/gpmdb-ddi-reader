@@ -19,7 +19,9 @@ use strict;
 use warnings;
 use v5.10;
 use Net::FTP;
+use Data::Printer;
 
+# class constructor
 sub new {
     my $class = shift;
     my $self  = {
@@ -34,27 +36,36 @@ sub new {
     return $self;
 }
 
+# methods #
 sub process_files {
-    my $self = shift;
-    my $data = shift;
+    my $self   = shift;
+    my $data   = shift;
+    my $ignore = shift;
 
-    my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
-    #my @dir = qw(003);
+    #my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
+    my @dir = qw(003 066 101);
     $self->{ftp}->cwd('/gpmdb/');
+
+    my %toignore;
+    open(my $ignore_file, '<', $ignore) or die "Cannot open ignore file";
+    while( my $line = <$ignore_file> ) {
+        chomp $line;
+        $toignore{$line} = '';
+    }
 
     my %files;
     open(my $file_list, '<', $data) or die "Cannot open file list";
     while( my $line = <$file_list> ) {
         chomp $line;
-        $line =~ m/.*\/(.*?)$/;
-        $files{$1} = '';
+        if ( $line =~ m/(GPM\d{5,15})/g ) {
+            $files{$1} = '';
+        }
     }
 
     my @files_to_download;
     for my $folder ( @dir ) {
-
         say "processing $folder";
-        my @list = $self->lookup($folder, \%files);
+        my @list = $self->lookup($folder, \%files, \%toignore);
         push(@files_to_download, @list);
     }
 
@@ -65,8 +76,10 @@ sub lookup {
     my $self    = shift;
     my $folder  = shift;
     my $ref     = shift;
+    my $igref   = shift;
     
-    my %files = %{$ref};
+    my %files  = %{$ref};
+    my %ignore = %{$igref};
     my @list;
     
     say "fetching file list";
@@ -75,16 +88,19 @@ sub lookup {
     say "searching";
     for my $ftp_file (@ftp_lists) {
 
-        next if $ftp_file =~ m/\.pl$/g;
-        next if $ftp_file =~ m/\.txt/g;
-        next if $ftp_file =~ m/\.xls/g;
-        next if $ftp_file =~ m/c$/g;
+        if ( $ftp_file =~ m/(GPM\d{5,15})/g ) {
 
-        $ftp_file =~ m/.*\/(.*?)$/;
+          next if exists $ignore{$1};
+          next if $ftp_file =~ m/\.pl$/g;
+          next if $ftp_file =~ m/\.txt/g;
+          next if $ftp_file =~ m/\.xls/g;
+          next if $ftp_file =~ m/c$/g;
 
-        if( !exists( $files{$1}) ) {
-            push(@list, $ftp_file);
+          if( !exists($files{$1}) ) {
+              push(@list, $1);
+          }
         }
+
     }
 
     my $size = scalar @list;
