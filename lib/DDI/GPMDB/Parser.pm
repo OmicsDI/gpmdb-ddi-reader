@@ -1,21 +1,5 @@
 package DDI::GPMDB::Parser;
 
-#===============================================================================
-#
-#         FILE: Parser.pm
-#
-#  DESCRIPTION: 
-#
-#        FILES: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Felipe da Veiga Leprevost (Leprevost, FV.), felipe@leprevost.com.br
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 10/01/2015 11:34:03 AM
-#     REVISION: ---
-#===============================================================================
-
 use strict;
 use warnings;
 use v5.10;
@@ -217,28 +201,3 @@ sub parse_model {
 }
 
 1;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

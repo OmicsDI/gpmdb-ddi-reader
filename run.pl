@@ -5,13 +5,15 @@
 #
 #        USAGE: ./main.pl  
 #
-#  DESCRIPTION: 
+#  DESCRIPTION: This program objective is to synchronize a local storage wit
+#               model files from GPMDB website. The program query the ftp
+#               server and fetch new files, storing them on the proper place.
 #
 #      OPTIONS: ---
-# REQUIREMENTS: ---
+# REQUIREMENTS: see dependency file.
 #         BUGS: ---
 #        NOTES: ---
-#       AUTHOR: Felipe da Veiga Leprevost (Leprevost, FV), leprevost@cpan.org
+#       AUTHOR: Felipe da Veiga Leprevost (Leprevost, FV),felipe@leprevost.com.br
 # ORGANIZATION: 
 #      VERSION: 1.0
 #      CREATED: 09/25/15 23:26:02
@@ -25,21 +27,22 @@ use v5.10;
 use lib 'lib';
 use DDI::GPMDB::Sync;
 use DDI::GPMDB::Reader;
-use Data::Printer;
 
 #list of downloaded files
 my $data = 'data/files.txt';
 my $ignore = 'data/ignore.txt';
 my $source_files = '/home/felipevl/Servers/Pathbio/gpmdump/gpmdb';
-#my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
-my @dir = qw(003 066 101 111 112);
+my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
+#my @dir = qw(003 066 101 111 112);
 
 # getting the latest file list
 system("find $source_files -type f > $data");
 
+# initialize sync object and query GPMDB FTP server for new files.
+# New files are downloaded and stores as .gz file on the proper folder.
 my $sync = DDI::GPMDB::Sync->new();
-#my @files_to_download = $sync->process_files($data, $ignore);
-#$sync->fetch($source_files, $data, $ignore, \@files_to_download);
+my @files_to_download = $sync->process_files($data, $ignore);
+$sync->fetch($source_files, $data, $ignore, \@files_to_download);
 
 for my $dir ( @dir ) {
     my $reader = DDI::GPMDB::Reader->new();

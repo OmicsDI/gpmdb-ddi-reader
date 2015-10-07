@@ -1,25 +1,8 @@
 package DDI::GPMDB::Model;
 
-#===============================================================================
-#
-#         FILE: Model.pm
-#
-#  DESCRIPTION: 
-#
-#        FILES: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Felipe da Veiga Leprevost (Leprevost, FV.), felipe@leprevost.com.br
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 09/30/2015 11:09:12 AM
-#     REVISION: ---
-#===============================================================================
-
 use strict;
 use warnings;
 use v5.10;
-
 
 sub new {
     my $class = shift;
@@ -57,11 +40,7 @@ sub new {
     };
 
     bless($self, $class);
-
     return $self;
 }
 
 1;
-
-
-

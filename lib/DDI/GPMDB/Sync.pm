@@ -1,19 +1,4 @@
 package DDI::GPMDB::Sync;
-#===============================================================================
-#
-#         FILE: Sync.pm
-#
-#  DESCRIPTION: 
-#
-#        FILES: ---
-#         BUGS: ---
-#        NOTES: ---
-#       AUTHOR: Felipe da Veiga Leprevost (Leprevost, FV), leprevost@cpan.org
-# ORGANIZATION: 
-#      VERSION: 1.0
-#      CREATED: 09/25/15 23:26:32
-#     REVISION: ---
-#===============================================================================
 
 use strict;
 use warnings;

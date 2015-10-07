@@ -1,49 +1,51 @@
-DDI-GPMDB-Reader
+# DDI-GPMDB-Reader
 
 The README is used to introduce the module and provide instructions on
 how to install the module, any machine dependencies it may have (for
 example C compilers and installed libraries) and any other information
 that should be provided before the module is installed.
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+
+# INSTALLATION
+
+This module does not need to be installed system wide, the only requesite
+is to install the dependency modules found in the requirements file.
+You can install the modules by using a local::lib or the system lib
+folder.
 
 
-INSTALLATION
+# DEPENDENCIES
 
-To install this module, run the following commands:
+## Perl Modules
 
-	perl Makefile.PL
-	make
-	make test
-	make install
+The programs depends on a few modules that can be easily installed using cpan.
+Also, the program depends on a local MongoDB server running.
 
-SUPPORT AND DOCUMENTATION
+## MongoDB
 
-After installing, you can find documentation for this module with the
-perldoc command.
-
-    perldoc DDI::GPMDB::Reader
-
-You can also look for information at:
-
-    RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=DDI-GPMDB-Reader
-
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/DDI-GPMDB-Reader
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/DDI-GPMDB-Reader
-
-    Search CPAN
-        http://search.cpan.org/dist/DDI-GPMDB-Reader/
+A Mongodb server is necessary as the models will be stored at a local database
+and collection.
 
 
-LICENSE AND COPYRIGHT
+# HOW TO USE
+
+Before running the program, check if you have all the dependencies listed above, including
+the mongodb server running.
+
+Open the `run.pl` script and set the parameters for the program to run, including folder
+and file locations. Also you need to set the name of the mongodb and collection.
+
+Start the pipeline by executing the `run.pl` script. The program will start checking
+your current list of models. Having all models listed, the program checks the ftp server
+for the current file listing, any new file that is not listed on the `ignore` file will be
+downloded, checked and stored in gz format.
+
+After all files are downlaoded the program will transform each model on a mongodb record,
+(only a selected number of fields are processed), and finally all records are grouped
+and uploaded to the database.
+
+
+# LICENSE AND COPYRIGHT
 
 Copyright (C) 2015 Felipe da Veiga Leprevost
 

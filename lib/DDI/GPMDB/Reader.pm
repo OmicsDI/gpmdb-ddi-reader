@@ -1,15 +1,12 @@
 package DDI::GPMDB::Reader;
 
-use v5.010;
 use strict;
 use warnings;
+use v5.010;
 use IO::Zlib;
 use DDI::GPMDB::Parser;
 use MongoDB;
 use Parallel::ForkManager 0.7.6;
-use Data::Printer;
-
-our $VERSION = '0.01';
 
 sub new {
     my $class = shift;
@@ -180,33 +177,3 @@ sub process_and_store {
 }
 
 1;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
