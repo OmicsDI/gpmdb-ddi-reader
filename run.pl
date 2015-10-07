@@ -11,7 +11,6 @@
 #
 #      OPTIONS: ---
 # REQUIREMENTS: see dependency file.
-#         BUGS: ---
 #        NOTES: ---
 #       AUTHOR: Felipe da Veiga Leprevost (Leprevost, FV),felipe@leprevost.com.br
 # ORGANIZATION: 
@@ -28,12 +27,13 @@ use lib 'lib';
 use DDI::GPMDB::Sync;
 use DDI::GPMDB::Reader;
 
-#list of downloaded files
-my $data = 'data/files.txt';
-my $ignore = 'data/ignore.txt';
-my $source_files = '/home/felipevl/Servers/Pathbio/gpmdump/gpmdb';
-my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
-#my @dir = qw(003 066 101 111 112);
+### PARAMETERS ###
+my $data = 'data/files.txt';  # location for the mode listing.
+my $ignore = 'data/ignore.txt'; # location for the ignore file list. 
+my $source_files = '/home/felipevl/Servers/Pathbio/gpmdump/gpmdb';  # location of the gpmdb folders
+my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);  # list of folders to check
+my $mongodb = 'nesvidb.gpmdb';  # name of the database and collection
+### % ###
 
 # getting the latest file list
 system("find $source_files -type f > $data");
@@ -45,8 +45,9 @@ my @files_to_download = $sync->process_files($data, $ignore);
 $sync->fetch($source_files, $data, $ignore, \@files_to_download);
 
 for my $dir ( @dir ) {
-    my $reader = DDI::GPMDB::Reader->new();
+    my $reader = DDI::GPMDB::Reader->new($mongodb);
     $reader->process_and_store($source_files, $data, $dir);
+    say "done with directory $dir";
 }
 
 1;

@@ -4,19 +4,20 @@ use strict;
 use warnings;
 use v5.010;
 use IO::Zlib;
-use DDI::GPMDB::Parser;
 use MongoDB;
 use Parallel::ForkManager 0.7.6;
+use DDI::GPMDB::Parser;
 
 sub new {
-    my $class = shift;
+    my $class   = shift;
+    my $mongodb = shift;
     my $self  = {
         client      =>  undef,
         collection  =>  undef,
         };
 
     $self->{client} = MongoDB->connect('localhost');
-    $self->{collection} = $self->{client}->ns('nesvidb.gpmdb');
+    $self->{collection} = $self->{client}->ns($mongodb);
 
     bless($self, $class);
     return $self;
@@ -38,20 +39,11 @@ sub process_and_store {
     while( my $line = <$file_list> ) {
         chomp $line;
         if ( $line =~ m/(GPM(\d{3})\d{5,15})/g ) {
-
             if ( $2 == $dir ) {
                 $files{$1} = $2;
             }
         }
     }
-
-#    my %test;
-#    my $counter = 0;
-#    for my $key ( keys %files ) {
-#      $test{$key} = $files{$key};
-#      $counter++;
-#      last if $counter == 10;
-#    }
 
 	$pm->run_on_finish (
 	  sub {
@@ -79,8 +71,6 @@ sub process_and_store {
         my $reg;
 
         chomp $file;
-
-        #say "processing $file";
 
         $file =~ m/GPM(\d{3})\d{5,15}/g;
         my $folder = $1;

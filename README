@@ -19,6 +19,26 @@ The programs depends on a few modules that can be easily installed using cpan. A
 
 A Mongodb server is necessary as the models will be stored at a local database and collection.
 
+## Local GPMDB folder structure
+
+It is necessary that you have in place the same folder achitecture found in GPMDB (003, 066, ...). Inside each folder the program will store the models.
+It is strongly advided that you already have a almost-up-to-date version of the GPMDB models, as the program will not downlaod them in parallalel mode. Getting the models, checking for sanity and saving them is a "slow" process not suitable for large numebrs of files. Consider this as a synchronizer program, not a mass downloader.
+
+
+# PARAMETERS
+
+The `run.pl` scripts has a set of parameters to be set before running the program.
+
+* $data: the location and name of the file to hold the list of local models. The program use this file to save the name of all local models.
+
+* $ignore: the name of the models to be ignored. Models end in this file if they are compromised, corrupted or empty. The stamdard version fo this modules already comes with a list of models to be ignored.
+
+* $source_files: the directory with the local gpmdb folders.
+
+* @dir: the list of gpmdb fodlers to check for models.
+
+* $mongodb: The name of the database and collection of the mongodb database. 
+
 
 # HOW TO USE
 
@@ -29,6 +49,11 @@ Open the `run.pl` script and set the parameters for the program to run, includin
 Start the pipeline by executing the `run.pl` script. The program will start checking your current list of models. Having all models listed, the program checks the ftp server for the current file listing, any new file that is not listed on the `ignore` file will be downloded, checked and stored in gz format.
 
 After all files are downlaoded the program will transform each model on a mongodb record, (only a selected number of fields are processed), and finally all records are grouped and uploaded to the database.
+
+
+## KNOWN BUGS
+
+Some times, during the data processing for loading in MongoDB, the program emmits a Warning message indicating a float casting error. This is only a warning message that indicates failure during numeric scope enforcing. This does not cause the program to stop nor alters the variable content. Variable scoping is made automatically by the interpreter and some times it is necessary to enforce specific values to certain scopes. 
 
 
 # LICENSE AND COPYRIGHT
