@@ -1,111 +1,212 @@
 package DDI::GPMDB::Reader;
 
-use 5.006;
+use v5.010;
 use strict;
 use warnings;
-
-=head1 NAME
-
-DDI::GPMDB::Reader - The great new DDI::GPMDB::Reader!
-
-=head1 VERSION
-
-Version 0.01
-
-=cut
+use IO::Zlib;
+use DDI::GPMDB::Parser;
+use MongoDB;
+use Parallel::ForkManager 0.7.6;
+use Data::Printer;
 
 our $VERSION = '0.01';
 
+sub new {
+    my $class = shift;
+    my $self  = {
+        client      =>  undef,
+        collection  =>  undef,
+        };
 
-=head1 SYNOPSIS
+    $self->{client} = MongoDB->connect('localhost');
+    $self->{collection} = $self->{client}->ns('nesvidb.gpmdb');
 
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
-
-    use DDI::GPMDB::Reader;
-
-    my $foo = DDI::GPMDB::Reader->new();
-    ...
-
-=head1 EXPORT
-
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
-=head1 SUBROUTINES/METHODS
-
-=head2 function1
-
-=cut
-
-sub function1 {
+    bless($self, $class);
+    return $self;
 }
 
-=head2 function2
 
-=cut
+sub process_and_store {
+    my $self    = shift;
+    my $source  = shift;
+    my $data    = shift;
+    my $dir     = shift;
 
-sub function2 {
+    my $pm = Parallel::ForkManager->new(14, '/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp');
+    my %responses = ();
+    my @responses;
+
+    my %files;
+    open(my $file_list, '<', $data) or die "Cannot open file list";
+    while( my $line = <$file_list> ) {
+        chomp $line;
+        if ( $line =~ m/(GPM(\d{3})\d{5,15})/g ) {
+
+            if ( $2 == $dir ) {
+                $files{$1} = $2;
+            }
+        }
+    }
+
+#    my %test;
+#    my $counter = 0;
+#    for my $key ( keys %files ) {
+#      $test{$key} = $files{$key};
+#      $counter++;
+#      last if $counter == 10;
+#    }
+
+	$pm->run_on_finish (
+	  sub {
+	    my ($pid, $exit_code, $ident, $exit_signal, $core_dump, $data_structure_reference) = @_;
+	 
+	    # retrieve data structure from child
+	    if (defined($data_structure_reference)) {
+            
+            my $reftype = ref($data_structure_reference);
+            #$responses{$pid} = $data_structure_reference;
+            push(@responses, $$data_structure_reference);
+
+        } else {
+	      print qq|No message received from child process $pid!\n|;
+	    }
+
+	  }
+	);
+
+
+    DATA_LOOP:
+    for my $file ( keys %files ) {
+
+        my $pid = $pm->start and next DATA_LOOP;
+        my $reg;
+
+        chomp $file;
+
+        #say "processing $file";
+
+        $file =~ m/GPM(\d{3})\d{5,15}/g;
+        my $folder = $1;
+
+        my $status_flag = 0;
+        if ( -e "$source/$folder/$file.xml.gz") {
+            
+            $status_flag = 1;
+
+        } else {
+
+            die "Unknown file format for $file";
+        }
+
+        if ( $status_flag == 1 ) {
+
+            my $gz = IO::Zlib->new();
+            $gz->open("$source/$folder/$file.xml.gz","rb");
+
+            my $parser = DDI::GPMDB::Parser->new();
+            my $model = $parser->parse_model($gz);
+
+            MongoDB::force_double($model->{model}->{C_terminal_mod_mass});
+            MongoDB::force_double($model->{model}->{N_terminal_mod_mass});
+            MongoDB::force_double($model->{model}->{C_terminal_mass_change});
+            MongoDB::force_double($model->{model}->{N_terminal_mass_change});
+            MongoDB::force_double($model->{model}->{frag_mono_mass_error});
+            MongoDB::force_double($model->{model}->{parent_mono_mass_error_m});
+            MongoDB::force_double($model->{model}->{parent_mono_mass_error_p});
+            MongoDB::force_double($model->{model}->{total_spectra_assigned});
+            MongoDB::force_double($model->{model}->{total_unique_assigned});
+            MongoDB::force_double($model->{model}->{total_spectrum});
+            MongoDB::force_double($model->{model}->{partial_cleavage});
+
+
+            $reg = (
+            {
+
+                "title"                       =>  $model->{model}->{title},
+                "brenda_tissue"               =>  $model->{model}->{brenda_tissue},
+    		    "cell_type"                   =>  $model->{model}->{cell_type},
+                "go_subcell"                  =>  $model->{model}->{go_subcell},
+                "email"                       =>  $model->{model}->{email},
+                "institution"                 =>  $model->{model}->{institution},
+                "name"                        =>  $model->{model}->{name},
+                "project"                     =>  $model->{model}->{project},
+                "comment"                     =>  $model->{model}->{comment},
+                "pxd"	                      =>  $model->{model}->{pxd},
+                "pubmed"                      =>  $model->{model}->{pubmed},
+                "taxon"                       =>  $model->{model}->{taxon},
+                "modification" => {
+                    "c_terminal_mass"             =>  $model->{model}->{C_terminal_mod_mass},
+                    "n_terminal_mass"             =>  $model->{model}->{N_terminal_mod_mass},
+                    "c_terminal_mass_change"      =>  $model->{model}->{C_termianl_mass_change},
+                    "n_terminal_mass_change"      =>  $model->{model}->{N_terminal_mass_change},
+                    "potential_mass"              =>  $model->{model}->{potential_mod_mass},
+                },
+                "restriction" => {
+                    "cleavage_site"               =>  $model->{model}->{cleavage_site},
+                    "cleavage_semi"               =>  $model->{model}->{cleavage_semi},
+                    "partial_cleavage"            =>  $model->{model}->{partial_cleavage},
+
+                },
+                "fragment" => {
+                    "mass_type"              =>  $model->{model}->{fragment_mass_type},
+                    "mono_mass_error"        =>  $model->{model}->{frag_mono_mass_error},
+                    "mono_mass_unit"         =>  $model->{model}->{frag_mono_mass_unit},
+                },
+                "parent" => {
+                    "mono_mass_error_m"    =>  $model->{model}->{parent_mono_mass_error_m},
+                    "mono_mass_error_p"    =>  $model->{model}->{parent_mono_mass_error_p},
+                    "mono_mass_error_unit" =>  $model->{model}->{parent_mono_mass_unit},
+                },
+                "spetra" => {
+                    "total_assigned"          =>  $model->{model}->{total_spectra_assigned},
+                    "total_unique_assigned"   =>  $model->{model}->{total_unique_assigned},
+                    "total"                   =>  $model->{model}->{total_spectrum},
+                },
+
+            });
+
+        }
+
+      $pm->finish(0, \$reg);
+        
+    }
+    $pm->wait_all_children;
+
+    say "ok";
+    say "loading...";
+    my $result = $self->{collection}->insert_many(\@responses);            
+
+    return;
 }
 
-=head1 AUTHOR
-
-Felipe da Veiga Leprevost, C<< <felipe at leprevost.com.br> >>
-
-=head1 BUGS
-
-Please report any bugs or feature requests to C<bug-ddi-gpmdb-reader at rt.cpan.org>, or through
-the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=DDI-GPMDB-Reader>.  I will be notified, and then you'll
-automatically be notified of progress on your bug as I make changes.
+1;
 
 
 
 
-=head1 SUPPORT
-
-You can find documentation for this module with the perldoc command.
-
-    perldoc DDI::GPMDB::Reader
 
 
-You can also look for information at:
-
-=over 4
-
-=item * RT: CPAN's request tracker (report bugs here)
-
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=DDI-GPMDB-Reader>
-
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/DDI-GPMDB-Reader>
-
-=item * CPAN Ratings
-
-L<http://cpanratings.perl.org/d/DDI-GPMDB-Reader>
-
-=item * Search CPAN
-
-L<http://search.cpan.org/dist/DDI-GPMDB-Reader/>
-
-=back
 
 
-=head1 ACKNOWLEDGEMENTS
 
 
-=head1 LICENSE AND COPYRIGHT
-
-Copyright 2015 Felipe da Veiga Leprevost.
-
-This program is free software; you can redistribute it and/or modify it
-under the terms of either: the GNU General Public License as published
-by the Free Software Foundation; or the Artistic License.
-
-See L<http://dev.perl.org/licenses/> for more information.
 
 
-=cut
 
-1; # End of DDI::GPMDB::Reader
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

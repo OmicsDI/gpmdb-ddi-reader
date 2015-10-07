@@ -19,7 +19,7 @@ use strict;
 use warnings;
 use v5.10;
 use Net::FTP;
-use Data::Printer;
+use Archive::Tar;
 
 # class constructor
 sub new {
@@ -106,6 +106,49 @@ sub lookup {
     say "found $size new models";
 
     return @list;
+}
+
+sub fetch {
+    my $sync = shift;
+    my $source_files = shift;
+    my $data = shift;
+    my $ignore = shift;
+    my @files_to_download = shift;
+
+	for my $file ( @files_to_download ) {
+
+	    chomp $file;
+	    $file =~ m/GPM(\d{3})\d{5,15}/g;
+	    my $folder = $1;
+
+	    $sync->{ftp}->cwd('/gpmdb/');
+
+	    say "gpmdb/$folder/$file.xml.gz";
+
+	    if ( $sync->{ftp}->get("$folder/$file.xml.gz", "$source_files/$folder/$file.xml.gz") ) {
+
+	      say "Fetching zipped model $file";
+
+	      if ( my $test = `gzip --test $source_files/$folder/$file.xml.gz || echo 0`) {
+
+		    system("rm -f $source_files/$folder/$file.xml.gz");
+		    system("echo $file >> $ignore");
+
+	      } else {
+
+		    #system("gunzip -f $source_files/$folder/$file.xml.gz");
+	      }
+
+	    } else {
+
+		    if ( $sync->{ftp}->get("$folder/$file.xml", "$source_files/$folder/$file.xml") or die $sync->{ftp}->message) {
+		    
+              say "Fetching model $file";
+	    	}
+        }
+
+	    system("find $source_files -type f > $data");
+	}
 }
 
 1;

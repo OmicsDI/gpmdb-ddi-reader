@@ -23,51 +23,27 @@ use warnings;
 use utf8;
 use v5.10;
 use lib 'lib';
-use Archive::Tar;
 use DDI::GPMDB::Sync;
+use DDI::GPMDB::Reader;
 use Data::Printer;
 
 #list of downloaded files
 my $data = 'data/files.txt';
 my $ignore = 'data/ignore.txt';
 my $source_files = '/home/felipevl/Servers/Pathbio/gpmdump/gpmdb';
+#my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
+my @dir = qw(003 066 101 111 112);
 
-# create a sync object that connects to GPMDB ftp server and check if the
-# files from the server are also present in the local storage folder.
-# The local files directory is defined by the $data variable. The fucntions
-# return the list of files that are not yet on the local storage.
+# getting the latest file list
+system("find $source_files -type f > $data");
+
 my $sync = DDI::GPMDB::Sync->new();
-my @files_to_download = $sync->process_files($data, $ignore);
+#my @files_to_download = $sync->process_files($data, $ignore);
+#$sync->fetch($source_files, $data, $ignore, \@files_to_download);
 
-for my $file ( @files_to_download ) {
-    
-    chomp $file;
-    $file =~ m/GPM(\d{3})\d{5,15}/g;
-    my $folder = $1;
-
-    $sync->{ftp}->cwd('/gpmdb/');
-
-    say "gpmdb/$folder/$file.xml.gz";
-
-    if ( $sync->{ftp}->get("$folder/$file.xml.gz", "$source_files/$folder/$file.xml.gz") ) { 
-      
-      say "Fetching zipped model $file";
-
-      if ( my $test = `gzip --test $source_files/$folder/$file.xml.gz || echo 0`) {
-          system("rm -f $source_files/$folder/$file.xml.gz");
-          system("echo $file >> $ignore");
-      } else {
-          system("gunzip -f $source_files/$folder/$file.xml.gz");
-      }
-      
-    } else {
-
-        if ( $sync->{ftp}->get("$folder/$file.xml", "$source_files/$folder/$file.xml") or die $sync->{ftp}->message) {
-            say "Fetching model $file";
-        }
-    }
-
-    system("find $source_files -type f > $data");
+for my $dir ( @dir ) {
+    my $reader = DDI::GPMDB::Reader->new();
+    $reader->process_and_store($source_files, $data, $dir);
 }
 
 1;
