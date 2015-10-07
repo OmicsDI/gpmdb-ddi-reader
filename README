@@ -51,7 +51,7 @@ Start the pipeline by executing the `run.pl` script. The program will start chec
 After all files are downlaoded the program will transform each model on a mongodb record, (only a selected number of fields are processed), and finally all records are grouped and uploaded to the database.
 
 
-## KNOWN BUGS
+# KNOWN BUGS
 
 Some times, during the data processing for loading in MongoDB, the program emmits a Warning message indicating a float casting error. This is only a warning message that indicates failure during numeric scope enforcing. This does not cause the program to stop nor alters the variable content. Variable scoping is made automatically by the interpreter and some times it is necessary to enforce specific values to certain scopes. 
 
