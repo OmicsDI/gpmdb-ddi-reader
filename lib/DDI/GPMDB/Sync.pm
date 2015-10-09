@@ -23,11 +23,12 @@ sub new {
 
 # methods #
 sub process_files {
-    my $self   = shift;
-    my $data   = shift;
-    my $ignore = shift;
+    my $self    = shift;
+    my $data    = shift;
+    my $ignore  = shift;
+    my $dir_ref = shift;
 
-    my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
+    my @dir = @{$dir_ref};
     $self->{ftp}->cwd('/gpmdb/');
 
     my %toignore;
@@ -56,6 +57,7 @@ sub process_files {
     return @files_to_download;
 }
 
+# this is the function that actually touches GPMD FTP server list and get the missing files
 sub lookup {
     my $self    = shift;
     my $folder  = shift;
@@ -75,9 +77,10 @@ sub lookup {
         if ( $ftp_file =~ m/(GPM\d{5,15})/g ) {
 
           next if exists $ignore{$1};
+          next if $ftp_file =~ m/\.xml$/g;
           next if $ftp_file =~ m/\.pl$/g;
-          next if $ftp_file =~ m/\.txt/g;
-          next if $ftp_file =~ m/\.xls/g;
+          next if $ftp_file =~ m/\.txt$/g;
+          next if $ftp_file =~ m/\.xls$/g;
           next if $ftp_file =~ m/c$/g;
 
           if( !exists($files{$1}) ) {
@@ -94,11 +97,13 @@ sub lookup {
 }
 
 sub fetch {
-    my $sync = shift;
+    my $sync         = shift;
     my $source_files = shift;
-    my $data = shift;
-    my $ignore = shift;
-    my @files_to_download = shift;
+    my $data         = shift;
+    my $ignore       = shift;
+    my $files_ref    =shift;
+
+    my @files_to_download = @{$files_ref};
 
 	for my $file ( @files_to_download ) {
 
@@ -114,13 +119,15 @@ sub fetch {
 
 	      say "Fetching zipped model $file";
 
-	      if ( my $test = `gzip --test $source_files/$folder/$file.xml.gz || echo 0`) {
-
+	      if ( -z("$source_files/$folder/$file.xml.gz") ) {
+            
+            say "[Sanity Test Failed]: Adding model $file to ignore list";
 		    system("rm -f $source_files/$folder/$file.xml.gz");
 		    system("echo $file >> $ignore");
 
 	      } else {
-
+            
+            say "[Test OK]: storing model $file";
 		    #system("gunzip -f $source_files/$folder/$file.xml.gz");
 	      }
 
@@ -132,8 +139,9 @@ sub fetch {
 	    	}
         }
 
-	    system("find $source_files -type f > $data");
 	}
+
+    system("find $source_files -type f > $data");
 }
 
 1;
