@@ -35,7 +35,7 @@ my $ignore = 'data/ignore.txt'; # location for the ignore file list.
 my $source_files = '/home/felipevl/Servers/Pathbio/gpmdump/gpmdb';  # location of the gpmdb folders
 my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);  # list of folders to check
 #my @dir = qw(112);
-my $mongodb = 'nesvidb.gpmdb';  # name of the database and collection
+my $mongodb = 'nesvi.gpm';  # name of the database and collection
 ### % ###                 
 
 my @files_to_download;
