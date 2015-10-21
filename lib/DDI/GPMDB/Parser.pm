@@ -80,7 +80,7 @@ sub parse_model {
             if ( length($1) > 0 ) {
                 $self->{model}->{comment} = $1;
                 
-                if ( $line =~ m/PubMed\s+?ID\:\s+?(\d+)/ig ) {    
+                if ( $line =~ m/PubMed\s+?ID\:\s+(\d+)/ig ) {    
                     $self->{model}->{pubmed} = $1;
                 }
 

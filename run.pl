@@ -33,9 +33,8 @@ my ($mode) = @ARGV;
 my $data = 'data/files.txt';  # location for the mode listing.
 my $ignore = 'data/ignore.txt'; # location for the ignore file list. 
 my $source_files = '/home/felipevl/Servers/Pathbio/gpmdump/gpmdb';  # location of the gpmdb folders
-my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);  # list of folders to check
-#my @dir = qw(112);
-my $mongodb = 'nesvi.gpm';  # name of the database and collection
+#my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);  # list of folders to check
+my @dir = qw(451);
 ### % ###                 
 
 my @files_to_download;
@@ -55,10 +54,18 @@ if ( defined($mode) && $mode eq 'update' ) {
 } elsif ( defined($mode) && $mode eq 'generate' ) {
 
     for my $dir ( @dir ) {
-        my $reader = DDI::GPMDB::Reader->new($mongodb);
-        $reader->process_and_store($source_files, $data, $dir);
+        my $reader = DDI::GPMDB::Reader->new();
+        $reader->screen_and_generate($source_files, $data, $dir);
         say "done with directory $dir";
     }
+
+} elsif ( defined($mode) && $mode eq 'process' ) {
+
+    for my $dir ( @dir ) {
+		my $reader = DDI::GPMDB::Reader->new();
+		$reader->generate($source_files, $data, $dir);
+		say "done with directory $dir";								
+	}
 
 } else {
     say "DDI::GPMDB Usage: perl run.pl <option>";
@@ -67,3 +74,20 @@ if ( defined($mode) && $mode eq 'update' ) {
 }
 
 1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

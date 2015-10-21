@@ -17,7 +17,7 @@ sub new {
         name                        =>  "none",
         project                     =>  "none",
         comment                     =>  "none",
-        pxd	                    =>  "none",
+        pxd		                    =>  "none",
         pubmed                      =>  "none",
         C_terminal_mod_mass         =>  0,
         N_terminal_mod_mass         =>  0,

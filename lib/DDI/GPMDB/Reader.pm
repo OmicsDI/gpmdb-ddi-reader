@@ -4,31 +4,27 @@ use strict;
 use warnings;
 use v5.010;
 use IO::Zlib;
-use MongoDB;
 use Parallel::ForkManager 0.7.6;
 use DDI::GPMDB::Parser;
+use Data::Printer;
 
 sub new {
     my $class   = shift;
     my $mongodb = shift;
-    my $self  = {
-        client      =>  undef,
-        collection  =>  undef,
-        };
-
-    $self->{client} = MongoDB->connect('localhost');
-    $self->{collection} = $self->{client}->ns($mongodb);
+    my $self  = { };
 
     bless($self, $class);
     return $self;
 }
 
 
-sub process_and_store {
+sub screen_and_generate {
     my $self    = shift;
     my $source  = shift;
     my $data    = shift;
     my $dir     = shift;
+
+	say "Processing directory $dir...";
 
     my $pm = Parallel::ForkManager->new(14, '/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp');
     my %responses = ();
@@ -92,65 +88,7 @@ sub process_and_store {
 
             my $parser = DDI::GPMDB::Parser->new();
             my $model = $parser->parse_model($gz);
-
-            MongoDB::force_double($model->{model}->{C_terminal_mod_mass});
-            MongoDB::force_double($model->{model}->{N_terminal_mod_mass});
-            MongoDB::force_double($model->{model}->{C_terminal_mass_change});
-            MongoDB::force_double($model->{model}->{N_terminal_mass_change});
-            MongoDB::force_double($model->{model}->{frag_mono_mass_error});
-            MongoDB::force_double($model->{model}->{parent_mono_mass_error_m});
-            MongoDB::force_double($model->{model}->{parent_mono_mass_error_p});
-            MongoDB::force_double($model->{model}->{total_spectra_assigned});
-            MongoDB::force_double($model->{model}->{total_unique_assigned});
-            MongoDB::force_double($model->{model}->{total_spectrum});
-            MongoDB::force_double($model->{model}->{partial_cleavage});
-
-
-            $reg = (
-            {
-
-                "title"                       =>  $model->{model}->{title},
-                "brenda_tissue"               =>  $model->{model}->{brenda_tissue},
-    		    "cell_type"                   =>  $model->{model}->{cell_type},
-                "go_subcell"                  =>  $model->{model}->{go_subcell},
-                "email"                       =>  $model->{model}->{email},
-                "institution"                 =>  $model->{model}->{institution},
-                "name"                        =>  $model->{model}->{name},
-                "project"                     =>  $model->{model}->{project},
-                "comment"                     =>  $model->{model}->{comment},
-                "pxd"	                      =>  $model->{model}->{pxd},
-                "pubmed"                      =>  $model->{model}->{pubmed},
-                "taxon"                       =>  $model->{model}->{taxon},
-                "modification" => {
-                    "c_terminal_mass"             =>  $model->{model}->{C_terminal_mod_mass},
-                    "n_terminal_mass"             =>  $model->{model}->{N_terminal_mod_mass},
-                    "c_terminal_mass_change"      =>  $model->{model}->{C_termianl_mass_change},
-                    "n_terminal_mass_change"      =>  $model->{model}->{N_terminal_mass_change},
-                    "potential_mass"              =>  $model->{model}->{potential_mod_mass},
-                },
-                "restriction" => {
-                    "cleavage_site"               =>  $model->{model}->{cleavage_site},
-                    "cleavage_semi"               =>  $model->{model}->{cleavage_semi},
-                    "partial_cleavage"            =>  $model->{model}->{partial_cleavage},
-
-                },
-                "fragment" => {
-                    "mass_type"              =>  $model->{model}->{fragment_mass_type},
-                    "mono_mass_error"        =>  $model->{model}->{frag_mono_mass_error},
-                    "mono_mass_unit"         =>  $model->{model}->{frag_mono_mass_unit},
-                },
-                "parent" => {
-                    "mono_mass_error_m"    =>  $model->{model}->{parent_mono_mass_error_m},
-                    "mono_mass_error_p"    =>  $model->{model}->{parent_mono_mass_error_p},
-                    "mono_mass_error_unit" =>  $model->{model}->{parent_mono_mass_unit},
-                },
-                "spetra" => {
-                    "total_assigned"          =>  $model->{model}->{total_spectra_assigned},
-                    "total_unique_assigned"   =>  $model->{model}->{total_unique_assigned},
-                    "total"                   =>  $model->{model}->{total_spectrum},
-                },
-
-            });
+			$reg = $model;
 
         }
 
@@ -159,11 +97,149 @@ sub process_and_store {
     }
     $pm->wait_all_children;
 
-    say "ok";
-    say "loading...";
-    my $result = $self->{collection}->insert_many(\@responses);            
+    say "Creating reference files";
+	create_csv_file($dir, \@responses);
+
+	say "Grouping and printing XML files";
+	create_xml_files($dir);
 
     return;
 }
 
+sub generate {
+    my $self    = shift;
+    my $source  = shift;
+    my $data    = shift;
+    my $dir     = shift;
+
+	say "Grouping and printing XML files";
+	create_xml_files($dir);
+
+    return;
+}
+
+sub create_csv_file {
+	my $dir = shift;
+	my $ref = shift;
+	my @reg = @{$ref};
+
+	open( my $out, '>', "data/records/$dir.tsv") or die "Cannot create csv for directory $dir";
+
+	for my $m ( @reg ) {
+		
+		say $out $m->{model}->{project}, "\t", $m->{model}->{pxd}, "\t", $m->{model}->{pubmed}, "\t", $m->{model}->{title}, "\t", $m->{model}->{taxon}, "\t", $m->{model}->{brenda_tissue}, "\t", $m->{model}->{cell_type}, "\t", $m->{model}->{email}, "\t", $m->{model}->{go_subcell}, "\t", $m->{model}->{institution}, "\t", $m->{model}->{name};
+	}
+
+	return;
+}
+
+sub create_xml_files {
+	my $dir = shift;
+
+	open(my $in, '<', "data/records/$dir.tsv") or die "Cannot open tsv file from directory $dir";
+
+	my %group;
+
+	while( my $line = <$in> ) {
+		chomp $line;
+
+		my @terms = split(/\t/, $line);
+
+		if ( $terms[0] eq 'none' && $terms[1] eq 'none' && $terms[2] eq 'none' ) {
+			next;
+		}
+
+		my $key = "$terms[0]-$terms[1]-$terms[2]";
+
+		if ( exists($group{$key}) ) {
+			my @entries = @{$group{$key}};
+			push(@entries, \@terms);
+			$group{$key} = \@entries;
+		} else {
+			my @entries;
+			push(@entries, \@terms);
+			$group{$key} = \@entries;
+		}
+	}
+
+	print_xml($dir, \%group);
+}
+
+
+sub print_xml {
+	my $dir = shift;
+	my $ref = shift;
+	my %group = %{$ref};
+
+	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
+	
+	$year = $year += 1900;
+	my $release_date = "$year-$mon-$mday";
+
+	my $counter = 1;
+	for my $key ( keys %group ) {
+
+		my @terms = @{$group{$key}};
+		my $ref_model = 
+
+		my $filename = "data/records/GPMDB_".$dir."_EBE_".$counter.".xml";
+
+		open( my $xml, '>', $filename) or die "Cannot create XML file";
+
+		say $xml "<database>";
+		say $xml "  <name>PRIDE Archive</name>";
+		say $xml "  <description/>";
+		say $xml "  <release>3</release>";
+		say $xml "  <release_date>$release_date</release_date>";
+		say $xml "  <entry_count>1</entry_count>";
+		say $xml "  <entries>";
+		say $xml "    <entry id=\"$terms[1]\">";
+		say $xml "      <name><%%><\/name>";
+		say $xml "      <description><%%><\/description>";
+		say $xml "      <cross_references>";
+		say $xml "	...	...";
+		say $xml "    </entry>";
+		say $xml "  </entries>";
+		say $xml "</database>";
+
+
+
+		$counter++;
+	}
+
+}
+
 1;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

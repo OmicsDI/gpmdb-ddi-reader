@@ -1,5 +1,4 @@
 IO::Zlib
-MongoDB
 Parallel::ForkManager
 Net::FTP
 Archive::Tar

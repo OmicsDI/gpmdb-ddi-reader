@@ -1,0 +1,15 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-9-21</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="">
+      <name><%%></name>
+      <description><%%></description>
+      <cross_references>
+	...	...
+    </entry>
+  </entries>
+</database>
