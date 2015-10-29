@@ -2,14 +2,23 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-9-21</release_date>
+  <release_date>2015-9-28</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="ARRAY(0x13c5c58)">
+    <entry id="Human Ccr4-Not complexes contain variable deadenylase subunits">
       <name><%%></name>
       <description><%%></description>
       <cross_references>
-	...	...
+      </cross_references>
+      <additional_fields>
+        <field name="repository">GPMDB</field>
+        <field name="species">human</field>
+        <field name="submitter">Annemieke Kolkman, et al.</field>
+        <field name="submitter_mail">a.kolkman@umcutrecht.nl</field>
+        <field name="submitter_affiliation">Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005492</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005493</field>
+      </additional_fields>
     </entry>
   </entries>
 </database>

@@ -2,14 +2,22 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-9-21</release_date>
+  <release_date>2015-9-28</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="">
+    <entry id="Comparative phosphoproteomics of zebrafish Fyn/Yes morpholin o knockdown embryos">
       <name><%%></name>
       <description><%%></description>
       <cross_references>
-	...	...
+      </cross_references>
+      <additional_fields>
+        <field name="repository">GPMDB</field>
+        <field name="species">zebrafish</field>
+        <field name="submitter">Simone Lemeer</field>
+        <field name="submitter_mail">s.m.lemeer@uu.nl</field>
+        <field name="submitter_affiliation">Biomolecular Mass Spectrometry and Proteomics Group, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005264</field>
+      </additional_fields>
     </entry>
   </entries>
 </database>

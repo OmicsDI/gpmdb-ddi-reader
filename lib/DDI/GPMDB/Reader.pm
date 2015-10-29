@@ -44,10 +44,10 @@ sub screen_and_generate {
 	$pm->run_on_finish (
 	  sub {
 	    my ($pid, $exit_code, $ident, $exit_signal, $core_dump, $data_structure_reference) = @_;
-	 
+
 	    # retrieve data structure from child
 	    if (defined($data_structure_reference)) {
-            
+
             my $reftype = ref($data_structure_reference);
             #$responses{$pid} = $data_structure_reference;
             push(@responses, $$data_structure_reference);
@@ -73,7 +73,7 @@ sub screen_and_generate {
 
         my $status_flag = 0;
         if ( -e "$source/$folder/$file.xml.gz") {
-            
+
             $status_flag = 1;
 
         } else {
@@ -93,7 +93,7 @@ sub screen_and_generate {
         }
 
       $pm->finish(0, \$reg);
-        
+
     }
     $pm->wait_all_children;
 
@@ -126,7 +126,6 @@ sub create_csv_file {
 	open( my $out, '>', "data/records/$dir.tsv") or die "Cannot create csv for directory $dir";
 
 	for my $m ( @reg ) {
-		
 		say $out $m->{model}->{project}, "\t", $m->{model}->{pxd}, "\t", $m->{model}->{pubmed}, "\t", $m->{model}->{title}, "\t", $m->{model}->{taxon}, "\t", $m->{model}->{brenda_tissue}, "\t", $m->{model}->{cell_type}, "\t", $m->{model}->{email}, "\t", $m->{model}->{go_subcell}, "\t", $m->{model}->{institution}, "\t", $m->{model}->{name};
 	}
 
@@ -149,7 +148,7 @@ sub create_xml_files {
 			next;
 		}
 
-		my $key = "$terms[0]-$terms[1]-$terms[2]";
+		my $key = "$terms[0]";
 
 		if ( exists($group{$key}) ) {
 			my @entries = @{$group{$key}};
@@ -172,7 +171,7 @@ sub print_xml {
 	my %group = %{$ref};
 
 	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
-	
+
 	$year = $year += 1900;
 	my $release_date = "$year-$mon-$mday";
 
@@ -180,7 +179,6 @@ sub print_xml {
 	for my $key ( keys %group ) {
 
 		my @terms = @{$group{$key}};
-		my $ref_model = 
 
 		my $filename = "data/records/GPMDB_".$dir."_EBE_".$counter.".xml";
 
@@ -193,53 +191,30 @@ sub print_xml {
 		say $xml "  <release_date>$release_date</release_date>";
 		say $xml "  <entry_count>1</entry_count>";
 		say $xml "  <entries>";
-		say $xml "    <entry id=\"$terms[1]\">";
+		say $xml "    <entry id=\"$terms[0][0]\">";
 		say $xml "      <name><%%><\/name>";
 		say $xml "      <description><%%><\/description>";
 		say $xml "      <cross_references>";
-		say $xml "	...	...";
+    say $xml "      <\/cross_references>";
+    say $xml "      <additional_fields>";
+    say $xml "        <field name=\"repository\">GPMDB</field>";
+    say $xml "        <field name=\"species\">$terms[0][4]</field>" if $terms[0][4] ne "none";
+    say $xml "        <field name=\"publication\">$terms[0][2]</field>" if $terms[0][2] ne "none";
+    say $xml "        <field name=\"brenda_tissue\">$terms[0][5]</field>" if $terms[0][5] ne "none";
+    say $xml "        <field name=\"cell_type\">$terms[0][6]</field>" if $terms[0][6] ne "none";
+    say $xml "        <field name=\"submitter\">$terms[0][10]</field>" if $terms[0][10] ne "none";
+    say $xml "        <field name=\"submitter_mail\">$terms[0][7]</field>" if $terms[0][7] ne "none";
+    say $xml "        <field name=\"submitter_affiliation\">$terms[0][9]</field>" if $terms[0][7] ne "none";
+    for my $model ( @terms ) {
+      say $xml "        <field name=\"model\">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=$model->[3]</field>" if $model->[3] ne "none";;
+    }
+    say $xml "      <\/additional_fields>";
 		say $xml "    </entry>";
 		say $xml "  </entries>";
 		say $xml "</database>";
 
-
-
 		$counter++;
 	}
-
 }
 
 1;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
