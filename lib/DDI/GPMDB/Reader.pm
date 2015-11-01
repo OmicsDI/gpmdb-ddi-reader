@@ -18,7 +18,7 @@ sub new {
 }
 
 
-sub screen_and_generate {
+sub create_reference_files {
     my $self    = shift;
     my $source  = shift;
     my $data    = shift;
@@ -98,10 +98,10 @@ sub screen_and_generate {
     $pm->wait_all_children;
 
     say "Creating reference files";
-	create_csv_file($dir, \@responses);
+	  create_csv_file($dir, \@responses);
 
-	say "Grouping and printing XML files";
-	create_xml_files($dir);
+	#say "Grouping and printing XML files";
+	#create_xml_files($dir);
 
     return;
 }
@@ -123,7 +123,7 @@ sub create_csv_file {
 	my $ref = shift;
 	my @reg = @{$ref};
 
-	open( my $out, '>', "data/records/$dir.tsv") or die "Cannot create csv for directory $dir";
+	open( my $out, '>', "data/records/$dir/$dir.tsv") or die "Cannot create csv for directory $dir";
 
 	for my $m ( @reg ) {
 		say $out $m->{model}->{project}, "\t", $m->{model}->{pxd}, "\t", $m->{model}->{pubmed}, "\t", $m->{model}->{title}, "\t", $m->{model}->{taxon}, "\t", $m->{model}->{brenda_tissue}, "\t", $m->{model}->{cell_type}, "\t", $m->{model}->{email}, "\t", $m->{model}->{go_subcell}, "\t", $m->{model}->{institution}, "\t", $m->{model}->{name};
@@ -135,7 +135,7 @@ sub create_csv_file {
 sub create_xml_files {
 	my $dir = shift;
 
-	open(my $in, '<', "data/records/$dir.tsv") or die "Cannot open tsv file from directory $dir";
+	open(my $in, '<', "data/records/$dir/$dir.tsv") or die "Cannot open tsv file from directory $dir";
 
 	my %group;
 
