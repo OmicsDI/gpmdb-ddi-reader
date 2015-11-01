@@ -8,9 +8,7 @@ use DDI::GPMDB::Model;
 sub new {
     my $class = shift;
     my $self  = {
-        
         model =>  undef,
-
         };
 
     $self->{model} = DDI::GPMDB::Model->new();
@@ -26,51 +24,51 @@ sub parse_model {
 
     while( my $line = <$fh> ) {
         chomp $line;
-        
+
         if ( $line =~ m/^\s+<note type=\"input\" label=\"output, title\">(.*)<\/note>/i ) {
-            
+
             if ( length($1) > 0 ) {
                 $self->{model}->{title} = $1;
             }
 
         } elsif( $line =~ m/^\s+<note type=\"input\" label=\"gpmdb, BRENDA tissue\">(.*)<note>/i ) {
-            
+
             if ( length($1) > 0 ) {
                 $self->{model}->{brenda_tissue} = $1;
             }
 
         } elsif ( $line =~ m/^\s+<note type=\"input\" label=\"gpmdb, CELL cell type\">(.*)<\/note>/i ) {
-            
+
             if ( length($1) > 0 ) {
                 $self->{model}->{cell_type} = $1;
             }
 
         } elsif ( $line =~ m/^\s+<note type=\"input\" label=\"gpmdb, GO subcellular\">(.*)<\/note>/i ) {
-            
+
             if ( length($1) > 0 ) {
                 $self->{model}->{go_subcell} = $1;
             }
 
         } elsif ( $line =~ m/^\s+<note type=\"input\" label=\"gpmdb, email\">(.*)<\/note>/i ) {
-            
+
             if ( length($1) > 0 ) {
                 $self->{model}->{email} = $1;
             }
-          
+
         } elsif ( $line =~ m/^\s+<note type=\"input\" label=\"gpmdb, institution\">(.*)<\/note>/ ) {
-            
+
             if ( length($1) > 0 ) {
                 $self->{model}->{institution} = $1;
             }
 
         } elsif ( $line =~ m/^\s+<note type=\"input\" label=\"gpmdb, name\">(.*)<\/note>/ ) {
-            
+
             if ( length($1) > 0 ) {
                 $self->{model}->{name} = $1;
             }
 
         } elsif ( $line =~ m/^\s+<note type=\"input\" label=\"gpmdb, project\">(.*)<\/note>/ ) {
-            
+
             if ( length($1) > 0 ) {
                 $self->{model}->{project} = $1;
             }
@@ -79,13 +77,25 @@ sub parse_model {
 
             if ( length($1) > 0 ) {
                 $self->{model}->{comment} = $1;
-                
-                if ( $line =~ m/PubMed\s+?ID\:\s+(\d+)/ig ) {    
-                    $self->{model}->{pubmed} = $1;
+
+                if ( $line =~ m/PubMed\s+?ID\:\s+(\d+)/ig ) {
+                  $self->{model}->{pubmed} = $1;
                 }
 
                 if ( $line =~ m/(PXD\d{6})/ig ) {
-                    $self->{model}->{pxd} = $1;
+                  $self->{model}->{pxd} = $1;
+                }
+
+                if ( $line =~ m/(MSV\d{9)/ig ) {
+                  $self->{model}->{massive} = $1;
+                }
+
+                if ( $line =~ m/PRIDE ID: (\d{1,6}) / ) {
+                  $self->{model}->{pride} = $1;
+                }
+
+                if ( $line =~ m/TRANCHE KEY:\s(.*==)\s/ig ) {
+                  $self->{model}->{tranche} = $1;
                 }
 
             }
@@ -185,18 +195,15 @@ sub parse_model {
             if ( length($1) > 0 ) {
                 $self->{model}->{total_spectrum} = $1;
             }
-
         } elsif ( $line =~ m/^\s+<note label=\"refining, \# partial cleavage\">(.*)<\/note>/ ) {
 
             if ( length($1) > 0 ) {
                 $self->{model}->{partial_cleavage} = $1;
             }
-
         }
-
     }
 
-    
+
     return $self;
 }
 

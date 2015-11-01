@@ -88,7 +88,7 @@ sub create_reference_files {
 
             my $parser = DDI::GPMDB::Parser->new();
             my $model = $parser->parse_model($gz);
-			$reg = $model;
+			      $reg = $model;
 
         }
 
@@ -123,10 +123,25 @@ sub create_csv_file {
 	my $ref = shift;
 	my @reg = @{$ref};
 
-	open( my $out, '>', "data/records/$dir/$dir.tsv") or die "Cannot create csv for directory $dir";
+	open( my $out, '>', "data/records/$dir/$dir.tsv" ) or die "Cannot create csv for directory $dir";
 
 	for my $m ( @reg ) {
-		say $out $m->{model}->{project}, "\t", $m->{model}->{pxd}, "\t", $m->{model}->{pubmed}, "\t", $m->{model}->{title}, "\t", $m->{model}->{taxon}, "\t", $m->{model}->{brenda_tissue}, "\t", $m->{model}->{cell_type}, "\t", $m->{model}->{email}, "\t", $m->{model}->{go_subcell}, "\t", $m->{model}->{institution}, "\t", $m->{model}->{name};
+
+		say $out $m->{model}->{project}, "\t",
+    $m->{model}->{pxd}, "\t",
+    $m->{model}->{pubmed}, "\t",
+    $m->{model}->{title}, "\t",
+    $m->{model}->{taxon}, "\t",
+    $m->{model}->{brenda_tissue}, "\t",
+    $m->{model}->{cell_type}, "\t",
+    $m->{model}->{email}, "\t",
+    $m->{model}->{go_subcell}, "\t",
+    $m->{model}->{institution}, "\t",
+    $m->{model}->{name}, "\t",
+    $m->{model}->{comment}, "\t",
+    $m->{model}->{massive}, "\t",
+    $m->{model}->{pride}, "\t",
+    $m->{model}->{tranche};
 	}
 
 	return;
@@ -135,11 +150,22 @@ sub create_csv_file {
 sub create_xml_files {
 	my $dir = shift;
 
-	open(my $in, '<', "data/records/$dir/$dir.tsv") or die "Cannot open tsv file from directory $dir";
+  my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
+  my @global_reg;
+
+  {
+    no warnings;
+    for my $d ( @dir) {
+  	   open(my $in, '<', "data/records/$d/$d.tsv") or warn "no reference file at $d";
+       while ( my $line = <$in> ) {
+         push(@global_reg, $line);
+       }
+    }
+  }
 
 	my %group;
 
-	while( my $line = <$in> ) {
+	for my $line ( @global_reg ) {
 		chomp $line;
 
 		my @terms = split(/\t/, $line);
@@ -170,8 +196,16 @@ sub print_xml {
 	my $ref = shift;
 	my %group = %{$ref};
 
-	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
+  # my %tranche;
+  # open( my $tr, '<', "data/tranche-to-massive.txt" ) or die "Cannot find tranche-to-massive convertion file";
+  # while( my $line = <$tr> ) {
+  #   chomp $line;
+  #   my ($m, $t) = split(/\t/, $line);
+  #   $tr =~ s/\s+//;
+  #   $tranche{$t} = $m;
+  # }
 
+	my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime(time);
 	$year = $year += 1900;
 	my $release_date = "$year-$mon-$mday";
 
@@ -180,7 +214,12 @@ sub print_xml {
 
 		my @terms = @{$group{$key}};
 
-		my $filename = "data/records/GPMDB_".$dir."_EBE_".$counter.".xml";
+    # my $tc = $terms[0][14];
+    # if ( defined($tc) && exists $tranche{$tc} ) {
+    #   $terms[0][12] = $tranche{$tc};
+    # }
+
+		my $filename = "data/records/$dir/GPMDB_".$dir."_EBE_".$counter.".xml";
 
 		open( my $xml, '>', $filename) or die "Cannot create XML file";
 
@@ -191,13 +230,19 @@ sub print_xml {
 		say $xml "  <release_date>$release_date</release_date>";
 		say $xml "  <entry_count>1</entry_count>";
 		say $xml "  <entries>";
-		say $xml "    <entry id=\"$terms[0][0]\">";
+		say $xml "    <entry id=\"$terms[0][3]\">";
 		say $xml "      <name><%%><\/name>";
-		say $xml "      <description><%%><\/description>";
+		say $xml "      <description>\"$terms[0][11]\"<\/description>" if $terms[0][11] ne "none";
 		say $xml "      <cross_references>";
+    say $xml "      <ref dbkey=\"$terms[0][1]\" dbname=\"ProteomeExchange\"\/>" if $terms[0][1] ne "none";
+    say $xml "      <ref dbkey=\"$terms[0][2]\" dbname=\"pubmed\"\/>" if $terms[0][2] ne "none";
+    say $xml "      <ref dbkey=\"$terms[0][12]\" dbname=\"massive\"\/>" if $terms[0][12] ne "none";
+    say $xml "      <ref dbkey=\"$terms[0][13]\" dbname=\"PRIDE\"\/>" if $terms[0][13] ne "none";
     say $xml "      <\/cross_references>";
     say $xml "      <additional_fields>";
+    say $xml "        <field name=\"omics_type\">Proteomics</field>";
     say $xml "        <field name=\"repository\">GPMDB</field>";
+    say $xml "        <field name=\"instrument_platform\">Instrument</field>";
     say $xml "        <field name=\"species\">$terms[0][4]</field>" if $terms[0][4] ne "none";
     say $xml "        <field name=\"publication\">$terms[0][2]</field>" if $terms[0][2] ne "none";
     say $xml "        <field name=\"brenda_tissue\">$terms[0][5]</field>" if $terms[0][5] ne "none";

@@ -1,0 +1,24 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-1</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM45100005450">
+      <name><%%></name>
+      <description>"TRANCHE KEY: bPIBUscVPfkwacbe/87BIjAsGSAZWKH85BzW441WqsyUSwK/NqtfuI/DuXwfjA6gDoM+7qtkbAA72Q2sQmvykcq34s4AAAAAAAAFBA== Data file: B06-9326_OBS3_c. Shotgun proteomics on the osteocytic cell line MLO-Y4, to identify new targets of the anti-osteoporosis drugs Bisphosphonates. MLO-Y4 cells were treated with the Bisphosphonate Risedronate at the concentration 10-7M for 1h and 48h. At the end of the treatment protein extracts were prepared and analysed. The proteome at the basal, untreated condition was used as a reference to whom the proteome from stimulated cells was compared to."</description>
+      <cross_references>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="species">mouse</field>
+        <field name="cell_type">CL:0000137 osteocyte</field>
+        <field name="submitter">Nicoletta Bivi, Paola Picotti, Lukas N. Mueller, Milena Romanello, Luigi Moro, Franco Quadrifoglio and Gianluca Tell</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005450</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

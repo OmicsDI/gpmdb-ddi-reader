@@ -1,0 +1,26 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-1</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM45100005493">
+      <name><%%></name>
+      <description>"TRANCHE KEY: EKYhwbHIfbis7ocZqc+18hDwmT7WZvSLAWp1dVKjhBWF9W2Ubb8IEScvJqhwZMJQMYBpaPATHB/yVedmNlPMeNej10cAAAAAAAADPw== [[http://www.biochemj.org/bj/422/bj4220443.htm Biochem. J. 2009 422:443]]. Data set: CNOT6 (6N7)."</description>
+      <cross_references>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="species">human</field>
+        <field name="submitter">Annemieke Kolkman, et al.</field>
+        <field name="submitter_mail">a.kolkman@umcutrecht.nl</field>
+        <field name="submitter_affiliation">Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005493</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005492</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>
