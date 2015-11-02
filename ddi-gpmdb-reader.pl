@@ -1,9 +1,9 @@
 #!/usr/bin/env perl
 #===============================================================================
 #
-#         FILE: main.pl
+#         FILE: ddi-gpmdb-reader.pl
 #
-#        USAGE: ./main.pl
+#        USAGE: ./ddi-gpmdb-reader.pl
 #
 #  DESCRIPTION: This program objective is to synchronize a local storage wit
 #               model files from GPMDB website. The program query the ftp
@@ -26,51 +26,87 @@ use v5.10;
 use lib 'lib';
 use DDI::GPMDB::Sync;
 use DDI::GPMDB::Reader;
+use Getopt::Long qw(GetOptions);
 
-my ($mode) = @ARGV;
+# parameter variables
+my $up;
+my $proc;
+my $gen;
+my $help;
+my $data;
+my $ignore;
+my $source_files;
+my @dir;
+
+GetOptions(
+  'update!'   =>  \$up,
+  'process'   =>  \$proc,
+  'generate!' =>  \$gen,
+  'help!'     =>  \$help,
+  ) or die "Incorrect usage!\n";
 
 ### PARAMETERS ###
-my $data = 'data/files.txt';  # location for the mode listing.
-my $ignore = 'data/ignore.txt'; # location for the ignore file list.
-my $source_files = '/home/felipevl/Servers/Pathbio/gpmdump/gpmdb';  # location of the gpmdb folders
-my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);  # list of folders to check
-#my @dir = qw(451);
-### % ###
+open( my $param, '<', './ddi-gpmdb-params.txt' ) or die "Cannot open parameter file";
+while( my $line = <$param> ) {
+  chomp $line;
+  if ( $line =~ m/data\_file\=data\/(.*)/ ) {
+    $data = $1;
+  } elsif( $line =~ m/ignore=(.*)/ ) {
+    $ignore = $1;
+  } elsif( $line =~ m/source_files=(.*)/ ) {
+    $source_files = $1;
+  } elsif ( $line =~ m/model_dirs= (.*)/ ) {
+    @dir = split(/\s/, $line);
+    shift @dir;
+  }
+}
+### END PARAMETERS ###
 
-my @files_to_download;
+if ( !$help && !$up && !$proc && !$gen) {
+  say "No parameter found! Run -help for more information on how to use DDI::GPMDB";
+  exit;
+}
 
-if ( defined($mode) && $mode eq 'update' ) {
+if( $help ) {
 
-    # getting the latest file list
-    say "Generating local model list";
-    system("find $source_files -type f > $data");
-
-    # initialize sync object and query GPMDB FTP server for new files.
-    # New files are downloaded and stores as .gz file on the proper folder.
-    my $sync = DDI::GPMDB::Sync->new();
-    @files_to_download = $sync->process_files($data, $ignore, \@dir);
-    $sync->fetch($source_files, $data, $ignore, \@files_to_download);
-
-} elsif ( defined($mode) && $mode eq 'generate' ) {
-
-    for my $dir ( @dir ) {
-        my $reader = DDI::GPMDB::Reader->new();
-        $reader->create_reference_files($source_files, $data, $dir);
-        say "done with directory $dir";
-    }
-
-} elsif ( defined($mode) && $mode eq 'process' ) {
-
-    for my $dir ( @dir ) {
-		my $reader = DDI::GPMDB::Reader->new();
-		$reader->generate($source_files, $data, $dir);
-		say "done with directory $dir";
-	}
+    say "DDI::GPMDB Module!";
+    say "-update\t\tUpdates the local GPMDB files using GPMDB ftp server";
+    say "-process\tCreates reference files for every model in each folder (long process!)";
+    say "-generate\tGenereate XML files from reference files";
 
 } else {
-    say "DDI::GPMDB Usage: perl run.pl <option>";
-    say "update: Synchronize your local GPMDB files with the FTP server";
-    say "generate: Create XML Registry files for each project";
+
+  my @files_to_download;
+
+  if ( $up ) {
+
+      # getting the latest file list
+      say "Generating local model list";
+      system("find $source_files -type f > $data");
+
+      # initialize sync object and query GPMDB FTP server for new files.
+      # New files are downloaded and stores as .gz file on the proper folder.
+      my $sync = DDI::GPMDB::Sync->new();
+      @files_to_download = $sync->process_files($data, $ignore, \@dir);
+      $sync->fetch($source_files, $data, $ignore, \@files_to_download);
+
+  } elsif ( $gen ) {
+
+      for my $dir ( @dir ) {
+          my $reader = DDI::GPMDB::Reader->new();
+          $reader->create_reference_files($source_files, $data, $dir);
+          say "done with directory $dir";
+      }
+
+  } elsif ( $proc ) {
+
+      for my $dir ( @dir ) {
+  		my $reader = DDI::GPMDB::Reader->new();
+  		$reader->generate($source_files, $data, $dir);
+  		say "done with directory $dir";
+  	}
+  }
+
 }
 
 1;
