@@ -17,7 +17,7 @@ sub new {
         name                        =>  "none",
         project                     =>  "none",
         comment                     =>  "none",
-        pxd		                      =>  "none",
+        pxd		                    =>  "none",
         tranche                     =>  "none",
         massive                     =>  "none",
         pubmed                      =>  "none",

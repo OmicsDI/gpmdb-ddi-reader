@@ -243,10 +243,11 @@ sub print_xml {
     say $xml "        <field name=\"omics_type\">Proteomics</field>";
     say $xml "        <field name=\"repository\">GPMDB</field>";
     say $xml "        <field name=\"instrument_platform\">Instrument</field>";
+    say $xml "        <field name=\"disease\">Not available</field>";
     say $xml "        <field name=\"species\">$terms[0][4]</field>" if $terms[0][4] ne "none";
     say $xml "        <field name=\"publication\">$terms[0][2]</field>" if $terms[0][2] ne "none";
     say $xml "        <field name=\"brenda_tissue\">$terms[0][5]</field>" if $terms[0][5] ne "none";
-    say $xml "        <field name=\"cell_type\">$terms[0][6]</field>" if $terms[0][6] ne "none";
+    say $xml "        <field name=\"cell_type\">$terms[0][6]</field>";
     say $xml "        <field name=\"submitter\">$terms[0][10]</field>" if $terms[0][10] ne "none";
     say $xml "        <field name=\"submitter_mail\">$terms[0][7]</field>" if $terms[0][7] ne "none";
     say $xml "        <field name=\"submitter_affiliation\">$terms[0][9]</field>" if $terms[0][7] ne "none";
