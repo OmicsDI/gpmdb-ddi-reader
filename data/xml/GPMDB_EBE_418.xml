@@ -1,0 +1,32 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM31900008383">
+      <name><%%></name>
+      <description>"none"</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">human_up</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Ryan</field>
+        <field name="submitter_mail">ryan.hill@ucdenver.edu</field>
+        <field name="submitter_affiliation">UCD</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008383</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030236</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030235</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030238</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030237</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

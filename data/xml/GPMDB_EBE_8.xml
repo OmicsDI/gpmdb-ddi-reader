@@ -1,0 +1,30 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM10100700741">
+      <name><%%></name>
+      <description>"Data set Experitment 1. TRANCHE KEY: 7lEx9PZekY6ED76AxCAK6uRmHt1LTtSAN6Hz5O4+BBxsdpkL5l0s8hC1s73a8Hhdm7zod9rqm6wSjOJ2gtCZvH4hEr4AAAAAAAB+Ng== HuPA_00641. Pluripotent human embryonic stem cells (ESCs) are used for in vitro differentiation into cardiocytes, motor neuron, hematopoetic cells and others for the purpose of transplantation therapy. Human embryonal carcinoma cells (ECCs), stem cells of human teratocarcinomas are considered a close but malignant counterpart to human ESCs. Comparative genomic and proteomic analyses of ESCs and ECCs would provide the insight into the common molecular pathway governing the pluripotency of the cells as well as reveal differences associated with ECC malignancy. In this study, a comprehensive quantitative proteomics analysis of ESCs and ECCs was carried out using isobaric tag for relative and absolute quantitation (iTRAQ) method. Using two-dimensional liquid chromatography and tandem mass spectrometry analysis on a quadrupole time-of-flight mass spectrometer we quantitated nearly 2,000 proteins. Nearly 300 proteins showed significantly altered expression levels between ESCs and ECCs. A few of the examples of proteins high in ESCs include proteins encoded by LGALS1, CTNNB1, MAGEA4, BGN, DNMT3B, DNMT3A, HELLS, UTF1. Similarly HSP27, CD99, GDF3, CRABP2 and MFGE8 were some example of highly expressed proteins in ECCs. Some of the proteins high in ECCs have been attributed to the malignant nature of other cancer cells. We validated subset of the proteins which showed marked difference in expression between ESCs and ECCs using immunocytochemistry. To our knowledge this is the first large scale proteomic study of human ESCs and ECCs which provides critical information about the regulators of these two closely related stem cell systems."</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">human</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">A. Pandey, et al.</field>
+        <field name="submitter_mail">pandey@jhmi.edu</field>
+        <field name="submitter_affiliation">Johns Hopkins Medical School</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700741</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700819</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700826</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

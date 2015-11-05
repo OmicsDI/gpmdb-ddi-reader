@@ -107,13 +107,13 @@ sub create_reference_files {
 }
 
 sub generate {
-    my $self    = shift;
-    my $source  = shift;
-    my $data    = shift;
-    my $dir     = shift;
+    my $self       = shift;
+    my $source     = shift;
+    my $data       = shift;
+    my $dir_ref    = shift;
 
 	say "Grouping and printing XML files";
-	create_xml_files($dir);
+    create_xml_files($dir_ref);
 
     return;
 }
@@ -123,11 +123,11 @@ sub create_csv_file {
 	my $ref = shift;
 	my @reg = @{$ref};
 
-	open( my $out, '>', "data/records/$dir/$dir.tsv" ) or die "Cannot create csv for directory $dir";
+	open( my $out, '>', "data/reference/$dir/$dir.tsv" ) or die "Cannot create csv for directory $dir";
 
 	for my $m ( @reg ) {
 
-		say $out $m->{model}->{project}, "\t",
+	say $out $m->{model}->{project}, "\t",
     $m->{model}->{pxd}, "\t",
     $m->{model}->{pubmed}, "\t",
     $m->{model}->{title}, "\t",
@@ -149,14 +149,14 @@ sub create_csv_file {
 
 sub create_xml_files {
 	my $dir = shift;
+    my @dir = @{$dir};
 
-  my @dir = qw(003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999);
-  my @global_reg;
+    my @global_reg;
 
   {
     no warnings;
     for my $d ( @dir) {
-  	   open(my $in, '<', "data/records/$d/$d.tsv") or warn "no reference file at $d";
+  	   open(my $in, '<', "data/reference/$d/$d.tsv") or warn "no reference file at $d";
        while ( my $line = <$in> ) {
          push(@global_reg, $line);
        }
@@ -219,7 +219,15 @@ sub print_xml {
     #   $terms[0][12] = $tranche{$tc};
     # }
 
-		my $filename = "data/records/$dir/GPMDB_".$dir."_EBE_".$counter.".xml";
+		my $filename = "data/xml/GPMDB_EBE_".$counter.".xml";
+
+        $terms[0][2] = "Not available" if $terms[0][2] eq "none";
+        $terms[0][4] = "Not available" if $terms[0][4] eq "none";
+        $terms[0][5] = "Not available" if $terms[0][5] eq "none";
+        $terms[0][6] = "Not available" if $terms[0][6] eq "none";
+        $terms[0][7] = "Not available" if $terms[0][7] eq "none";
+        $terms[0][9] = "Not available" if $terms[0][9] eq "none";
+        $terms[0][10] = "Not available" if $terms[0][10] eq "none";
 
 		open( my $xml, '>', $filename) or die "Cannot create XML file";
 
@@ -232,29 +240,28 @@ sub print_xml {
 		say $xml "  <entries>";
 		say $xml "    <entry id=\"$terms[0][3]\">";
 		say $xml "      <name><%%><\/name>";
-		say $xml "      <description>\"$terms[0][11]\"<\/description>" if $terms[0][11] ne "none";
-		say $xml "      <cross_references>";
-    say $xml "      <ref dbkey=\"$terms[0][1]\" dbname=\"ProteomeExchange\"\/>" if $terms[0][1] ne "none";
-    say $xml "      <ref dbkey=\"$terms[0][2]\" dbname=\"pubmed\"\/>" if $terms[0][2] ne "none";
-    say $xml "      <ref dbkey=\"$terms[0][12]\" dbname=\"massive\"\/>" if $terms[0][12] ne "none";
-    say $xml "      <ref dbkey=\"$terms[0][13]\" dbname=\"PRIDE\"\/>" if $terms[0][13] ne "none";
-    say $xml "      <\/cross_references>";
-    say $xml "      <additional_fields>";
-    say $xml "        <field name=\"omics_type\">Proteomics</field>";
-    say $xml "        <field name=\"repository\">GPMDB</field>";
-    say $xml "        <field name=\"instrument_platform\">Instrument</field>";
-    say $xml "        <field name=\"disease\">Not available</field>";
-    say $xml "        <field name=\"species\">$terms[0][4]</field>" if $terms[0][4] ne "none";
-    say $xml "        <field name=\"publication\">$terms[0][2]</field>" if $terms[0][2] ne "none";
-    say $xml "        <field name=\"brenda_tissue\">$terms[0][5]</field>" if $terms[0][5] ne "none";
-    say $xml "        <field name=\"cell_type\">$terms[0][6]</field>";
-    say $xml "        <field name=\"submitter\">$terms[0][10]</field>" if $terms[0][10] ne "none";
-    say $xml "        <field name=\"submitter_mail\">$terms[0][7]</field>" if $terms[0][7] ne "none";
-    say $xml "        <field name=\"submitter_affiliation\">$terms[0][9]</field>" if $terms[0][7] ne "none";
-    for my $model ( @terms ) {
-      say $xml "        <field name=\"model\">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=$model->[3]</field>" if $model->[3] ne "none";;
-    }
-    say $xml "      <\/additional_fields>";
+		say $xml "      <description>\"$terms[0][11]\"<\/description>";
+        say $xml "      <ref dbkey=\"$terms[0][1]\" dbname=\"ProteomeExchange\"\/>" if $terms[0][1] ne "none";
+        say $xml "      <ref dbkey=\"$terms[0][2]\" dbname=\"pubmed\"\/>" if $terms[0][2] ne "Not available";
+        say $xml "      <ref dbkey=\"$terms[0][12]\" dbname=\"massive\"\/>" if $terms[0][12] ne "none";
+        say $xml "      <ref dbkey=\"$terms[0][13]\" dbname=\"PRIDE\"\/>" if $terms[0][13] ne "none";
+        say $xml "      <\/cross_references>";
+        say $xml "      <additional_fields>";
+        say $xml "        <field name=\"omics_type\">Proteomics</field>";
+        say $xml "        <field name=\"repository\">GPMDB</field>";
+        say $xml "        <field name=\"instrument_platform\">Instrument</field>";
+        say $xml "        <field name=\"disease\">Not available</field>";
+        say $xml "        <field name=\"species\">$terms[0][4]</field>";
+        say $xml "        <field name=\"publication\">$terms[0][2]</field>";
+        say $xml "        <field name=\"brenda_tissue\">$terms[0][5]</field>";
+        say $xml "        <field name=\"cell_type\">$terms[0][6]</field>";
+        say $xml "        <field name=\"submitter\">$terms[0][10]</field>";
+        say $xml "        <field name=\"submitter_mail\">$terms[0][7]</field>";
+        say $xml "        <field name=\"submitter_affiliation\">$terms[0][9]</field>";
+        for my $model ( @terms ) {
+            say $xml "        <field name=\"model\">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=$model->[3]</field>" if $model->[3] ne "none";;
+        }
+        say $xml "      <\/additional_fields>";
 		say $xml "    </entry>";
 		say $xml "  </entries>";
 		say $xml "</database>";

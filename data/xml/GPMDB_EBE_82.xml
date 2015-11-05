@@ -1,0 +1,28 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM31900007840">
+      <name><%%></name>
+      <description>"TRANCHE KEY: 1a87un+7mrjV4nuAwmruqdzw1F3T95Cs2d8S22w0hc9oUBifW8HRnVLfhQz71IH7O9dRtn3l64GElnAdhwINVfVHHuQAAAAAAAAQzw== PeptideAtlas ID: PAe000389."</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">human</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Z. Sun</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">ISB</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007840</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

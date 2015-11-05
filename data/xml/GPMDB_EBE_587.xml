@@ -1,0 +1,30 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM06600009559">
+      <name><%%></name>
+      <description>"TRANCHE KEY: A4ywTCH3Eu58Bc2Sq6V4hs7Y0CAhNluU82RRWzv4totxqr2s0GhdSEHnLV4CJPGk5jr3xPFHQ2W7yts5FG1f6vW2hewAAAAAAAAHRg== The Unbiased Discovery Working Group tested a new version of the SOP for the complex yeast lysate sample introduced in this study. Each instrument was evaluated for SOP v2.0, specifying 184-minute RPLC analyses, in two replicates of NCI-20 followed by yeast lysate. For this study only, an Applied Biosystems QSTAR-Elite accompanied the LTQ and Orbitrap instruments."</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">yeast, yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">CPTAC</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">NCI NIH</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009559</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009558</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007823</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

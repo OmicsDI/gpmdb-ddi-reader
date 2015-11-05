@@ -90,7 +90,7 @@ if( $help ) {
       @files_to_download = $sync->process_files($data, $ignore, \@dir);
       $sync->fetch($source_files, $data, $ignore, \@files_to_download);
 
-  } elsif ( $gen ) {
+  } elsif ( $proc ) {
 
       for my $dir ( @dir ) {
           my $reader = DDI::GPMDB::Reader->new();
@@ -98,13 +98,12 @@ if( $help ) {
           say "done with directory $dir";
       }
 
-  } elsif ( $proc ) {
+  } elsif ( $gen ) {
 
-      for my $dir ( @dir ) {
-  		my $reader = DDI::GPMDB::Reader->new();
-  		$reader->generate($source_files, $data, $dir);
-  		say "done with directory $dir";
-  	}
+  	  my $reader = DDI::GPMDB::Reader->new();
+  	  $reader->generate($source_files, $data, \@dir);
+  	  say "done";
+
   }
 
 }

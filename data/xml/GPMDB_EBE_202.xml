@@ -1,0 +1,30 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM00300004867">
+      <name><%%></name>
+      <description>"opd00100_PROTS: The 6-protein gradient mix consists of the following proteins and their amounts: Rabbit aldolase (gi 68184) - 100pmol, Bovine carbonic anhydrase (gi 115453) - 1pmol, Equine myoglobin (gi 70561) - 50pmol, Human acid glycoprotein (gi 112877) - 2.5pmol, Equine cytochrome C (gi 117995) - 5pmol, and Chicken lysozyme (gi 126608) - 10pmol. Individual trypsinized and carboxymethylated protein digests were purchased from Microsolv Tech. Tandem mass spec data were acquired via a continuous reverse phase elution off the BioBasic C18 column for 140min with the final acetonitrile concentration of 50%. The 6-protein, 75pmol dataset includes 3,788 MS/MS scans. "</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">human, cow, Escherichia_coli_K12</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Ronald Beavis</field>
+        <field name="submitter_mail">rbeavis@thegpm.org</field>
+        <field name="submitter_affiliation">GPM</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300004867</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300004856</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300004858</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

@@ -1,0 +1,32 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM06600009696">
+      <name><%%></name>
+      <description>"TRANCHE KEY: EKYhwbHIfbis7ocZqc+18hDwmT7WZvSLAWp1dVKjhBWF9W2Ubb8IEScvJqhwZMJQMYBpaPATHB/yVedmNlPMeNej10cAAAAAAAADPw== [[http://www.biochemj.org/bj/422/bj4220443.htm Biochem. J. 2009 422:443]]. Data set: CNOT2 (2N2)."</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">human</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Annemieke Kolkman, et al.</field>
+        <field name="submitter_mail">a.kolkman@umcutrecht.nl</field>
+        <field name="submitter_affiliation">Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009696</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008528</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008531</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008525</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008530</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

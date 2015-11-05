@@ -1,0 +1,28 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM32010005712">
+      <name><%%></name>
+      <description>"TRANCHE KEY: 2XzYu2CnopKVUKFvfVEVt5rHvLeEfo1JgcdIEZx5+kTwicPLbNOJvXTI9ZxGxpG5rOWwxMogm/njNXBSBLylxIV7YqUAAAAAAAAB/Q== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 196 BHI BR2{{/i}}"</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Zeiser JJ, et al.</field>
+        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
+        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005712</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

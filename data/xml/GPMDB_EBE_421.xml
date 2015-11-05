@@ -1,0 +1,32 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM10100161408">
+      <name><%%></name>
+      <description>"TRANCHE KEY: J9KSi8FHLDgHFyl2zz1LRq332aRrhVZl/cgPIJAO5WG8tzhAhlrwxvHJOjnre8hIAKLFRTY11dRkXdIEtnkrlqUbg7gAAAAAAAA8fw== LC-MS/MS analysis of (1D gels) of one single step purification and 4 replicate tandem affinity purifications of PSD-95 associated proteins from in vivo TAP-tagged mouse forebrains. TAP-PSD95 TAP-PSD95_Tandem_Replicate3."</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">mouse</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Fernandez, E., et al.</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">The Wellcome Trust Sanger Institute, Proteomic Mass Spectrometry</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161408</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161374</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161385</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161396</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161421</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

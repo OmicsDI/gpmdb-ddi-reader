@@ -1,0 +1,35 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-5</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="GPM10100161738">
+      <name><%%></name>
+      <description>"TRANCHE KEY: ZodScr7hphjJMuLca7SEUzpwnmSuawmR8CbqaqNrmw7kQ+IZpl900BKzmb1QopQaJxjv/pwyA9VC1DIz3TcLBrnvy04AAAAAAABK3g== Using high performance liquid chromatography mass spectrometry (HPLC-MS/MS), we examined the proteome of three sequenced S. enterica strains: S. Typhimurium LT2, S. Typhi CT18, and S. Typhi Ty2 in PhoP-inducing and non-inducing conditions in vitro. We similarly examined the proteomic profile of phoP-/Q- mutants derived from S. Typhimurium LT2 and S. Typhi Ty2. Our analysis identified 56 proteins in S. Typhimurium LT2 and 60 proteins in S. Typhi that were regulated in a PhoP-dependent manner. Folder: TyphiMutant-6_12330572."</description>
+      </cross_references>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">s_typhi</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Richelle C Charles</field>
+        <field name="submitter_mail">rccharlespartners.org</field>
+        <field name="submitter_affiliation">Massachusetts General Hospita</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161738</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161677</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161656</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161641</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161722</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161692</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161707</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161671</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>
