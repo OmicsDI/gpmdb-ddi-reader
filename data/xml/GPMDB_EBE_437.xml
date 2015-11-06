@@ -5,24 +5,24 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM06600009523">
+    <entry id="GPM31900007823">
       <name><%%></name>
-      <description>"TRANCHE KEY: YWBO1ZyYI+iVHh2TuYyv9jEOFbb4t4s5KKMABO12ui3BDStQt1/+9W/o3Wj2q1z+ziah9DDcMjZ3qaddV1hMgHvcrbwAAAAAAAAGZA== The files in directory were generated from human colon adenocarcinoma cells (DLD-1 cell line) by Patrick Halvey of the Ayers Institute at Vanderbilt University.  Proteins were reduced and alkylated using iodoacetamide.  Peptides were produced through trypsin digestion, and the 90-minute RPLC separations (including a one hour shallow gradient) were conducted on an LTQ-XL at the Ayers Institute.  Five centroided tandem mass spectra were collected following each MS scan. These data are described more thoroughly in the following: Ma, ZQ; Dasari, S; Chambers MC; Litton, MD;  Sobecki, SM; Zimmerman, LJ; Halvey, PJ; Schilling, B; Drake, PM; Gibson, BW; Tabb, DL.  IDPicker 2.0: Improved protein assembly with high discrimination peptide identification filtering.  J. Proteome Res. 2009, in press. Collection of these data was supported by U24 CA126479."</description>
-      </cross_references>
+      <description>"TRANCHE KEY: A4ywTCH3Eu58Bc2Sq6V4hs7Y0CAhNluU82RRWzv4totxqr2s0GhdSEHnLV4CJPGk5jr3xPFHQ2W7yts5FG1f6vW2hewAAAAAAAAHRg== The Unbiased Discovery Working Group tested a new version of the SOP for the complex yeast lysate sample introduced in this study. Each instrument was evaluated for SOP v2.0, specifying 184-minute RPLC analyses, in two replicates of NCI-20 followed by yeast lysate. For this study only, an Applied Biosystems QSTAR-Elite accompanied the LTQ and Orbitrap instruments."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human, Mycoplasma_penetrans, Mycoplasma_pulmonis</field>
+        <field name="species">yeast, yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Ma, Z. Q.</field>
+        <field name="submitter">CPTAC</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Vanderbilt University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009523</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007618</field>
+        <field name="submitter_affiliation">NCI NIH</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009558</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007823</field>
       </additional_fields>
     </entry>
   </entries>

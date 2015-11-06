@@ -5,23 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM00300008769">
+    <entry id="GPM31900008503">
       <name><%%></name>
-      <description>"none"</description>
-      </cross_references>
+      <description>"data file: Scaffold_SILAC_mix_2.sfd. [[https://bioinformatics.chem.uu.nl/supplementary/DvanHoof_CM Original source]] of data. Mix of human fetal cardiomyocyte cells and cardiomyocytes derived from embryonic stem cells."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Escherichia_coli__BL21_Gold_DE3_pLysS_AG__uid59245</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Jani</field>
-        <field name="submitter_mail">divyakumar-mukeshbhai.jani@students.mq.edu.au</field>
-        <field name="submitter_affiliation">Macquarie Uni</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008769</field>
+        <field name="cell_type">CL:0000034 stem cell</field>
+        <field name="submitter">D. van Hoof et al</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Utrecht University, Biomolecular Mass Spectrometry and Proteomics Group</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008503</field>
       </additional_fields>
     </entry>
   </entries>

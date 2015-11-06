@@ -5,28 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900006884">
+    <entry id="GPM32010011429">
       <name><%%></name>
-      <description>"none"</description>
-      </cross_references>
+      <description>"PRIDE ID: 16442. Data published as part of J Proteome Res. 2011 10:3578-89 ([[http://www.ncbi.nlm.nih.gov/pubmed/21619078 PubMed]]). From the Abstract: {{/i}}By applying N-terminal COFRADIC (combined fractional diagonal chromatography), we here isolated N-terminal peptides of a Saccharomyces cerevisiae proteome and analyzed both annotated and alternative TIS.{{/i}}"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">yeast</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Achim Treumann</field>
-        <field name="submitter_mail">achim.treumann@nepaf.com</field>
-        <field name="submitter_affiliation">NEPAF</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006884</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006885</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006881</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006880</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006883</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100026670</field>
+        <field name="submitter">Helsens K, et al.</field>
+        <field name="submitter_mail">kenny.helsens@ugent.be</field>
+        <field name="submitter_affiliation">Computational Omics and Systems Biology Group, Department of Medical Protein Research, Universiteit Gent - VIB</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011429</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100033345">
+    <entry id="GPM32100039855">
       <name><%%></name>
-      <description>"C18*3 second round"</description>
-      </cross_references>
+      <description>"Not available"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -21,7 +21,7 @@
         <field name="submitter">Chengcheng Zhang</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100033345</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039855</field>
       </additional_fields>
     </entry>
   </entries>

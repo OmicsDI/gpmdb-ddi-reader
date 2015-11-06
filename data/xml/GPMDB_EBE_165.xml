@@ -5,29 +5,35 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100037570">
+    <entry id="GPM10100701085">
       <name><%%></name>
-      <description>"none"</description>
-      </cross_references>
+      <description>"TRANCHE KEY: hGtayjHfiGawYFXsPsptrz7bpAv39v6DEXrHmb0Azy5uc1GQE3dI9EwDNhNYHnAqOMucVQNBsSq58L+lWPtsK3rV7XEAAAAAAAAMSA== Penelope Drake collected human plasma for the NCI CPTAC Biospecimen Working Group at University of California, San Francisco. Birgit Schilling and Bradford Gibson at The Buck Institute for Age Research depleted the 14 most abundant proteins from these samples, reduced and alkylated disulfide bridges with iodoacetamide, digested with trypsin, and conducted LC-MS/MS on an Applied Biosystems QSTAR-Elite. These WIFF and SCAN files represent the original instrument captures from this instrument. The Tabb Laboratory converted these data to mzXML format (included in a separate directory). These data are described more thoroughly in the following: Ma, ZQ; Dasari, S; Chambers MC; Litton, MD; Sobecki, SM; Zimmerman, LJ; Halvey, PJ; Schilling, B; Drake, PM; Gibson, BW; Tabb, DL. IDPicker 2.0: Improved protein assembly with high discrimination peptide identification filtering. J. Proteome Res. 2009, in press. These data were collected via funding from NCI CPTAC: U24 CA0126477"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_up</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">CL:0000084 T cell</field>
-        <field name="submitter">Waltteri Hosia</field>
-        <field name="submitter_mail">scansystech@gmail.com</field>
-        <field name="submitter_affiliation">ScanSysTech/KI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037570</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037569</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037573</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037567</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037571</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037568</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037572</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Ma, Z. Q., et al.</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Vanderbilt University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701084</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701077</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701086</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701078</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701081</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701074</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701082</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701079</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701073</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701080</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701076</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701075</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701085</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900009507">
+    <entry id="GPM10180000286">
       <name><%%></name>
-      <description>"TRANCHE KEY: 3qZKZ9Q/pjcZPQy0aqKlgO9iBMD1bqqDXsYjoX6iux1hTiPvarJWMG2J66SKx0BY/hURzhIkbcqDqPqvcSVH/oboUKkAAAAAAAACDg== From Tranche: {{i}}Head and Neck Tumor Interstitial Fluid, OFFGEL Fractions 1 and 2{{/i}}."</description>
-      </cross_references>
+      <description>"TRANCHE KEY: 1mXmOm5xXpQ/LZkjf28BV1NPGXX71poLBVvSwHVGKnAvjcBiKaRXxaxR9yhuI+tRfeQPOgs47tDOZcgn3SYQBB/HT4EAAAAAAAABvQ== Experiment F080125. From Tranche: {{i}}Tiple SILAC experiments in Jurkat T cells and pY_Protein isolation by anti-pY antibodies{{/i}} (sic)."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +18,12 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Matthew D Stone, et al.</field>
-        <field name="submitter_mail">stone045@umn.edu</field>
-        <field name="submitter_affiliation">Biochemistry, Molecular Biology, and Biophysics, University of Minnesota</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009507</field>
+        <field name="submitter">Mogjib Salek, et al.</field>
+        <field name="submitter_mail">mogjib.salek@path.ox.ac.uk</field>
+        <field name="submitter_affiliation">Dept. of Pathology, Oxford University, UK</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000265</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000245</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000286</field>
       </additional_fields>
     </entry>
   </entries>

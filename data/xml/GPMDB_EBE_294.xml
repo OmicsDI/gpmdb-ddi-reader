@@ -5,29 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010001515">
+    <entry id="GPM31900008780">
       <name><%%></name>
-      <description>"TRANCHE KEY: TzGvo1FbhJkLaM/FDLKTewGrBYDqWRPO/Oe9KHmXiohZonXBuLlolUe2NuY4G/UIubBhNQjySdOasclB3Os1vYmje8gAAAAAAAAJtw== Original data file: pY_7_5-N-1.mgf. From Tranche: {{i}}The cellular proto-oncogene c-Src is a non-receptor protein tyrosine kinase (PTK) involved in cell growth and cytoskeletal regulation but its precise functions in cell signaling are complex and not fully understood. Identification of c-Src-s PTK cellular substrates remains a major challenge as there is no simple way to directly stimulate its activity without triggering a range of other signaling pathways. Here we combine the chemical rescue of transfected mutant R390A c-Src in Src-deficient mouse embryonic fibroblasts (SYF cells) and mass spectrometry-based phosphoproteomics to analyze the range of tyrosine phosphorylation events that occur in the cell upon rapid stimulation of c-Src PTK activity. Dozens of previously uncharacterized c-Src protein targets and putative phosphorylation sites have been identified, many of which play key roles in signaling and cytoskeletal networks, particularly cell adhesion. One of these c-Src targets, C3G, a small G-protein guanine nucleotide exchange factor, was further investigated, and the effects of c-Src on spatial and temporal C3G activation of its target, Rap1, were revealed. These results provide a strategy for obtaining a comprehensive understanding of the functions of non-receptor tyrosine kinases in cell signaling with high kinetic resolution.{{/i}}"</description>
-      </cross_references>
+      <description>"Data file: exp1reptrypsin (14N amino acids) TRANCHE KEY: f9XjmbCVZwessddnJXDrKqDBiGTCEoLvFvr2v0zKnl5+TpH29Un/pvJQscS4JCLh4IJEyr6f1yz/32CpHeORp2UTTgMAAAAAAAAKXw== Data from two biological replicates in yeast (each was disgested using trypsin and LysN) were analyzed. "</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse, Abelson_murine_leukemia_virus, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
+        <field name="species">yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Ferrando IM, et al.</field>
-        <field name="submitter_mail">pcole@jhmi.edu</field>
-        <field name="submitter_affiliation">Johns Hopkins School of Medicine</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001515</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001513</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001512</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001514</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001511</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001517</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001516</field>
+        <field name="submitter">Danny Navarro, et al.</field>
+        <field name="submitter_mail">j.d.navarro@uu.nl</field>
+        <field name="submitter_affiliation">NPC, Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008780</field>
       </additional_fields>
     </entry>
   </entries>

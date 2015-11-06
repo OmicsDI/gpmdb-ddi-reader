@@ -5,24 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005706">
+    <entry id="GPM32010008389">
       <name><%%></name>
-      <description>"TRANCHE KEY: Bup90oIwIN3wdZKOoavbC/9+41UWuGvHgbTkUh6nTndf3RlqgIpqM5x7PaOSshzjLh4T9fXzCwA+DNTvlpK46S5w1AgAAAAAAAAB+Q== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 630 DM BR2{{{/i}}"</description>
-      </cross_references>
+      <description>"TRANCHE KEY: XKeXQWmm6fyQndzsIRtKiFJwcGm8GjLu4uX8nzmTlOztqFW3g5bYuygj247H0+VDiC/jaVD7RsljKlq+1pFNOqRWcd0AAAAAAAABlg== data set 4, folder summary. Code name: TrashyBanana"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Zeiser JJ, et al.</field>
-        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
-        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005706</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005707</field>
+        <field name="submitter"> Zhao Y, et al.</field>
+        <field name="submitter_mail">yuechen@bsd.uchicago.edu</field>
+        <field name="submitter_affiliation">University of Chicago</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008389</field>
       </additional_fields>
     </entry>
   </entries>

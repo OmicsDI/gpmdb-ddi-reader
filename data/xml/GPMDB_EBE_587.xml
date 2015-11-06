@@ -5,25 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM06600009559">
+    <entry id="GPM31900009532">
       <name><%%></name>
-      <description>"TRANCHE KEY: A4ywTCH3Eu58Bc2Sq6V4hs7Y0CAhNluU82RRWzv4totxqr2s0GhdSEHnLV4CJPGk5jr3xPFHQ2W7yts5FG1f6vW2hewAAAAAAAAHRg== The Unbiased Discovery Working Group tested a new version of the SOP for the complex yeast lysate sample introduced in this study. Each instrument was evaluated for SOP v2.0, specifying 184-minute RPLC analyses, in two replicates of NCI-20 followed by yeast lysate. For this study only, an Applied Biosystems QSTAR-Elite accompanied the LTQ and Orbitrap instruments."</description>
-      </cross_references>
+      <description>"TRANCHE KEY: MPvRg7Bro1etb/60AHB/c2/SXnH85u9P3Yh2TXXe4Qqjl8Qu7bYZkBS+Z33A+xKaOQACF0ucHV4zCOF/x/qaSuo580sAAAAAAAABxg=="</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast, yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
+        <field name="species">human, Mycobacterium_tuberculosis_CDC1551, Mycobacterium_tuberculosis_F11, Mycobacterium_tuberculosis_H37Ra, Mycobacterium_tuberculosis_H37Rv, Mycobacterium_tuberculosis_KZN_1435</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">CPTAC</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">NCI NIH</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009559</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009558</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007823</field>
+        <field name="submitter">Karen Dobos, et al.</field>
+        <field name="submitter_mail">karen.dobos@colostate.edu</field>
+        <field name="submitter_affiliation">Microbiology, Immunology and Pathology, Colorado State University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009532</field>
       </additional_fields>
     </entry>
   </entries>

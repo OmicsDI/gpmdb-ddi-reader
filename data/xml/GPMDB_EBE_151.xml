@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100032350">
+    <entry id="GPM32100031019">
       <name><%%></name>
-      <description>"none"</description>
-      </cross_references>
+      <description>"Not available"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -17,11 +17,11 @@
         <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Geraldine</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Kast Lab</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100032350</field>
+        <field name="cell_type">CL:0000236 B cell</field>
+        <field name="submitter">Michelle Russell</field>
+        <field name="submitter_mail">hipplemi@msu.edu</field>
+        <field name="submitter_affiliation">Michigan State University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100031019</field>
       </additional_fields>
     </entry>
   </entries>

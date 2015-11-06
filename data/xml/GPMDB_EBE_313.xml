@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100400001">
+    <entry id="GPM10100400004">
       <name><%%></name>
       <description>"Data from Thermo-Finnigan LTQ-Orbitrap."</description>
-      </cross_references>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -21,7 +21,6 @@
         <field name="submitter">Adelina Rogowska-Wrzesinska</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">Dept. of Biochemistry and Molecular Biology, Protein Research Group, U of Southern Denmark</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400001</field>
         <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400005</field>
         <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400000</field>
         <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400002</field>

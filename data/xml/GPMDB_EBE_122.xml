@@ -5,30 +5,29 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010008569">
+    <entry id="GPM10100153991">
       <name><%%></name>
-      <description>"TRANCHE KEY: sFUC/lcotxPXpvTlwfKgO6H5uRKHvMq4N7COE6W+oj6yvdMIsFHoPDbKrNOzQQYKvd72uofgyzaw5smpyYpftPp131AAAAAAAAACyw== Original data file: Winter global 1.mgf. From Tranche: {{i}}Data files include .raw files generated using an Orbitrap XL mass spectrometer and associated .mgf files generated using DTASuperCharge from the MaxQuant software package. Files described as -global- contain mass spectrometry runs for peptides enriched for phosphorylated peptides, files described as pTyr contain mass spectrometry runs for peptides enriched for phosphorylated tyrosine. All experiments use alternating CID/HCD fragmentation MS/MS scans to generate sequence ions and iTRAQ ions respectively for each peptide.{{/i}}"</description>
-      </cross_references>
+      <description>"TRANCHE KEY: wx6Md0EDEKdgYAJAEz8/hEm34SBzmAniSn5vM8K//F6LnUIAofmGeK+ypdyxjs9ROr047eGbrbiNXgzfKs5AX2eLtOMAAAAAAAAJEQ== Amy Ham and Kristin Cheek processed these yeast samples at the VUMC Mass Spectrometry Research Center Proteomics Core. Whole cell extracts of S. cerevisiae were reduced and alkylated by DTT and IAA, digested with trypsin, and subjected to 184-minute RPLC separations en route to a Thermo LTQ Orbitrap tandem mass spectrometer. The instrument was set to capture profile MS scans in the Orbitrap and centroid MS/MS scans in the LTQ. Three different sets of files comprise the set; two triplicate runs were generated on 6/24/07, and duplicate files were generated on 7/24/07. These three sets differ slightly in their Dynamic Exclusion settings. These RAW files average just over 13,000 tandem mass spectra each. Eight MS/MS scans were collected for each MS scan. "</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse, Abelson_murine_leukemia_virus, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
+        <field name="species">yeast</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Winter and Rix, et al.</field>
-        <field name="submitter_mail">scottmc@mit.edu</field>
-        <field name="submitter_affiliation">Massachusetts Institute of Technology</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008569</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008568</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008573</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008575</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008572</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008570</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008574</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008571</field>
+        <field name="submitter">Amy Ham and Kristin Creek</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">VUMC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153990</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153989</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153992</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153996</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153994</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153995</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153991</field>
       </additional_fields>
     </entry>
   </entries>

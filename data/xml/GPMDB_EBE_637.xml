@@ -5,34 +5,29 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010007435">
+    <entry id="GPM20100001089">
       <name><%%></name>
-      <description>"TRANCHE KEY: I4O5DFKjsW3G8LSPOiSY9mc9f31nEyWtn9tV6EP1gk5I9YWs679b0rIu73SOMVq0wBoRf6s7hynX/2tIVazUHm5KHAEAAAAAAAACew== Data set: Lys-C/trysin, data file: A11-01013.mzXML. From Tranche: {{i}}Triplicate LC-MS/MS analysis of standard tryptic (A11-01009-11), Lys-C/trysin (A11-01013-15), double trypsin (A11-01025-27) and RapiGest 11-01029-31). {{/i}}"</description>
-      </cross_references>
+      <description>"Reanalysis of the HUPO lab 34 data, obtained from PeptideAtlas. Analysis of spectra xp090503_02.mzXML to xp090503_35.mzXML. "</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Glatter T, et al.</field>
-        <field name="submitter_mail">alex.schmidt@unibas.ch</field>
-        <field name="submitter_affiliation">University of Basel</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007435</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007436</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007437</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007434</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007431</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007433</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007440</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007429</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007432</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007441</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007439</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007430</field>
+        <field name="submitter">Ron Beavis</field>
+        <field name="submitter_mail">rbeavis@thegpm.org</field>
+        <field name="submitter_affiliation">the GPM</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001139</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001101</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001055</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001197</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001114</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001156</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001089</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,26 +5,27 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900009197">
+    <entry id="GPM32100040578">
       <name><%%></name>
-      <description>"TRANCHE KEY: F+7Jv1/Py0TMAp5w+spCDGMMJ06Ki965Ad1rsc0DVk457/LxujZziDhPKcYKUst960wKR+Jlsfv55OAG0caHw0l8d8oAAAAAAAAHsQ== Raw MS data from mTAL phosphoproteomic profiling and quantification project. Data file mTAL_hormone_03.RAW."</description>
-      </cross_references>
+      <description>"my 1-1"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">rat</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Trairak Pisitkun, et al.</field>
-        <field name="submitter_mail">pisitkut@nhlbi.nih.gov</field>
-        <field name="submitter_affiliation">NHLBI NIH</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009197</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009195</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009198</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009196</field>
+        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100040576</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100040577</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100040580</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100040581</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100040578</field>
       </additional_fields>
     </entry>
   </entries>

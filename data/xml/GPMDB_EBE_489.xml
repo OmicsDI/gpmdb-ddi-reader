@@ -5,27 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100155256">
+    <entry id="GPM32010005799">
       <name><%%></name>
-      <description>"Data transfer from OPD ID: opd00107_YEAST. Yeast grown in YPD media to log phase, soluble fraction"</description>
-      </cross_references>
+      <description>"PRIDE ID: 13764. Data published as part of Proteomics. 2012 12:95-100 ([[http://www.ncbi.nlm.nih.gov/pubmed/22065562 PubMed]]. From the Abstract: {{i}}... Here, we present an analysis of the nuclear proteome of the sequenced Chlamydomonas strain cc503. Using LC-MS/MS, we identified 672 proteins from nuclei isolates with a maximum 1% peptide spectrum false discovery rate. Besides well-known proteins (e.g. histones), transcription factors and other transcriptional regulators (e.g. tubby and HMG) were identified ...{{/i}}"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast</field>
+        <field name="species">Chlamydomonas_reinhardtii</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">John Prince</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">UT-Austin</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155256</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155255</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155254</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155252</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155257</field>
+        <field name="submitter">Winck FV, et al.</field>
+        <field name="submitter_mail">bmr@uni-potsdam.de</field>
+        <field name="submitter_affiliation">Department of Molecular Biology, Prof. Dr. Bernd Mueller-Roeber, Institute of Biochemistry and Biology</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005799</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,25 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM20100004248">
+    <entry id="GPM06600009941">
       <name><%%></name>
-      <description>"TRANCHE KEY: X/UlZJIl0R7HTR3nwsbteoPgx7RcFqzaJaBoMhZ5N33Hyc77LnPylkG86etgMd196WpbszOCRdhdYU+ar9idtwR8eW0AAAAAAAACvQ== Data set: K562_2ugul_5ul_0610_orb1"</description>
-      </cross_references>
+      <description>"PRIDE ID: 13104. Published in Mol Cell Proteomics. 2010 ([[http://www.ncbi.nlm.nih.gov/pubmed/21036925 PubMed]]). From the Abstract: {{i}}... a comprehensive assessment of mitochondrial SNO-modifiable cysteines was performed to determine nitric oxide (NO) susceptible pathways and identify novel mechanisms of oxidative cardioprotection. The biotin switch assay and mass spectrometry were used on rat cardiac mitochondrial lysates treated with the nitric oxide donor, S-nitrosoglutathione, and controls (n=3) to map 83 SNO-modified cysteine residues on 60 proteins. Of these, 3 sites have been reported, 30 sites are new to 21 proteins previously known to be S-nitrosated but which lacked site-specific information and 50 sites were found on 39 proteins not previously implicated. ...{{/i}}. Unmodified cysteines are presumed to have been S-NO modified {{i}}in vivo{{/i}}."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">rat</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Karen Meyer-Arendt, et al.</field>
-        <field name="submitter_mail">karen.meyer-arendt@colorado.edu</field>
-        <field name="submitter_affiliation">Department of Chemisty and Biochemistry, University of Colorado</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004248</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004250</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004249</field>
+        <field name="submitter">Murray, CI, et al.</field>
+        <field name="submitter_mail">jvaneyk1@jhmi.edu</field>
+        <field name="submitter_affiliation">Johns Hopkins University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009941</field>
       </additional_fields>
     </entry>
   </entries>

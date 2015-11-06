@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100094390">
+    <entry id="GPM10100155724">
       <name><%%></name>
-      <description>"Analysis of Western Mouse Models consortium data to try to detect single amino acid polymorphisms. The data was generated from human plasma."</description>
-      </cross_references>
+      <description>"TRANCHE KEY: 12V7/orkQAljfYnUjjHoduh7H8xraTuHV+ctG+iSK2ioiiwVg48AmF9g+mTTBUBqYjUQWVidOUQOjNJYhWQRBAtBZXkAAAAAAAAdOg== MS spectra in mzxml format was organized in three folders: 1. Heavy isotope labeling time course of 0, 7, 14, 18, 21 weeks 2. The first SILAC experiment of fmr1 WT and KO cortical neurons labeled with either heavy or light amino acids 3. The second SILAC experiment of fmr1 WT and KO cortical neurons labeled with either heavy or light amino acids. SILAC1 SILAC-H-KO-L-WT2."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -20,8 +20,10 @@
         <field name="cell_type">Not available</field>
         <field name="submitter">Not available</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100094390</field>
+        <field name="submitter_affiliation">not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155732</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155739</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155724</field>
       </additional_fields>
     </entry>
   </entries>

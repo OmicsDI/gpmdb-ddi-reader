@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010000005">
+    <entry id="GPM32100028098">
       <name><%%></name>
-      <description>"PRIDE ID: 17156. Data published as part of Biol Chem. 2011 392:1031-7 ([[http://www.ncbi.nlm.nih.gov/pubmed/21846260 PubMed]]). From Pride: {{i}}Factor Xa PICS with chymotryptic peptide library{{/i}}"</description>
-      </cross_references>
+      <description>"Not available"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,11 +18,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Schilling O, et al.</field>
-        <field name="submitter_mail">oliver.schilling@mol-med.uni-freiburg.de </field>
-        <field name="submitter_affiliation">University of Freiburg</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010000005</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010000004</field>
+        <field name="submitter"> Cordula</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028098</field>
       </additional_fields>
     </entry>
   </entries>

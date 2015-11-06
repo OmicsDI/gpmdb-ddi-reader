@@ -5,25 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM06600009401">
+    <entry id="GPM00300013130">
       <name><%%></name>
-      <description>"Data transfer from Peptide Atlas Pae000379. Mouse heart cytoplasm sample."</description>
-      </cross_references>
+      <description>"Resing et al. 2004, Anal Chem. 2004 Jul 1;76(13):3556-68. PeptideAtlas ID: PLC"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse, mouse</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Andrew Emili</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">University of Toronto</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009401</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009403</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007199</field>
+        <field name="submitter">Katheryn Resing</field>
+        <field name="submitter_mail">Katheryn.Resing@colorado.edu</field>
+        <field name="submitter_affiliation">Department of Chemistry and Biochemistry, Howard Hughes Medical Institute, University of Colorado</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300013130</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,23 +5,73 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010011380">
+    <entry id="GPM31900007820">
       <name><%%></name>
-      <description>"TRANCHE KEY: msnCzsGGjIGnc94MM4Gbic/WJWExgrY1Ox86h0n5K9DQGS/qCcP9KzGd0ckC59pZo3DO/zAVX8lQW2fRxWgywUsuLqMAAAAAAAACQw== Original data file: liisa_arike_F130_iBAQ_20100709-3.raw. From Tranche: {{i}}E. coli lysate grown in chemostat at growth rate 0.1 h-1, spiked with UPS2 standard in 3:1 (1 ug + 0.3 ug), biological replicate 1, technical replicate 3{{/i}}"</description>
-      </cross_references>
+      <description>"TRANCHE KEY: c9wCnilmFqcPodCpUcaaprfu8865M5jrvHW6YrWwksRKj95BvjNcfltPn9zD6D7QLyoP8E+hieq+ygIscRcaBrmFSFoAAAAAAAAjdw== The Unbiased Discovery Working Group evaluated the sensitivity of spiked protein detection by evaluating samples of yeast with Sigma UPS 1 spiked at five levels. The yeast, Sigma UPS 1, and five spiked levels were each analyzed three times by RPLC, and NCI-20 samples were present as QC mixtures. The Sigma UPS 1 proteins were not detected at the lowest concentration, but each of the other concentrations generated UPS 1 detections, increasing with concentration. This Study reflects the final SOP v2.2 specification for LTQ and Orbitrap instruments."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Escherichia_coli_APEC_O1, Escherichia_coli_K_12_substr__MG1655, Enterobacteria_phage_13a, Enterobacteria_phage_933W, Enterobacteria_phage_alpha3, Enterobacteria_phage_BA14, Enterobacteria_phage_BP_4795, Enterobacteria_phage_BZ13, Enterobacteria_phage_cdtI, Enterobacteria_phage_EcoDS1, Enterobacteria_phage_EPS7, Enterobacteria_phage_epsilon15, Enterobacteria_phage_ES18, Enterobacteria_phage_Felix_01, Enterobacteria_phage_Fels_2, Enterobacteria_phage_FI_sensu_lato, Enterobacteria_phage_G4_sensu_lato, Enterobacteria_phage_HK022, Enterobacteria_phage_HK620, Enterobacteria_phage_HK97, Enterobacteria_phage_I2_2, Enterobacteria_phage_ID18_sensu_lato, Enterobacteria_phage_ID2, Enterobacteria_phage_If1, Enterobacteria_phage_Ike, Enterobacteria_phage_JK06, Enterobacteria_phage_JS10, Enterobacteria_phage_JS98, Enterobacteria_phage_JSE, Enterobacteria_phage_K1E, Enterobacteria_phage_K1F, Enterobacteria_phage_K1_5, Enterobacteria_phage_lambda, Enterobacteria_phage_M13, Enterobacteria_phage_Min27, Enterobacteria_phage_MS2, Enterobacteria_phage_Mu, Enterobacteria_phage_N15, Enterobacteria_phage_N4, Enterobacteria_phage_P1, Enterobacteria_phage_P2, Enterobacteria_phage_P22, Enterobacteria_phage_P4, Enterobacteria_phage_Phi1, Enterobacteria_phage_phiEco32, Enterobacteria_phage_phiEcoM_GJ1, Enterobacteria_phage_phiP27, Enterobacteria_phage_phiV10, Enterobacteria_phage_phiX174_sensu_lato, Enterobacteria_phage_PRD1, Enterobacteria_phage_PsP3, Enterobacteria_phage_RB14, Enterobacteria_phage_RB32, Enterobacteria_phage_RB43, Enterobacteria_phage_RB49, Enterobacteria_phage_RB51, Enterobacteria_phage_RB69, Enterobacteria_phage_RTP, Enterobacteria_phage_Sf6, Enterobacteria_phage_SfV, Enterobacteria_phage_SP6, Enterobacteria_phage_SSL_2009a, Enterobacteria_phage_ST104, Enterobacteria_phage_ST64T, Enterobacteria_phage_St_1, Enterobacteria_phage_T1, Enterobacteria_phage_T3, Enterobacteria_phage_T4, Enterobacteria_phage_T5, Enterobacteria_phage_T7, Enterobacteria_phage_TLS, Enterobacteria_phage_VT2_Sakai, Enterobacteria_phage_WA13_sensu_lato, Enterobacteria_phage_WV8, Enterobacteria_phage_YYZ_2008, Enterobacteriophage_Qbeta</field>
+        <field name="species">yeast, yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Arike L, et al.</field>
-        <field name="submitter_mail">liisa@tftak.eu</field>
-        <field name="submitter_affiliation">Competence Center of Food and Fermentation Technologies, Competence Center of Food and Fermentation Technologies, Competence Center of Food and Fermentation Technologies ,Harjumaa, Estonia</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011380</field>
+        <field name="submitter">CPTAC</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">NCI NIH</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701875</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701885</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701883</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701876</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701890</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701858</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701877</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701849</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701861</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701854</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701889</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701869</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701872</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701891</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701868</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701892</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701881</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701866</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701874</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701859</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701850</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701860</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701880</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701863</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701864</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701888</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701894</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701895</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701893</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701882</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701870</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701878</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701867</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701856</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701886</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701896</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701862</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701887</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701865</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701879</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701884</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701871</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701855</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701853</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701852</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701873</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701857</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100701848</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007819</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007821</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007820</field>
       </additional_fields>
     </entry>
   </entries>

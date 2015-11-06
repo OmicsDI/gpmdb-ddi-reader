@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010008389">
+    <entry id="GPM32100026970">
       <name><%%></name>
-      <description>"TRANCHE KEY: XKeXQWmm6fyQndzsIRtKiFJwcGm8GjLu4uX8nzmTlOztqFW3g5bYuygj247H0+VDiC/jaVD7RsljKlq+1pFNOqRWcd0AAAAAAAABlg== data set 4, folder summary. Code name: TrashyBanana"</description>
-      </cross_references>
+      <description>"Not available"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -17,11 +17,11 @@
         <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter"> Zhao Y, et al.</field>
-        <field name="submitter_mail">yuechen@bsd.uchicago.edu</field>
-        <field name="submitter_affiliation">University of Chicago</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008389</field>
+        <field name="cell_type">CL:0000066 epithelial cell</field>
+        <field name="submitter">Jason Held</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100026970</field>
       </additional_fields>
     </entry>
   </entries>

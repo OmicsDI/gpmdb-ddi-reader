@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900008485">
+    <entry id="GPM31900009019">
       <name><%%></name>
-      <description>"Phosphorylation"</description>
-      </cross_references>
+      <description>"PRIDE ID: 7963. Sample description: Minor salivary gland proteome Sjogren&quot;s syndrome."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +18,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008485</field>
+        <field name="submitter">Trond Ove R. Hjelmervik </field>
+        <field name="submitter_mail">trond.hjelmervik@ik.uib.no</field>
+        <field name="submitter_affiliation">Faculty of Medicine and Dentistry, University of Bergen </field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009019</field>
       </additional_fields>
     </entry>
   </entries>

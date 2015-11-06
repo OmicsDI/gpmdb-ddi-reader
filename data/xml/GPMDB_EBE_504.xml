@@ -5,24 +5,25 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100162084">
+    <entry id="GPM31900008395">
       <name><%%></name>
-      <description>"TRANCHE KEY: LRS/cOu4BLedcBj1iPdNeFRzqK7ooP5Y6aLW8uwmWs623SwZ1OIeTYhbRjHp5Jw3RfXdRFePb29NsUeF3PKLSHNUWTkAAAAAAAAA8g== PeptideAtlas ID: PAe001337, Spectrum: OR20080320_S_SILAC-LH_1-1_11.mzXML, Yeast SILAC experiment."</description>
-      </cross_references>
+      <description>"PRIDE ID: 9989. [[http://stke.sciencemag.org/cgi/content/abstract/2/87/ra51 Sci Signal. 2009 Sep 8;2(87):ra51]]."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast, sprot_virus</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Z. Sun</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Institute for Systems Biology</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100162084</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100162083</field>
+        <field name="submitter">Humphries JD, Byron A, Bass MD, Craig SE, Pinney JW, Knight D, Humphries MJ</field>
+        <field name="submitter_mail">adam.byron@manchester.ac.uk, j.d.humphries@manchester.ac.uk</field>
+        <field name="submitter_affiliation">University of Manchester</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008382</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008396</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008395</field>
       </additional_fields>
     </entry>
   </entries>

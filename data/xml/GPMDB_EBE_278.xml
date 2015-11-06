@@ -5,23 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100161132">
+    <entry id="GPM32100029784">
       <name><%%></name>
-      <description>"TRANCHE KEY: Mh8U0oaTIkaCDFMVZxk4LjGnX0uI58V4LHM5R107j74gJ5nVkB4dmyF4LQ0up5DQio4Jj8Etoq/ff68wnPJR63KihVoAAAAAAAAA3g== Peptide Atlas ID: PAe000762."</description>
-      </cross_references>
+      <description>"Not available"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">human_nr</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Z Sun</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161132</field>
+        <field name="submitter">sameer</field>
+        <field name="submitter_mail">sameerkhammam@gmail.com</field>
+        <field name="submitter_affiliation">iob</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100029784</field>
       </additional_fields>
     </entry>
   </entries>

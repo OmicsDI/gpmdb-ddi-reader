@@ -5,23 +5,25 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900005191">
+    <entry id="GPM06600008436">
       <name><%%></name>
-      <description>"rs070201-11"</description>
-      </cross_references>
+      <description>"HeLa cell lysate peptides"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">human, human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Robert Seward</field>
-        <field name="submitter_mail">rseward@partners.org</field>
-        <field name="submitter_affiliation">massachusetts general hospital</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900005191</field>
+        <field name="submitter">L. Foster, et al</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">University of British Columbia</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600008627</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600008628</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600008436</field>
       </additional_fields>
     </entry>
   </entries>

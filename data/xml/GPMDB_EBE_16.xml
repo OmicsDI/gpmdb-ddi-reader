@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900009370">
+    <entry id="GPM32010012190">
       <name><%%></name>
-      <description>"A10B10"</description>
-      </cross_references>
+      <description>"PRIDE ID: 19846. Data published as part of Mol Syst Biol. 2012 Jun 26;8:589 ([[http://www.ncbi.nlm.nih.gov/pubmed/22735335 PubMed]]). From the Abstract: {{i}}Investigating the signaling mechanisms underlying cell death in cells dependent upon glucose for survival, we demonstrate that glucose withdrawal rapidly induces supra-physiological levels of phospho-tyrosine signaling, even in cells expressing constitutively active tyrosine kinases. Using unbiased mass spectrometry-based phospho-proteomics, we show that glucose withdrawal initiates a unique signature of phospho-tyrosine activation that is associated with focal adhesions. Building upon this observation, we demonstrate that glucose withdrawal activates a positive feedback loop involving generation of reactive oxygen species (ROS) by NADPH oxidase and mitochondria, inhibition of protein tyrosine phosphatases by oxidation, and increased tyrosine kinase signaling. In cells dependent on glucose for survival, glucose withdrawal-induced ROS generation and tyrosine kinase signaling synergize to amplify ROS levels, ultimately resulting in ROS-mediated cell death. {{/i}}"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +18,28 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009370</field>
+        <field name="submitter">Graham N, et al.</field>
+        <field name="submitter_mail">ngraham@mednet.ucla.edu</field>
+        <field name="submitter_affiliation">UCLA</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012193</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012181</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012192</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012183</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012188</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012184</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012180</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012185</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012179</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012189</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012182</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012191</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012196</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012198</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012194</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012186</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012195</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012197</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012190</field>
       </additional_fields>
     </entry>
   </entries>

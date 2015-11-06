@@ -5,23 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100031019">
+    <entry id="GPM32100030382">
       <name><%%></name>
-      <description>"none"</description>
-      </cross_references>
+      <description>"Oxidized human serum albumin"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">CL:0000236 B cell</field>
-        <field name="submitter">Michelle Russell</field>
-        <field name="submitter_mail">hipplemi@msu.edu</field>
-        <field name="submitter_affiliation">Michigan State University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100031019</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Cato Brede</field>
+        <field name="submitter_mail">catob@extern.uio.no</field>
+        <field name="submitter_affiliation">Stavanger University Hospital</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030382</field>
       </additional_fields>
     </entry>
   </entries>

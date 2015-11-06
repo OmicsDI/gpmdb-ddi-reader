@@ -5,10 +5,10 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100033342">
+    <entry id="GPM00300008131">
       <name><%%></name>
-      <description>"C18*2"</description>
-      </cross_references>
+      <description>"PRIDE ID: 12915. Proteins of glycolysis, several related branching pathways, and common loading controls. IDOG Light labeling."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +18,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100033342</field>
+        <field name="submitter">Patrick Murphy, et al.</field>
+        <field name="submitter_mail">pitter9@gmail.com</field>
+        <field name="submitter_affiliation">National Research Council, Canada</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008131</field>
       </additional_fields>
     </entry>
   </entries>

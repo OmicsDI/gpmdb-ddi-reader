@@ -5,23 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM20100003271">
+    <entry id="GPM32100019050">
       <name><%%></name>
-      <description>"none"</description>
-      </cross_references>
+      <description>"a"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">CL:0000115 endothelial cell</field>
-        <field name="submitter">Tracey Hanks</field>
-        <field name="submitter_mail">thanks@montana.edu</field>
-        <field name="submitter_affiliation">Montana State University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003271</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">a</field>
+        <field name="submitter_mail">aa</field>
+        <field name="submitter_affiliation">aa</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100019050</field>
       </additional_fields>
     </entry>
   </entries>

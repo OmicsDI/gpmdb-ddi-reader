@@ -5,23 +5,23 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100035617">
+    <entry id="GPM20100003106">
       <name><%%></name>
-      <description>"1mg of lysate"</description>
-      </cross_references>
+      <description>"Membrane fraction from Monomac I cells infected with phase II Coxiella burnetii for 96 hours."</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">human, human_ipi, human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035617</field>
+        <field name="submitter">Matt Shipman</field>
+        <field name="submitter_mail">mshipman@chemistry.montana.edu</field>
+        <field name="submitter_affiliation">Montana State University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003106</field>
       </additional_fields>
     </entry>
   </entries>

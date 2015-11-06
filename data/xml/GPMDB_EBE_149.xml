@@ -5,30 +5,38 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100153993">
+    <entry id="GPM10100700642">
       <name><%%></name>
-      <description>"TRANCHE KEY: wx6Md0EDEKdgYAJAEz8/hEm34SBzmAniSn5vM8K//F6LnUIAofmGeK+ypdyxjs9ROr047eGbrbiNXgzfKs5AX2eLtOMAAAAAAAAJEQ== Amy Ham and Kristin Cheek processed these yeast samples at the VUMC Mass Spectrometry Research Center Proteomics Core. Whole cell extracts of S. cerevisiae were reduced and alkylated by DTT and IAA, digested with trypsin, and subjected to 184-minute RPLC separations en route to a Thermo LTQ Orbitrap tandem mass spectrometer. The instrument was set to capture profile MS scans in the Orbitrap and centroid MS/MS scans in the LTQ. Three different sets of files comprise the set; two triplicate runs were generated on 6/24/07, and duplicate files were generated on 7/24/07. These three sets differ slightly in their Dynamic Exclusion settings. These RAW files average just over 13,000 tandem mass spectra each. Eight MS/MS scans were collected for each MS scan. "</description>
-      </cross_references>
+      <description>"TRANCHE KEY: +uLMdcTi0J8BQsr6etDgouz7+zDcr8UHoi5YwkJ9GoUbMpRNHMrAiUQam8hbJDjI3Z4WWI7NCCH1KtgoS84PkdZoBG0AAAAAAAAA7Q==  PeptideAtlas ID: PAe000419"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast</field>
+        <field name="species">worm</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Amy Ham and Kristin Creek</field>
+        <field name="submitter">Z. Sun</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">VUMC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153993</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153990</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153989</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153992</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153996</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153994</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153995</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153991</field>
+        <field name="submitter_affiliation">Institute for Systems Biology</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700637</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700631</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700628</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700634</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700643</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700629</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700635</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700633</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700639</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700630</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700632</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700640</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700638</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700641</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700627</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100700642</field>
       </additional_fields>
     </entry>
   </entries>

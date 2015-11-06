@@ -5,23 +5,27 @@
   <release_date>2015-10-5</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100161280">
+    <entry id="GPM32100026670">
       <name><%%></name>
-      <description>"TRANCHE KEY: 9fYM3N4yRvd0eiOajrvbNnDX1PUXF+JIoK+swKZF8shWg7j72Vt2hzVzEhdZoyUeUL9Z+f6pE1j5h4QF3LCT2WvAhdAAAAAAAAAA3g== Peptide Atlas ID: PAe000308."</description>
-      </cross_references>
+      <description>"Not available"</description>
+      <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Z Sun</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161280</field>
+        <field name="submitter">Achim Treumann</field>
+        <field name="submitter_mail">achim.treumann@nepaf.com</field>
+        <field name="submitter_affiliation">NEPAF</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006885</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006881</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006880</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006883</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100026670</field>
       </additional_fields>
     </entry>
   </entries>
