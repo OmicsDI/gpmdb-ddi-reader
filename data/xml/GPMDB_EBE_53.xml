@@ -2,11 +2,11 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100028090">
-      <name>090511_4</name>
+    <entry id="GPM32100037572">
+      <name>cell_surface</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
@@ -17,14 +17,19 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Cordula</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028090</field>
+        <field name="cell_type">CL:0000084 T cell</field>
+        <field name="submitter">Waltteri Hosia</field>
+        <field name="submitter_mail">scansystech@gmail.com</field>
+        <field name="submitter_affiliation">ScanSysTech/KI</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037569</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037573</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037567</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037571</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037568</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037572</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,14 +2,14 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010007380">
-      <name>Combined personal saliva proteome and microbioproteome</name>
-      <description>PRIDE ID: 22143. PXD000002. Original data file: [[ftp://ftp.proteomecentral.org/proteomexchange/2012/03/PDX000002/ 11_320.mgf]]. From Pride: {{i}}Human saliva samples from a 36 year old male were analyzed with tandem mass spectrometry over 3 time points in 2011.{{/i}}</description>
+    <entry id="GPM32010008571">
+      <name>Phosphoproteomics data for Systems-pharmacology dissection of a drug synergy in imatinib resistant CML</name>
+      <description>TRANCHE KEY: sFUC/lcotxPXpvTlwfKgO6H5uRKHvMq4N7COE6W+oj6yvdMIsFHoPDbKrNOzQQYKvd72uofgyzaw5smpyYpftPp131AAAAAAAAACyw== Original data file: Winter global 2.mgf. From Tranche: {{i}}Data files include .raw files generated using an Orbitrap XL mass spectrometer and associated .mgf files generated using DTASuperCharge from the MaxQuant software package. Files described as -global- contain mass spectrometry runs for peptides enriched for phosphorylated peptides, files described as pTyr contain mass spectrometry runs for peptides enriched for phosphorylated tyrosine. All experiments use alternating CID/HCD fragmentation MS/MS scans to generate sequence ions and iTRAQ ions respectively for each peptide.{{/i}}</description>
       <cross_references>
-      <ref dbkey="PXD000002" dbname="ProteomeExchange"/>
+      <ref dbkey="MSV000077482" dbname="massive"/>
       </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -19,15 +19,20 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human, Porphyromonas_gingivalis_ATCC_33277_uid58879, Streptococcus_mutans_NN2025_uid46353, Streptococcus_pyogenes_NZ131_uid59035, Streptococcus_sanguinis_SK36_uid58381, Treponema_denticola_ATCC_35405_uid57583, Mycoplasma_mobile_163K_uid58077, Escherichia_coli_K_12_substr__MG1655, Staphylococcus_aureus_JH1</field>
+        <field name="species">mouse, Abelson_murine_leukemia_virus, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Csordas A., et al.</field>
-        <field name="submitter_mail">acsordas@ebi.ac.uk </field>
-        <field name="submitter_affiliation">EMBL European Bioinformatics Institute, Hinxton, Cambridge</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007381</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007380</field>
+        <field name="submitter">Winter and Rix, et al.</field>
+        <field name="submitter_mail">scottmc@mit.edu</field>
+        <field name="submitter_affiliation">Massachusetts Institute of Technology</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008568</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008573</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008575</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008572</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008570</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008574</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008571</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100039624">
-      <name>SILAC incorporation test</name>
-      <description>13 March 2012</description>
+    <entry id="GPM00300013130">
+      <name>Human Erythroleukemia K562 cell line.</name>
+      <description>Resing et al. 2004, Anal Chem. 2004 Jul 1;76(13):3556-68. PeptideAtlas ID: PLC</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -21,12 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Jane O&quot;Hara`</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039596</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039597</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039624</field>
+        <field name="submitter">Katheryn Resing</field>
+        <field name="submitter_mail">Katheryn.Resing@colorado.edu</field>
+        <field name="submitter_affiliation">Department of Chemistry and Biochemistry, Howard Hughes Medical Institute, University of Colorado</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300013130</field>
       </additional_fields>
     </entry>
   </entries>

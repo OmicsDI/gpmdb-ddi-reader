@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010006760">
-      <name>chr17 hancock non-ERBB2 expressing gastric cancer data N3T3</name>
-      <description>Data from [[ftp://ftp.proteomecentral.org/chr17/data/hancock/non_ERBB2_expressing_gastric_cancer_data N3T3 chr17 hancock non_ERBB2_expressing_gastric_cancer_data N3T3]]. Original data file: T3-2.mgf</description>
-      <cross_references></cross_references>
+    <entry id="GPM32010011382">
+      <name>E. coli B2T2</name>
+      <description>TRANCHE KEY: Eh/Z9JX4B8V70LFzUA4y/6x4yR9TrFQOrG9qPvy6HDTBs2VUof6iJhJKB3vVaFugZOuQJuqlJr2mNDC8JbZFD5I/PQ8AAAAAAAACQg== Original data file: liisa_arike_F143_iBAQ_20100709-2.raw. From Tranche: {{i}}E. coli lysate grown in chemostat at growth rate 0.1 h-1, spiked with UPS2 standard in 3:1 (1 ug + 0.3 ug), biological replicate 2, technical replicate 2{{/i}}</description>
+      <cross_references>
+      <ref dbkey="MSV000077665" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,22 +19,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human, Human_adenovirus_54, Human_adenovirus_A, Human_adenovirus_B, Human_adenovirus_C, Human_adenovirus_D, Human_adenovirus_E, Human_adenovirus_F, Human_adenovirus_G, Human_astrovirus, Human_bocavirus, Human_bocavirus_2, Human_bocavirus_3, Human_bocavirus_4, Human_coronavirus_229E, Human_coronavirus_HKU1, Human_coronavirus_NL63, Human_coronavirus_OC43, Human_cosavirus_A, Human_cosavirus_B, Human_cosavirus_D, Human_cosavirus_E, Human_enteric_coronavirus_4408, Human_enterovirus_100, Human_enterovirus_A, Human_enterovirus_B, Human_enterovirus_C, Human_enterovirus_D, Human_erythrovirus_V9, Human_herpesvirus_1, Human_herpesvirus_2, Human_herpesvirus_3, Human_herpesvirus_4_type_1, Human_herpesvirus_4_type_2, Human_herpesvirus_5, Human_herpesvirus_6A, Human_herpesvirus_6B, Human_herpesvirus_7, Human_herpesvirus_8_type_P, Human_immunodeficiency_virus_1, Human_immunodeficiency_virus_2, Human_metapneumovirus, Human_papillomavirus_FA75_KI88_03, Human_papillomavirus_RTRX7, Human_papillomavirus_type_10, Human_papillomavirus_type_100, Human_papillomavirus_type_101, Human_papillomavirus_type_103, Human_papillomavirus_type_104, Human_papillomavirus_type_105, Human_papillomavirus_type_108, Human_papillomavirus_type_109, Human_papillomavirus_type_112, Human_papillomavirus_type_113, Human_papillomavirus_type_16, Human_papillomavirus_type_24, Human_papillomavirus_type_26, Human_papillomavirus_type_32, Human_papillomavirus_type_34, Human_papillomavirus_type_4, Human_papillomavirus_type_41, Human_papillomavirus_type_48, Human_papillomavirus_type_49, Human_papillomavirus_type_5, Human_papillomavirus_type_50, Human_papillomavirus_type_53, Human_papillomavirus_type_60, Human_papillomavirus_type_63, Human_papillomavirus_type_6b, Human_papillomavirus_type_7, Human_papillomavirus_type_71, Human_papillomavirus_type_88, Human_papillomavirus_type_9, Human_papillomavirus_type_92, Human_papillomavirus_type_96, Human_papillomavirus_type_98, Human_papillomavirus_type_99, Human_papillomavirus___1, Human_papillomavirus___18, Human_papillomavirus___2, Human_papillomavirus___54, Human_papillomavirus___61, Human_papillomavirus___cand90, Human_parainfluenza_virus_1, Human_parainfluenza_virus_2, Human_parainfluenza_virus_3, Human_parechovirus, Human_parvovirus_4, Human_parvovirus_B19, Human_picobirnavirus, Human_respiratory_syncytial_virus, Human_rhinovirus_A, Human_rhinovirus_B, Human_rhinovirus_C, Human_TMEV_like_cardiovirus, Human_T_lymphotropic_virus_1, Human_T_lymphotropic_virus_2, Human_T_lymphotropic_virus_4</field>
+        <field name="species">Escherichia_coli_APEC_O1, Escherichia_coli_K_12_substr__MG1655, Enterobacteria_phage_13a, Enterobacteria_phage_933W, Enterobacteria_phage_alpha3, Enterobacteria_phage_BA14, Enterobacteria_phage_BP_4795, Enterobacteria_phage_BZ13, Enterobacteria_phage_cdtI, Enterobacteria_phage_EcoDS1, Enterobacteria_phage_EPS7, Enterobacteria_phage_epsilon15, Enterobacteria_phage_ES18, Enterobacteria_phage_Felix_01, Enterobacteria_phage_Fels_2, Enterobacteria_phage_FI_sensu_lato, Enterobacteria_phage_G4_sensu_lato, Enterobacteria_phage_HK022, Enterobacteria_phage_HK620, Enterobacteria_phage_HK97, Enterobacteria_phage_I2_2, Enterobacteria_phage_ID18_sensu_lato, Enterobacteria_phage_ID2, Enterobacteria_phage_If1, Enterobacteria_phage_Ike, Enterobacteria_phage_JK06, Enterobacteria_phage_JS10, Enterobacteria_phage_JS98, Enterobacteria_phage_JSE, Enterobacteria_phage_K1E, Enterobacteria_phage_K1F, Enterobacteria_phage_K1_5, Enterobacteria_phage_lambda, Enterobacteria_phage_M13, Enterobacteria_phage_Min27, Enterobacteria_phage_MS2, Enterobacteria_phage_Mu, Enterobacteria_phage_N15, Enterobacteria_phage_N4, Enterobacteria_phage_P1, Enterobacteria_phage_P2, Enterobacteria_phage_P22, Enterobacteria_phage_P4, Enterobacteria_phage_Phi1, Enterobacteria_phage_phiEco32, Enterobacteria_phage_phiEcoM_GJ1, Enterobacteria_phage_phiP27, Enterobacteria_phage_phiV10, Enterobacteria_phage_phiX174_sensu_lato, Enterobacteria_phage_PRD1, Enterobacteria_phage_PsP3, Enterobacteria_phage_RB14, Enterobacteria_phage_RB32, Enterobacteria_phage_RB43, Enterobacteria_phage_RB49, Enterobacteria_phage_RB51, Enterobacteria_phage_RB69, Enterobacteria_phage_RTP, Enterobacteria_phage_Sf6, Enterobacteria_phage_SfV, Enterobacteria_phage_SP6, Enterobacteria_phage_SSL_2009a, Enterobacteria_phage_ST104, Enterobacteria_phage_ST64T, Enterobacteria_phage_St_1, Enterobacteria_phage_T1, Enterobacteria_phage_T3, Enterobacteria_phage_T4, Enterobacteria_phage_T5, Enterobacteria_phage_T7, Enterobacteria_phage_TLS, Enterobacteria_phage_VT2_Sakai, Enterobacteria_phage_WA13_sensu_lato, Enterobacteria_phage_WV8, Enterobacteria_phage_YYZ_2008, Enterobacteriophage_Qbeta</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Hancock W, et al.</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">The Barnett Institute, Northeastern University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006758</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006754</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006755</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006763</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006761</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006759</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006756</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006757</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006760</field>
+        <field name="submitter">Arike L, et al.</field>
+        <field name="submitter_mail">liisa@tftak.eu</field>
+        <field name="submitter_affiliation">Competence Center of Food and Fermentation Technologies, Competence Center of Food and Fermentation Technologies, Competence Center of Food and Fermentation Technologies ,Harjumaa, Estonia</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011382</field>
       </additional_fields>
     </entry>
   </entries>

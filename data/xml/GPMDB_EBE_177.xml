@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900007209">
-      <name>Kidney_Mito_UT</name>
-      <description>Data transfer from Peptide Atlas Pae000358. Mouse kidney mitochondrion sample.</description>
-      <cross_references></cross_references>
+    <entry id="GPM10100161298">
+      <name>mm_liver_organelle-25_1</name>
+      <description>TRANCHE KEY: GcxPsBKmO32UUJ2w3RmY2jLygIkD2UcjGI+EZ95wK8DLQ/cIS6tp8VkoEkP/tn3mulMfgWTSxNc4IxOwDfDRaZ/S6TIAAAAAAAAA3g== Peptide Atlas ID: PAe000309.</description>
+      <cross_references>
+      <ref dbkey="MSV000072331" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -21,15 +23,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Andrew Emili</field>
+        <field name="submitter">Z Sun</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">University of Toronto</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007210</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007205</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007228</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007206</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007222</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007209</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161298</field>
       </additional_fields>
     </entry>
   </entries>

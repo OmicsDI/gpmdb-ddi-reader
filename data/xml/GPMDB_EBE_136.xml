@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100035620">
-      <name>110405 phosphopeptide enrichment Toptip-1</name>
-      <description>1mg of lysate</description>
-      <cross_references></cross_references>
+    <entry id="GPM32010012698">
+      <name>Hek_cells_Princelab_Mspire-Simulator</name>
+      <description>TRANCHE KEY: ha1IRdquAOciVYCLA/GimfT+6roDe2kabhIyENFRecl3p3w+KMZWE8DAuEfTYhUbkLtktc20b/b7S74/oXx/nKH5xRsAAAAAAAACew== From Tranche: {{i}}Hek cell run used for modeling LTQ Orbitrap data. This model was then implemented in Mspire-Simulator in order to simulate high resolution mass spectrometry data. Reverse phase chromatography and a UPLC were used.{{/i}}</description>
+      <cross_references>
+      <ref dbkey="MSV000077917" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -21,10 +23,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035620</field>
+        <field name="submitter">Noyce AB, et al.</field>
+        <field name="submitter_mail">andrewbnoyce@gmail.com</field>
+        <field name="submitter_affiliation">Brigham Young University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012698</field>
       </additional_fields>
     </entry>
   </entries>

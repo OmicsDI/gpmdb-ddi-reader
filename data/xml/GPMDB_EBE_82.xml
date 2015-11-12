@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM20100003607">
-      <name>T2D Peptidomics</name>
-      <description>LMW Plasma Peptidome Fract 16-21</description>
-      <cross_references></cross_references>
+    <entry id="GPM32010012083">
+      <name>Isolation and Proteomic Characterization of the Mouse Sperm Acrosomal Matrix</name>
+      <description>TRANCHE KEY: kLgCpMG61AQRPcKwA4JSCwedj9M0618nVfWyObpGuQBMAar0BuQlB77d/bkyUqCWrLnPDcuF6lKKRytyeV+rAb19oPsAAAAAAAAEiw== Original file name: Cauda_AM_Iso3_MudPIT.msf.mgf. From Tranche: {{i}}Guyonnet_et_al_Isolation and proteomic characterization of the mouse sperm acrosomal matrix{{/i}}</description>
+      <cross_references>
+      <ref dbkey="MSV000077810" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,23 +19,17 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human, human_silac, human_ipi, human_up</field>
+        <field name="species">mouse, Abelson_murine_leukemia_virus, Ectromelia_virus, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Jared Bowden</field>
-        <field name="submitter_mail">JBowden@chemistry.montana.edu</field>
-        <field name="submitter_affiliation">Montana State University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003612</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003615</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003614</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003611</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003609</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003610</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003608</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003617</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003616</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003607</field>
+        <field name="cell_type">CL:0000019 sperm</field>
+        <field name="submitter">Guyonnet B, et al.</field>
+        <field name="submitter_mail">benoit.guyonnet@live.fr</field>
+        <field name="submitter_affiliation">Texas Tech University Health Sciences Center</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012079</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012080</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012081</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012083</field>
       </additional_fields>
     </entry>
   </entries>

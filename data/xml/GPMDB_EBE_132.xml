@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900008395">
-      <name>Proteomic analysis of integrin-associated complexes identifies RCC2 as a dual regulator of Rac1 and Arf6</name>
-      <description>PRIDE ID: 9989. [[http://stke.sciencemag.org/cgi/content/abstract/2/87/ra51 Sci Signal. 2009 Sep 8;2(87):ra51]].</description>
+    <entry id="GPM32100046021">
+      <name>FASP membrane </name>
+      <description>6 juni 2013 SN2</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -17,16 +17,15 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Humphries JD, Byron A, Bass MD, Craig SE, Pinney JW, Knight D, Humphries MJ</field>
-        <field name="submitter_mail">adam.byron@manchester.ac.uk, j.d.humphries@manchester.ac.uk</field>
-        <field name="submitter_affiliation">University of Manchester</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008382</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008396</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008395</field>
+        <field name="submitter">Iris Egner</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">UBC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100046022</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100046021</field>
       </additional_fields>
     </entry>
   </entries>

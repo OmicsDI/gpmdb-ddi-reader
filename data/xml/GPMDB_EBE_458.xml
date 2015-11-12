@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010006234">
-      <name>MAP-Maetal2012</name>
-      <description>TRANCHE KEY: HMLWkKNLAtUFpKjyfAIDUeUTAYySpnpEqDJgpOCiOqLdaMfkRIHeUIGK1o7HeX+iXSQ6yvc2kRJL/MFa80VeIz9K+X0AAAAAAAAxLA== Experiment: MH20110805_B_PLKI, original data file: experiment summary. From Tranche: {{i}}BIRC5-MAP, PLK1-MAP and MAP (empty) purifications from stable U2OS cells. {{/i}}</description>
+    <entry id="GPM32010001707">
+      <name>Salivary basic proline-rich proteins are elevated in HIV-exposed seronegative men who have sex with men</name>
+      <description>TRANCHE KEY: Uj7CZHHRxXFrF3kgACCJl3pD1UrsNpQEDKGZFS5rVmOLpfhjI2TZw8dwqbTqiiFO04HMpe7U3R3tJv9S4PkgKzrf5KQAAAAAAAAaoA== Replicate 2. From Tranche: {{i}} ... Innate mucosal factors are associated with protection in HIV-exposed seronegative (HESN) individuals, but studies of men who have sex with men (MSM) are limited. We performed proteomic analysis of saliva from a cohort of HESN MSM who have regular unprotected oral receptive intercourse with their HIV-infected partner to understand innate mucosal responses in men ...{{/i}}</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -21,16 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">McLean J, et al.</field>
-        <field name="submitter_mail">janel.r.mclean@vanderbilt.edu</field>
-        <field name="submitter_affiliation">Vanderbilt University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006290</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006220</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006317</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006276</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006248</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006262</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006234</field>
+        <field name="submitter">Burgener A., et al.</field>
+        <field name="submitter_mail">Adam.Burgener@gmail.com</field>
+        <field name="submitter_affiliation">University of Manitoba</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001707</field>
       </additional_fields>
     </entry>
   </entries>

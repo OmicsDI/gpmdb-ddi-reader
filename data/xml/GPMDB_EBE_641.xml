@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900007204">
-      <name>Kidney_Cyto_UT</name>
-      <description>Data transfer from Peptide Atlas Pae000355. Mouse kidney cytoplasm sample.</description>
-      <cross_references></cross_references>
+    <entry id="GPM32010007547">
+      <name>David et al</name>
+      <description>TRANCHE KEY: YvRoNkiCWfqxGystvV9cds3i/e1GdAHyS2ZKRn/yxxc53sd1mYi4CrFZjjMaft7VUEMivBY/dW49vLcG+V9zFM5h1GcAAAAAAADKaQ== Original data folder: 01_Pex30p (AP-AM and AP-PM)\01_RAW files\AP-PM\Replicate 2.</description>
+      <cross_references>
+      <ref dbkey="MSV000077357" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,16 +19,18 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse</field>
+        <field name="species">yeast</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Andrew Emili</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">University of Toronto</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007207</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007203</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007204</field>
+        <field name="submitter">Oeljeklaus S, et al.</field>
+        <field name="submitter_mail">silke.oeljeklaus@biologie.uni-freiburg.de</field>
+        <field name="submitter_affiliation">University of Freiburg, Institute of Biology II</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007484</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007526</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007568</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007505</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010007547</field>
       </additional_fields>
     </entry>
   </entries>

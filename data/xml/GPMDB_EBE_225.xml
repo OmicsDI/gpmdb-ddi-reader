@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM00300008795">
-      <name>110411 phosphopeptide enrichment SIMAC vs TiO2-4</name>
-      <description>IMAC- second round stage tip</description>
-      <cross_references></cross_references>
+    <entry id="GPM10100161196">
+      <name>Normal female urine</name>
+      <description>TRANCHE KEY: Tx84rGWI2OAjxWuyR+88TlEBtbrn/FtiZItmmxbwYDEYYkDDFCzAG+Jlv7PVmM86MUjh6JDAH+gQW91c5ZXhNVW4bmcAAAAAAAAA3g== Peptide Atlas ID: PAe000766.</description>
+      <cross_references>
+      <ref dbkey="MSV000072083" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -21,10 +23,11 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter">Z Sun</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008795</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161181</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161196</field>
       </additional_fields>
     </entry>
   </entries>

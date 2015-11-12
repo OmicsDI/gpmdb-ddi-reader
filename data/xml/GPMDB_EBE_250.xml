@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900009507">
-      <name>020309_GPF4_ISF_OG1and2</name>
-      <description>TRANCHE KEY: 3qZKZ9Q/pjcZPQy0aqKlgO9iBMD1bqqDXsYjoX6iux1hTiPvarJWMG2J66SKx0BY/hURzhIkbcqDqPqvcSVH/oboUKkAAAAAAAACDg== From Tranche: {{i}}Head and Neck Tumor Interstitial Fluid, OFFGEL Fractions 1 and 2{{/i}}.</description>
+    <entry id="GPM32100039081">
+      <name>120128 FT active Rap1 pull down</name>
+      <description>PD-2</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -21,10 +21,13 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Matthew D Stone, et al.</field>
-        <field name="submitter_mail">stone045@umn.edu</field>
-        <field name="submitter_affiliation">Biochemistry, Molecular Biology, and Biophysics, University of Minnesota</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009507</field>
+        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039078</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039082</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039080</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039081</field>
       </additional_fields>
     </entry>
   </entries>

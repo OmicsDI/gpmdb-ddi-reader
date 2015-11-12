@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM20100005228">
-      <name>MCP/2010/002923</name>
-      <description>TRANCHE ID: Yu23mxL2Xfo6HJfXZjmn8CSFPqhQSCsX2nj2X/s9WoHunq0w3owJ6YGaYjgBJZxcB3LQiXYccXFD5n36P623zn2e3CkAAAAAAAADEg== Data file: BSA_spiked_after_enrich.RAW</description>
-      <cross_references></cross_references>
+    <entry id="GPM10100161269">
+      <name>mm_liver_organelle</name>
+      <description>TRANCHE KEY: c33vsfeElIXeGaxvfCBEwjK7Ey8Q0YsQrF+z48VnPuHdDkvdP/q6677S/pHk4fJZfwZ+6RUXM5MfA/qtlzxtbp96CnoAAAAAAAAA3g== Peptide Atlas ID: PAe000288.</description>
+      <cross_references>
+      <ref dbkey="MSV000072327" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,17 +19,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">mouse</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Prokai, L, et al.</field>
-        <field name="submitter_mail">Laszlo.Prokai@unthsc.edu</field>
-        <field name="submitter_affiliation">University of North Texas Health Science Center at Fort Worth</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100005232</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100005231</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100005229</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100005228</field>
+        <field name="submitter">Z Sun</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161269</field>
       </additional_fields>
     </entry>
   </entries>

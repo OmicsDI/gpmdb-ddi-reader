@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100033012">
-      <name>GTPase 6C-1 20100731 mascot mgf (batch)</name>
-      <description>Not available</description>
+    <entry id="GPM00300013135">
+      <name>Yeast: identification of peroxisomal proteins with subcellular fractionation and tandem mass spectrometry.</name>
+      <description>Marelli et al. 2004, J Cell Biol. 2004 Dec 20;167(6):1099-112. PeptideAtlas ID: PLC</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -17,14 +17,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">yeast</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100033012</field>
+        <field name="submitter">Aitchison JD.</field>
+        <field name="submitter_mail">jaitchison@systemsbiology.org</field>
+        <field name="submitter_affiliation">Institute for Systems Biology</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300013135</field>
       </additional_fields>
     </entry>
   </entries>

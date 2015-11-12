@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100161280">
-      <name>mm_liver_organelle-20_9-10</name>
-      <description>TRANCHE KEY: 9fYM3N4yRvd0eiOajrvbNnDX1PUXF+JIoK+swKZF8shWg7j72Vt2hzVzEhdZoyUeUL9Z+f6pE1j5h4QF3LCT2WvAhdAAAAAAAAAA3g== Peptide Atlas ID: PAe000308.</description>
+    <entry id="GPM10100160002">
+      <name>Kidney_Micro_UT</name>
+      <description>Data transfer from Peptide Atlas Pae000368. Mouse kidney microsome sample.</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -21,10 +21,15 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Z Sun</field>
+        <field name="submitter">Andrew Emili</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161280</field>
+        <field name="submitter_affiliation">University of Toronto</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160004</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160008</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160005</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160003</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160006</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160002</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100161421">
-      <name>Targeted Tandem Affinity Purification of PSD-95 recovers core postsynaptic complexes and schizophrenia susceptibility proteins</name>
-      <description>TRANCHE KEY: J9KSi8FHLDgHFyl2zz1LRq332aRrhVZl/cgPIJAO5WG8tzhAhlrwxvHJOjnre8hIAKLFRTY11dRkXdIEtnkrlqUbg7gAAAAAAAA8fw== LC-MS/MS analysis of (1D gels) of one single step purification and 4 replicate tandem affinity purifications of PSD-95 associated proteins from in vivo TAP-tagged mouse forebrains. TAP-PSD95 TAP-PSD95_Tandem_Replicate4.</description>
-      <cross_references></cross_references>
+    <entry id="GPM31900007822">
+      <name>Study 3 - LTQ-OrbitrapO@65</name>
+      <description>TRANCHE KEY: c5V9k5CM71JMvBiMLb/0xG6OUteG9TLrKLR0nLQOJAzeoNRzIns1bFlXGj/sEAHfSGre8ZxmjxUuJSG8Z4UMfbfTYjgAAAAAAAAF0w== The Unbiased Discovery Working Group tested a new version of the SOP for the complex yeast lysate sample introduced in this study. Each instrument was evaluated for SOP v2.0, specifying 184-minute RPLC analyses, in two replicates of NCI-20 followed by yeast lysate. For this study only, an Applied Biosystems QSTAR-Elite accompanied the LTQ and Orbitrap instruments.</description>
+      <cross_references>
+      <ref dbkey="MSV000073742" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,17 +19,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse</field>
+        <field name="species">yeast, yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Fernandez, E., et al.</field>
+        <field name="submitter">CPTAC</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">The Wellcome Trust Sanger Institute, Proteomic Mass Spectrometry</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161374</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161385</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161396</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161421</field>
+        <field name="submitter_affiliation">NCI NIH</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007822</field>
       </additional_fields>
     </entry>
   </entries>

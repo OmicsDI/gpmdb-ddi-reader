@@ -2,13 +2,16 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005711">
-      <name>Boetzkes_et_al_2012_CD_196_DM_BR1</name>
-      <description>TRANCHE KEY: kvhBu+BfOu+Whgd8vXq24Qp+qyXVGEZTmzDnPJkDqIGeOfu9eTbMperBSIapHN/OUtxIx8qa79kgwglBR1Z63aWSj0AAAAAAAAAB9w== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 196 DM BR1{{/i}}</description>
-      <cross_references></cross_references>
+    <entry id="GPM10100162083">
+      <name>PAe001337</name>
+      <description>TRANCHE KEY: LRS/cOu4BLedcBj1iPdNeFRzqK7ooP5Y6aLW8uwmWs623SwZ1OIeTYhbRjHp5Jw3RfXdRFePb29NsUeF3PKLSHNUWTkAAAAAAAAA8g== PeptideAtlas ID: PAe001337, Spectrum: OR20080317_S_SILAC-LH_1-1_01.mzXML, Yeast SILAC experiment.</description>
+      <cross_references>
+      <ref dbkey="MSV000073210" dbname="massive"/>
+      <ref dbkey="PAe001337" dbname="PeptideAtlas"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,14 +20,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="species">yeast, sprot_virus</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Zeiser JJ, et al.</field>
-        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
-        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005711</field>
+        <field name="submitter">Z. Sun</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Institute for Systems Biology</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100162083</field>
       </additional_fields>
     </entry>
   </entries>

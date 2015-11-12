@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM00300008849">
-      <name>110415 phosphopeptide enrichment SIMAC</name>
-      <description>IMAC fraction 1-12 merged</description>
+    <entry id="GPM10180000286">
+      <name>pY_Phospho_Tiple_SILAC</name>
+      <description>TRANCHE KEY: 1mXmOm5xXpQ/LZkjf28BV1NPGXX71poLBVvSwHVGKnAvjcBiKaRXxaxR9yhuI+tRfeQPOgs47tDOZcgn3SYQBB/HT4EAAAAAAAABvQ== Experiment F080125. From Tranche: {{i}}Tiple SILAC experiments in Jurkat T cells and pY_Protein isolation by anti-pY antibodies{{/i}} (sic).</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -17,14 +17,16 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_up</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008849</field>
+        <field name="submitter">Mogjib Salek, et al.</field>
+        <field name="submitter_mail">mogjib.salek@path.ox.ac.uk</field>
+        <field name="submitter_affiliation">Dept. of Pathology, Oxford University, UK</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000265</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000245</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000286</field>
       </additional_fields>
     </entry>
   </entries>

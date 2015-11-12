@@ -2,13 +2,16 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900005178">
-      <name>GSNOJeremy</name>
-      <description>Not available</description>
-      <cross_references></cross_references>
+    <entry id="GPM32010000004">
+      <name>Factor Xa subsite mapping by proteome-derived peptide libraries improved using WebPICS, a resource for proteomic identification of cleavage sites</name>
+      <description>PRIDE ID: 17155. Data published as part of Biol Chem. 2011 392:1031-7 ([[http://www.ncbi.nlm.nih.gov/pubmed/21846260 PubMed]]). From Pride: {{i}}Factor Xa PICS with chymotryptic peptide library{{/i}}</description>
+      <cross_references>
+      <ref dbkey="21846260" dbname="pubmed"/>
+      <ref dbkey="17156" dbname="PRIDE"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,14 +20,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">rat</field>
-        <field name="publication">Not available</field>
+        <field name="species">human</field>
+        <field name="publication">21846260</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Guoqiang Xu</field>
-        <field name="submitter_mail">gux2002@med.cornell.edu</field>
-        <field name="submitter_affiliation">Weill Medical College of Cornell University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900005178</field>
+        <field name="submitter">Schilling O, et al.</field>
+        <field name="submitter_mail">oliver.schilling@mol-med.uni-freiburg.de </field>
+        <field name="submitter_affiliation">University of Freiburg</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010000004</field>
       </additional_fields>
     </entry>
   </entries>

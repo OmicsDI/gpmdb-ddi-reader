@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM00300008797">
-      <name>110411 phosphopeptide enrichment SIMAC vs TiO2-5</name>
-      <description>SIMAC Tio2 - first round stage tip</description>
+    <entry id="GPM00300006305">
+      <name>MDSC 683.02</name>
+      <description>Identification for proteomics class</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -21,10 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008797</field>
+        <field name="submitter">Aarthi Jayanthan</field>
+        <field name="submitter_mail">aajayant@ucalgary.ca</field>
+        <field name="submitter_affiliation">University of Calgary</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300006305</field>
       </additional_fields>
     </entry>
   </entries>

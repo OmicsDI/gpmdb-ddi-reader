@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100030382">
-      <name>CSF Redox proteomics</name>
-      <description>Oxidized human serum albumin</description>
+    <entry id="GPM32100030237">
+      <name>Altitude</name>
+      <description>Not available</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -21,10 +21,12 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Cato Brede</field>
-        <field name="submitter_mail">catob@extern.uio.no</field>
-        <field name="submitter_affiliation">Stavanger University Hospital</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030382</field>
+        <field name="submitter">Ryan</field>
+        <field name="submitter_mail">ryan.hill@ucdenver.edu</field>
+        <field name="submitter_affiliation">UCD</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030235</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030238</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030237</field>
       </additional_fields>
     </entry>
   </entries>

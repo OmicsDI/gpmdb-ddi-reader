@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900007840">
-      <name>PAe000389</name>
-      <description>TRANCHE KEY: 1a87un+7mrjV4nuAwmruqdzw1F3T95Cs2d8S22w0hc9oUBifW8HRnVLfhQz71IH7O9dRtn3l64GElnAdhwINVfVHHuQAAAAAAAAQzw== PeptideAtlas ID: PAe000389.</description>
+    <entry id="GPM32100040061">
+      <name>120427 Platelet_LPA</name>
+      <description>Not available</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -21,10 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Z. Sun</field>
+        <field name="submitter">Chengcheng Zhang</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">ISB</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007840</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100040061</field>
       </additional_fields>
     </entry>
   </entries>

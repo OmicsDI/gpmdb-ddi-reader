@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900009196">
-      <name>mTAL Phosphoproteome Data</name>
-      <description>TRANCHE KEY: F+7Jv1/Py0TMAp5w+spCDGMMJ06Ki965Ad1rsc0DVk457/LxujZziDhPKcYKUst960wKR+Jlsfv55OAG0caHw0l8d8oAAAAAAAAHsQ== Raw MS data from mTAL phosphoproteomic profiling and quantification project. Data file mTAL_hormone_02.RAW.</description>
+    <entry id="GPM32100049238">
+      <name>Interactome</name>
+      <description>Not available</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -17,16 +17,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">rat</field>
+        <field name="species">human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Trairak Pisitkun, et al.</field>
-        <field name="submitter_mail">pisitkut@nhlbi.nih.gov</field>
-        <field name="submitter_affiliation">NHLBI NIH</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009195</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009198</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009196</field>
+        <field name="cell_type">CL:0000182 hepatocyte</field>
+        <field name="submitter">supachai topanurak</field>
+        <field name="submitter_mail">supachai.top@mahidol.ac.th</field>
+        <field name="submitter_affiliation">Mahidol University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049238</field>
       </additional_fields>
     </entry>
   </entries>

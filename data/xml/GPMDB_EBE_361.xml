@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100035736">
-      <name>110415 phosphopeptide enrichment SIMAC+SCX</name>
-      <description>IMAC-9</description>
-      <cross_references></cross_references>
+    <entry id="GPM06600009523">
+      <name>Improved protein assembly with high discrimination peptide identification filtering.</name>
+      <description>TRANCHE KEY: YWBO1ZyYI+iVHh2TuYyv9jEOFbb4t4s5KKMABO12ui3BDStQt1/+9W/o3Wj2q1z+ziah9DDcMjZ3qaddV1hMgHvcrbwAAAAAAAAGZA== The files in directory were generated from human colon adenocarcinoma cells (DLD-1 cell line) by Patrick Halvey of the Ayers Institute at Vanderbilt University.  Proteins were reduced and alkylated using iodoacetamide.  Peptides were produced through trypsin digestion, and the 90-minute RPLC separations (including a one hour shallow gradient) were conducted on an LTQ-XL at the Ayers Institute.  Five centroided tandem mass spectra were collected following each MS scan. These data are described more thoroughly in the following: Ma, ZQ; Dasari, S; Chambers MC; Litton, MD;  Sobecki, SM; Zimmerman, LJ; Halvey, PJ; Schilling, B; Drake, PM; Gibson, BW; Tabb, DL.  IDPicker 2.0: Improved protein assembly with high discrimination peptide identification filtering.  J. Proteome Res. 2009, in press. Collection of these data was supported by U24 CA126479.</description>
+      <cross_references>
+      <ref dbkey="MSV000073294" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,29 +19,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_up</field>
+        <field name="species">human, Mycoplasma_penetrans, Mycoplasma_pulmonis</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter">Ma, Z. Q.</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035727</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035700</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035731</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035739</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035733</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035728</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035738</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035699</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035737</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035725</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035730</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035734</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035729</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035735</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035732</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035736</field>
+        <field name="submitter_affiliation">Vanderbilt University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009523</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100035619">
-      <name>110405 phosphopeptide enrichment Tio2-2</name>
-      <description>Not available</description>
-      <cross_references></cross_references>
+    <entry id="GPM10100155696">
+      <name>Quantitative proteomics of Fragile X Syndrome</name>
+      <description>TRANCHE KEY: 12V7/orkQAljfYnUjjHoduh7H8xraTuHV+ctG+iSK2ioiiwVg48AmF9g+mTTBUBqYjUQWVidOUQOjNJYhWQRBAtBZXkAAAAAAAAdOg== MS spectra in mzxml format was organized in three folders: 1. Heavy isotope labeling time course of 0, 7, 14, 18, 21 weeks 2. The first SILAC experiment of fmr1 WT and KO cortical neurons labeled with either heavy or light amino acids 3. The second SILAC experiment of fmr1 WT and KO cortical neurons labeled with either heavy or light amino acids. TimeCourse SILAC-D7</description>
+      <cross_references>
+      <ref dbkey="MSV000066113" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -20,11 +22,14 @@
         <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
+        <field name="cell_type">CL:0000540</field>
+        <field name="submitter">Not available</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035619</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155689</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155717</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155731</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155696</field>
       </additional_fields>
     </entry>
   </entries>

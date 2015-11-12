@@ -11,7 +11,6 @@ use DDI::GPMDB::XMLFile;
 # constructor
 sub new {
     my $class   = shift;
-    my $mongodb = shift;
     my $self    = { };
 
     bless($self, $class);
@@ -28,7 +27,7 @@ sub create_reference_files {
 	say "Processing directory $dir...";
 
   # instantiate parallel processing module
-  my $pm = Parallel::ForkManager->new(14, '/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp');
+  my $pm = Parallel::ForkManager->new(8, '/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp');
   my %responses = ();
   my @responses;
 
@@ -132,7 +131,7 @@ sub create_csv_file {
 
 	for my $m ( @reg ) {
 
-	say $out $m->{model}->{project}, "\t",
+	  say $out $m->{model}->{project}, "\t",
     $m->{model}->{pxd}, "\t",
     $m->{model}->{pubmed}, "\t",
     $m->{model}->{title}, "\t",
@@ -167,6 +166,17 @@ sub create_xml_files {
          push(@global_reg, $line);
        }
     }
+  }
+
+  # get tranche-to-massive mapping
+  my %t2m;
+  open( my $in, '<', 'data/tranche-to-massive.txt' ) or die "Cannot open tranche-to-massive mapping file";
+  while( my $line = <$in> ) {
+    chomp $line;
+    $line =~ s/\r//g;
+    $line =~ s/\s+/\t/g;
+    my ($m, $t) = split(/\t/, $line);
+    $t2m{$t} = $m;
   }
 
 	my %group;
@@ -204,9 +214,33 @@ sub create_xml_files {
       $xml->{institution}     = $terms[9] if $terms[9] ne "none";
       $xml->{name}            = $terms[10] if $terms[10] ne "none";
       $xml->{comment}         = $terms[11] if $terms[11] ne "none";
-      $xml->{massive}         = $terms[12] if $terms[12] ne "none";
       $xml->{pride}           = $terms[13] if $terms[13] ne "none";
-      #$xml->{tranche}        = $terms[14] if $terms[14] ne "none";
+
+      # convert tranche id to massive id
+      if ( defined($xml->{tranche}) && $xml->{tranche} ne "none" ) {
+        my $trancheid = $xml->{tranche};
+        $trancheid =~ s/\r//g;
+        $trancheid =~ s/\s+//g;
+
+        if ( exists($t2m{$trancheid}) ) {
+          $xml->{massive} = $t2m{$trancheid};
+        }
+      }
+
+      # reinforce pride attribution
+      if ( $xml->{comment} =~ m/PRIDE ID:\s(\d{1,6})/ig && $xml->{pride} eq "none" ) {
+        $xml->{pride} = $1;
+      }
+
+      # reinforce pubmed attribution
+      if ( $xml->{comment} =~ m/http\:\/\/www\.ncbi\.nlm\.nih\.gov\/pubmed\/(\d+) PubMed/ig && $xml->{pubmed} eq "none" ) {
+        $xml->{pubmed} = $1;
+      }
+
+      # reinforce peptide atlas attribution
+      if ( $xml->{comment} =~ m/PeptideAtlas ID: (PAe\d+)/ig && $xml->{pepatlas} eq "none") {
+        $xml->{pepatlas} = $1;
+      }
 
       push($xml->{models}, $terms[3]);
       $group{$key} = $xml;
@@ -227,9 +261,34 @@ sub create_xml_files {
 	    $xml->{institution}    = $terms[9];
 	    $xml->{name}           = $terms[10];
 	    $xml->{comment}        = $terms[11];
-	    $xml->{massive}        = $terms[12];
 	    $xml->{pride}          = $terms[13];
 	    $xml->{tranche}        = $terms[14];
+
+      # convert tranche id to massive id
+      if ( defined($xml->{tranche}) && $xml->{tranche} ne "none" ) {
+        my $trancheid = $xml->{tranche};
+        $trancheid =~ s/\r//g;
+        $trancheid =~ s/\s+//g;
+
+        if ( exists($t2m{$trancheid}) ) {
+          $xml->{massive} = $t2m{$trancheid};
+        }
+      }
+
+      # reinforce pride attribution
+      if ( $xml->{comment} =~ m/PRIDE ID:\s(\d{1,6})/ig && $xml->{pride} eq "none") {
+        $xml->{pride} = $1;
+      }
+
+      # reinforce pubmed attribution
+      if ( $xml->{comment} =~ /http\:\/\/www\.ncbi\.nlm\.nih\.gov\/pubmed\/(\d+) PubMed/ig && $xml->{pubmed} eq "none" ) {
+        $xml->{pubmed} = $1;
+      }
+
+      # reinforce peptide atlas attribution
+      if ( $xml->{comment} =~ m/PeptideAtlas ID\:\s(PAe\d+)/ig && $xml->{pepatlas} eq "none") {
+        $xml->{pepatlas} = $1;
+      }
 
       $group{$key} = $xml;
     }
@@ -277,7 +336,7 @@ sub print_xml {
 		say $xmlfile "      <name>$xml->{project}<\/name>";
 		say $xmlfile "      <description>$xml->{comment}<\/description>";
 
-    if ( $xml->{pxd} eq "none" && ($xml->{pubmed} eq "none" || $xml->{pubmed} eq "Not available") && $xml->{massive} eq "none" && $xml->{pride} eq "none") {
+    if ( $xml->{pxd} eq "none" && ($xml->{pubmed} eq "none" || $xml->{pubmed} eq "Not available") && $xml->{massive} eq "none" && $xml->{pride} eq "none" && $xml->{pepatlas} eq "none") {
         say $xmlfile "      <cross_references><\/cross_references>";
     } else {
         say $xmlfile "      <cross_references>";
@@ -285,6 +344,7 @@ sub print_xml {
         say $xmlfile "      <ref dbkey=\"$xml->{pubmed}\" dbname=\"pubmed\"\/>" if $xml->{pubmed} ne "Not available";
         say $xmlfile "      <ref dbkey=\"$xml->{massive}\" dbname=\"massive\"\/>" if $xml->{massive} ne "none";
         say $xmlfile "      <ref dbkey=\"$xml->{pride}\" dbname=\"PRIDE\"\/>" if $xml->{pride} ne "none";
+        say $xmlfile "      <ref dbkey=\"$xml->{pepatlas}\" dbname=\"PeptideAtlas\"\/>" if $xml->{pepatlas} ne "none";
         say $xmlfile "      <\/cross_references>";
 	  }
 

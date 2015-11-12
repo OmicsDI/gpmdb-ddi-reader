@@ -90,7 +90,7 @@ sub parse_model {
                   $self->{model}->{massive} = $1;
                 }
 
-                if ( $line =~ m/PRIDE ID: (\d{1,6}) / ) {
+                if ( $line =~ m/PRIDE ID:\s(\d{1,6})/ig ) {
                   $self->{model}->{pride} = $1;
                 }
 
@@ -202,7 +202,7 @@ sub parse_model {
             }
         }
     }
-    
+
     return $self;
 }
 

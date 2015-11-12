@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100033014">
-      <name>GTPase Lysate-1 20100731 mascot mgf (batch)</name>
-      <description>Not available</description>
-      <cross_references></cross_references>
+    <entry id="GPM32010012445">
+      <name>The NatB N-Acetylome: Substrate Specificity and Functional Insights</name>
+      <description>PRIDE ID: 16372 , From Pride: {{i}}Determing the substrate specificity and function of NatB using knockout with rescue and knockdown in yeast and human cells respectively.{{/i}}</description>
+      <cross_references>
+      <ref dbkey="16372" dbname="PRIDE"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -21,10 +23,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100033014</field>
+        <field name="submitter">Van Damme P, et al.</field>
+        <field name="submitter_mail">Petra.VanDamme@vib-ugent.be</field>
+        <field name="submitter_affiliation">VIB Department of Medical Protein Research</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012445</field>
       </additional_fields>
     </entry>
   </entries>

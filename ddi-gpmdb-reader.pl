@@ -49,7 +49,7 @@ GetOptions(
 open( my $param, '<', './ddi-gpmdb-params.txt' ) or die "Cannot open parameter file";
 while( my $line = <$param> ) {
   chomp $line;
-  if ( $line =~ m/data\_file\=data\/(.*)/ ) {
+  if ( $line =~ m/data_file=(.*)/ ) {
     $data = $1;
   } elsif( $line =~ m/ignore=(.*)/ ) {
     $ignore = $1;

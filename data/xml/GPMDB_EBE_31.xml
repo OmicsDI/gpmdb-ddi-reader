@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900004444">
-      <name>Protein Expression</name>
-      <description>Adh</description>
+    <entry id="GPM32100026264">
+      <name>HDL</name>
+      <description>HDL</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -17,14 +17,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast</field>
+        <field name="species">human_ipi</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">jeffrey silva</field>
-        <field name="submitter_mail">jeff_silva@waters.com</field>
-        <field name="submitter_affiliation">waters corporation</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900004444</field>
+        <field name="submitter">Not available</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">UW</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100026264</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005715">
-      <name>Boetzkes_et_al_2012_R20291_BHI_BR2</name>
-      <description>TRANCHE KEY: Ovi8i3rabjOqJBjgUr6azO1BkyKLAXukXDCZ6/q/KJviKjcfZiFT7MJ7lWxZhorsPe5+OFK4Bnlh4SBL724Yk5//D1EAAAAAAAACAA== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files R20291 BHI BR2{{/i}}</description>
-      <cross_references></cross_references>
+    <entry id="GPM32010006201">
+      <name>1D-LC-MS runs of unfractionated samples of proliferating and quiecsence S. pombe cells</name>
+      <description>TRANCHE KEY: rSK2uX3cA5h/YrSal0U3y6Y0VneHG7p3J6fdXWAeLYC6HbnIejsgoKTgUNZLWe2Q+GRNQcc+xogxlG723ayC88ONM1cAAAAAAAAClg== Original data file: A10-12030.mzXML, quiescense cells. From Tranche: {{i}}Unfractionated samples of proliferating and quiecsence S. pombe cells (3 biological replicates each){{/i}}</description>
+      <cross_references>
+      <ref dbkey="MSV000077240" dbname="massive"/>
+      </cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
       </dates>
@@ -17,14 +19,21 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="species">s_pombe</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Zeiser JJ, et al.</field>
-        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
-        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005715</field>
+        <field name="submitter">Schmidt A, et al.</field>
+        <field name="submitter_mail">alex.schmidt@unibas.ch</field>
+        <field name="submitter_affiliation">University of Basel</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006198</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006200</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006197</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006193</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006196</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006194</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006199</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006201</field>
       </additional_fields>
     </entry>
   </entries>

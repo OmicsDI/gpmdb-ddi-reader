@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-11</release_date>
+  <release_date>2015-10-12</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900007815">
-      <name>Study 8 - LTQ-OrbitrapO@65</name>
-      <description>TRANCHE KEY: J5gS/+eig0yeh2B/qwPnp8uqK1xt7MeRVKHIARpRO4GEDK6aqS9eG31rC70IOehpRL/FZdO7PcbJcfVf6OhMgl5zk2MAAAAAAAAEdA==  The Unbiased Discovery Working Group re-evaluated the yeast lysate sample without the requirement of an SOP. Each group was asked to produce three RPLC separations of the yeast sample at both high and low concentrations. The LTQ and Orbitrap instruments generated a broad range of identified peptides as groups used their own lab-specific protocols. Low_concentration_yeast.</description>
+    <entry id="GPM00300008849">
+      <name>110415 phosphopeptide enrichment SIMAC</name>
+      <description>IMAC fraction 1-12 merged</description>
       <cross_references></cross_references>
       <dates>
         <date type="submission" value="xx-xx-xx"/>
@@ -17,15 +17,14 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast, yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
+        <field name="species">human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">CPTAC</field>
+        <field name="submitter">Chengcheng Zhang</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">NCI NIH</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007814</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007815</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008849</field>
       </additional_fields>
     </entry>
   </entries>

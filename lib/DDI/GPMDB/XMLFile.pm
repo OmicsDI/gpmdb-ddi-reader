@@ -22,6 +22,7 @@ sub new {
       pubmed          =>  "none",
       pride           =>  "none",
       taxon           =>  "none",
+      pepatlas        =>  "none",
       models			    => [],
     };
 
