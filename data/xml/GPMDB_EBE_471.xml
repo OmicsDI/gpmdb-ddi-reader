@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM20100004344">
-      <name><%%></name>
-      <description>"TRANCHE KEY: NdiROUItX7k9z+ngRaecKK3ODAJZYeMJKFYoa/nUaCn+n8THzLxWAXsGpHnoff06snHMpGBtSKUtnZaIx2SAgBoaz2MAAAAAAAADGQ== From Tranche: {{i}} We obtained the Plasma data set from Christopher Becker, PPD, Inc. (Menlo Park, CA), now part of Caprion Proteomics. The sample is human blood plasma, depleted of 6 abundant proteins using a multiple-affinity removal system (Agilent), reduced, alkylated with iodoacetic acid, trypsin-digested, and analyzed by capillary LC-ESI-MS/MS (with 0.1% formic acid in the solvent) on a Thermo LTQ instrument. Cysteines are carboxymethylated.{{/i}}"</description>
+    <entry id="GPM10100153832">
+      <name>Coupled global and targeted proteomics of human embryonic stem cells during induced differentiation.</name>
+      <description>Mol Cell Proteomics. 2008 Apr;7(4):750-67.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,12 +21,26 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Marshall Bern</field>
-        <field name="submitter_mail">bern@parc.com</field>
-        <field name="submitter_affiliation">Palo Alto Research Center</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004345</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004343</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004344</field>
+        <field name="submitter">Yocum, AK et al</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">University of Michigan</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153819</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153834</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153829</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153820</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153818</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153822</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153825</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153830</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153833</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153835</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153828</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153826</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153821</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153831</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153824</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153827</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153832</field>
       </additional_fields>
     </entry>
   </entries>

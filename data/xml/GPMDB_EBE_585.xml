@@ -5,24 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM00300004858">
-      <name><%%></name>
-      <description>"opd00102_PROTS: The catalase dataset consists of the 20pmol of digested Bovine catalase (gi 115698). Trypsinized and carboxymethylated protein was purchased from MICHROM Bioresources. Tandem mass spec dataset was acquired via a continuous reverse phase elution off the BioBasic C18 column for 85min with the final acetonitrile concentration of 45%. The total number of acquired MS/MS scans is 2,357. "</description>
+    <entry id="GPM32100028097">
+      <name>090519_1</name>
+      <description>Not available</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">cow</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Ronald Beavis</field>
-        <field name="submitter_mail">rbeavis@thegpm.org</field>
-        <field name="submitter_affiliation">GPM</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300004856</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300004858</field>
+        <field name="submitter">Cordula</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028097</field>
       </additional_fields>
     </entry>
   </entries>

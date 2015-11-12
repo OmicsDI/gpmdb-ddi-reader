@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900005191">
-      <name><%%></name>
-      <description>"rs070201-11"</description>
+    <entry id="GPM00300016072">
+      <name>120224 SCX-IMAC-FT combined</name>
+      <description>1</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Robert Seward</field>
-        <field name="submitter_mail">rseward@partners.org</field>
-        <field name="submitter_affiliation">massachusetts general hospital</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900005191</field>
+        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300016072</field>
       </additional_fields>
     </entry>
   </entries>

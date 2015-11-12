@@ -5,33 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100163067">
-      <name><%%></name>
-      <description>"Anal Chem. 2008 Feb 15;80(4):961-71.  ([[http://www.ncbi.nlm.nih.gov/pubmed/18189369 PubMed]]). Control E. coli K12 cells."</description>
+    <entry id="GPM32100010419">
+      <name>Proteins</name>
+      <description>Not available</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">sprot_virus, Escherichia_coli_K_12_substr__MG1655</field>
+        <field name="species">nr</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Finney GL, Blackler AR, Hoopmann MR, Canterbury JD, Wu CC, MacCoss MJ</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Department of Genome Sciences, University of Washington</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163071</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163068</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163065</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163072</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163063</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163070</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163069</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163062</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163061</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163064</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100163067</field>
+        <field name="submitter">Mandy</field>
+        <field name="submitter_mail">ruby@hotmail.com</field>
+        <field name="submitter_affiliation">nyp</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100010419</field>
       </additional_fields>
     </entry>
   </entries>

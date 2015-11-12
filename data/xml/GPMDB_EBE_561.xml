@@ -5,23 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900008780">
-      <name><%%></name>
-      <description>"Data file: exp1reptrypsin (14N amino acids) TRANCHE KEY: f9XjmbCVZwessddnJXDrKqDBiGTCEoLvFvr2v0zKnl5+TpH29Un/pvJQscS4JCLh4IJEyr6f1yz/32CpHeORp2UTTgMAAAAAAAAKXw== Data from two biological replicates in yeast (each was disgested using trypsin and LysN) were analyzed. "</description>
+    <entry id="GPM32010005713">
+      <name>Boetzkes_et_al_2012_CD_196_BHI_BR1</name>
+      <description>TRANCHE KEY: gKUhaMZIAuK8k+Ks3z+aNKQP+rpfxqOLOY0BJbCyEMux4ZtrCtqEYz8LIw+ThmqTxMAzevAvDYPEvNOg3pVRwf+oxd4AAAAAAAAB/Q== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 196 BHI BR1{{/i}}</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
+        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Danny Navarro, et al.</field>
-        <field name="submitter_mail">j.d.navarro@uu.nl</field>
-        <field name="submitter_affiliation">NPC, Utrecht University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008780</field>
+        <field name="submitter">Zeiser JJ, et al.</field>
+        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
+        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005713</field>
       </additional_fields>
     </entry>
   </entries>

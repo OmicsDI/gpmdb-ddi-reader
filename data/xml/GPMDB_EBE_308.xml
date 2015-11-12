@@ -5,23 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM00300008131">
-      <name><%%></name>
-      <description>"PRIDE ID: 12915. Proteins of glycolysis, several related branching pathways, and common loading controls. IDOG Light labeling."</description>
+    <entry id="GPM31900007181">
+      <name>heart_micro</name>
+      <description>Data transfer from Peptide Atlas Pae000303. Mouse heart microsomal sample.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">mouse</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Patrick Murphy, et al.</field>
-        <field name="submitter_mail">pitter9@gmail.com</field>
-        <field name="submitter_affiliation">National Research Council, Canada</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008131</field>
+        <field name="submitter">Daniel Martin</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Institute for Systems Biology</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007181</field>
       </additional_fields>
     </entry>
   </entries>

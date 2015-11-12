@@ -5,23 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100014183">
-      <name><%%></name>
-      <description>"sdf"</description>
+    <entry id="GPM31900004435">
+      <name>Protein Expression - Parallel LCMS</name>
+      <description>ecoli - mix1 (bsa, adh, eno, phosb)</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_ipi</field>
+        <field name="species">Escherichia_coli_K12</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">dsfds</field>
-        <field name="submitter_mail">sdf@sfd.fr</field>
-        <field name="submitter_affiliation">sdf</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100014183</field>
+        <field name="submitter">jeffrey silva</field>
+        <field name="submitter_mail">jeff_silva@waters.com</field>
+        <field name="submitter_affiliation">waters corporation</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900004435</field>
       </additional_fields>
     </entry>
   </entries>

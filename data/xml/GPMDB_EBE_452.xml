@@ -5,23 +5,31 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005715">
-      <name><%%></name>
-      <description>"TRANCHE KEY: Ovi8i3rabjOqJBjgUr6azO1BkyKLAXukXDCZ6/q/KJviKjcfZiFT7MJ7lWxZhorsPe5+OFK4Bnlh4SBL724Yk5//D1EAAAAAAAACAA== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files R20291 BHI BR2{{/i}}"</description>
+    <entry id="GPM32100037572">
+      <name>cell_surface</name>
+      <description>Not available</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="species">human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Zeiser JJ, et al.</field>
-        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
-        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005715</field>
+        <field name="cell_type">CL:0000084 T cell</field>
+        <field name="submitter">Waltteri Hosia</field>
+        <field name="submitter_mail">scansystech@gmail.com</field>
+        <field name="submitter_affiliation">ScanSysTech/KI</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037569</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037573</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037567</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037571</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037568</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100037572</field>
       </additional_fields>
     </entry>
   </entries>

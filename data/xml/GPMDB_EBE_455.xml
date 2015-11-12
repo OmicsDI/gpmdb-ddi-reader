@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100023056">
-      <name><%%></name>
-      <description>"Sq Cell Ca Tumor"</description>
+    <entry id="GPM06600009687">
+      <name>PHF-tau trypsin digestion</name>
+      <description>TRANCHE KEY: Y297YWVSnnKcaY3jSnQkuCWj7tA1mls59uBBjjBpyqF5hOQ4lSmAuWNhvtdC1EQCsj5A7XFM0/3zj9YvVUIJlIuuwcoAAAAAAAABrA== Data appears to be from a linear quadrupole ion trap.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">lsandberg</field>
-        <field name="submitter_mail">lsandberg@llu.edu</field>
-        <field name="submitter_affiliation">Loma Linda University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100023056</field>
+        <field name="submitter">mentorwan</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009687</field>
       </additional_fields>
     </entry>
   </entries>

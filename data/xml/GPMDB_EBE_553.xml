@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010008829">
-      <name><%%></name>
-      <description>"Original data file: B_081205_25_G046L4_C10.mgf."</description>
+    <entry id="GPM32010008822">
+      <name>Human triplicate - raw data</name>
+      <description>TRANCHE KEY: ZqZiUrS98AyU1hYCu76AMNKtkl2x7soToeL8xMQtLoJnR+Oh48DRF7CBtO6hv+84dCFxqmXICpd/0R1UZXM6/IDApggAAAAAAAACWw== Original data file: 112111-Human-2h-02.mgf. From Tranche: {{i}}Human triplicate - raw data{{/i}}</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,16 +21,11 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Li R, et al.</field>
-        <field name="submitter_mail">rachel2005.li@gmail.com</field>
-        <field name="submitter_affiliation">QPG, IMCB, Singapore</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008827</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011034</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008830</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008831</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008828</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011033</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008829</field>
+        <field name="submitter">Moruz L, et al.</field>
+        <field name="submitter_mail">luminita.moruz@scilifelab.se</field>
+        <field name="submitter_affiliation">Stockholm University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008821</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008822</field>
       </additional_fields>
     </entry>
   </entries>

@@ -6,9 +6,12 @@
   <entry_count>1</entry_count>
   <entries>
     <entry id="GPM32100041754">
-      <name><%%></name>
-      <description>"Pak1"</description>
+      <name>121109</name>
+      <description>Pak1</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>

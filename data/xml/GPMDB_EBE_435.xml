@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010008727">
-      <name><%%></name>
-      <description>"TRANCHE KEY: oNBq7tFA2/2lHQUNY7nrGTBtAeiUV3VUnKTDSrMnwaOIArgwxHLQLzAS3tQIfkxyBTtleFn34alcVRBS6acUbvOex/AAAAAAAESnXA== Data set 1, original data file: F186791.mgf. Data published as part of Mol Cell Proteomics. 2012 Apr 10 ([[http://www.ncbi.nlm.nih.gov/pubmed/22496350 PubMed]]). From the Abstact: {{i}}Protein kinase D (PKD) is a cytosolic serine/threonine kinase implicated in regulation of several cellular processes such as response to oxidative stress, directed cell migration, invasion, differentiation and fission of the vesicles at the trans-Golgi network. Its variety of functions must be mediated by numerous substrates; however, only a couple of PKD substrates have been identified so far. Here we perform SILAC - based quantitative phosphoproteomic analysis to detect phosphorylation events dependent on PKD1 activity in human cells. We compare relative phosphorylation levels between constitutively active and kinase-dead PKD1 strains of HEK293 cells, both treated with nocodazole, a microtubule-depolymerizing reagent which disrupts the Golgi complex and activates PKD1.{{/i}}"</description>
+    <entry id="GPM32010006773">
+      <name>chr17 hancock non-ERBB2 expressing gastric cancer data N4T4</name>
+      <description>Data from [[ftp://ftp.proteomecentral.org/chr17/data/hancock/non_ERBB2_expressing_gastric_cancer_data N4T4 chr17 hancock non_ERBB2_expressing_gastric_cancer_data N4T4]]. Original data file: T4-5.mgf</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,26 +21,18 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Franz-Wachtel M, et al.</field>
-        <field name="submitter_mail">boris.macek@uni-tuebingen.de</field>
-        <field name="submitter_affiliation">Proteome Center Tuebingen, University of Tuebingen</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008741</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008736</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008728</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008742</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008735</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008732</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008729</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008731</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008734</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008738</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008739</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008740</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008733</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008730</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008726</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008725</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008727</field>
+        <field name="submitter">Hancock W, et al.</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">The Barnett Institute, Northeastern University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006769</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006771</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006767</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006770</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006764</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006766</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006768</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006765</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006773</field>
       </additional_fields>
     </entry>
   </entries>

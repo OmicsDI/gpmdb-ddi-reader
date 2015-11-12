@@ -5,23 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100035617">
-      <name><%%></name>
-      <description>"1mg of lysate"</description>
+    <entry id="GPM32010011035">
+      <name>Prediction and testing of biological networks underlying intestinal cancer.</name>
+      <description>PRIDE ID: 10638. Data published as part of PLoS One. 2010 5 pii: e12497 ([[http://www.ncbi.nlm.nih.gov/pubmed/20824133 PubMed]]). From the Abstract: {{i}}... To identify points of intersection between driver gene pathways, we implemented a network analysis framework using protein interactions to predict likely connections--both precedented and novel--between key driver genes in cancer. We applied the framework to find significant connections between two genes, Apc and Cdkn1a (p21), known to be synergistic in tumorigenesis in mouse models. We then assessed the functional coherence of the resulting Apc-Cdkn1a network by engineering in vivo single node perturbations of the network: mouse models mutated individually at Apc (Apc(1638N+/-)) or Cdkn1a (Cdkn1a(-/-)), followed by measurements of protein and gene expression changes in intestinal epithelial tissue ...{{/i}} </description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">mouse_female, Abelson_murine_leukemia_virus, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035617</field>
+        <field name="submitter">Patel VN, et al.</field>
+        <field name="submitter_mail">vxp43@case.edu </field>
+        <field name="submitter_affiliation">Center for Proteomics and Bioinformatics, Case Western Reserve University, Cleveland, Ohio</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011035</field>
       </additional_fields>
     </entry>
   </entries>

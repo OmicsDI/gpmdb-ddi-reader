@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900007675">
-      <name><%%></name>
-      <description>"TRANCHE KEY: ZEb8WJQd75/i4/POlusCyfWI7czMK+UT3kcIGy8P6caR3iYgUJdGR958BvUpwYS8v6Q56Pe1eiGKjK5H2Y8L/YG/A3kAAAAAAAAEDg== Gant-Branum, RL; Broussard, JA; Mahsut, A; Webb, DJ; McLean, JA.  J. Proteome Res.  2009, submitted. Human embryonic kidney (HEK) cells were transfected with FLAG-GFP-APPL1. After 36 h, cells were then incubated with 1 mM peroxovanadate and 50 nM calyculin A for 30 minutes and extracted. The lysates were precleared twice with mouse IgG-agarose and immunoprecipitated with FLAG-agarose (Sigma, St. Louis, MO) for 2 h at 4 degrees C. Samples were washed and FLAG tagged APPL1 was eluted by incubation of the beads with 0.2 mg/ml FLAG peptide in 25 mM Tris for 30 min at 4 degrees C. For MS analyses, APPL1 was separated into three equal aliquots and proteolytically digested by trypsin, chymotrypsin, and Glu C proteases, respectively. Proteolysis was quenched by adding 1 ul of neat formic acid. Subsequently, the digest was lyophilized and then reconstituted in 25 ul 0.1% formic acid. LTQ chymotrypsin sample."</description>
+    <entry id="GPM10100400004">
+      <name>Large data set analysis</name>
+      <description>Data from Thermo-Finnigan LTQ-Orbitrap.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +21,14 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">D. Tabb, et al.</field>
+        <field name="submitter">Adelina Rogowska-Wrzesinska</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Vanderbilt University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007675</field>
+        <field name="submitter_affiliation">Dept. of Biochemistry and Molecular Biology, Protein Research Group, U of Southern Denmark</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400005</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400000</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400002</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400003</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400004</field>
       </additional_fields>
     </entry>
   </entries>

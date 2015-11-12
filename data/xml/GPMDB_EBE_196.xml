@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900007597">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM00300003136">
+      <name>eIF3</name>
+      <description>Determination of phosphorylations in eIF3 complex</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Cordula</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007597</field>
+        <field name="submitter">Damoc</field>
+        <field name="submitter_mail">nedamoc@ucdavis.edu</field>
+        <field name="submitter_affiliation">UCDavis</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300003136</field>
       </additional_fields>
     </entry>
   </entries>

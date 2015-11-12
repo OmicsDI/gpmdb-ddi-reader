@@ -5,23 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100015756">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM31900007853">
+      <name>Comparative proteomics of male and female midguts using iTRAQ</name>
+      <description>TRANCHE KEY: dxbzAkpd/PG9tp03COhqFJLehfhKOAhFCMu7VeeUBcoMmAmiXKihlPH04yJBdrN87vuEwPAJ64OIc04uQlEhq8lai7QAAAAAAAAMZg== Spectra assigned using A. gambiae proteome.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_up</field>
+        <field name="species">mosquito</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Guoqiang Xu</field>
-        <field name="submitter_mail">gux2002@med.cornell.edu</field>
-        <field name="submitter_affiliation">Weill Medical College of Cornell University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100015756</field>
+        <field name="submitter">itskkumaran</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007853</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,23 +5,29 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100033344">
-      <name><%%></name>
-      <description>"C18*3"</description>
+    <entry id="GPM32010012083">
+      <name>Isolation and Proteomic Characterization of the Mouse Sperm Acrosomal Matrix</name>
+      <description>TRANCHE KEY: kLgCpMG61AQRPcKwA4JSCwedj9M0618nVfWyObpGuQBMAar0BuQlB77d/bkyUqCWrLnPDcuF6lKKRytyeV+rAb19oPsAAAAAAAAEiw== Original file name: Cauda_AM_Iso3_MudPIT.msf.mgf. From Tranche: {{i}}Guyonnet_et_al_Isolation and proteomic characterization of the mouse sperm acrosomal matrix{{/i}}</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">mouse, Abelson_murine_leukemia_virus, Ectromelia_virus, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100033344</field>
+        <field name="cell_type">CL:0000019 sperm</field>
+        <field name="submitter">Guyonnet B, et al.</field>
+        <field name="submitter_mail">benoit.guyonnet@live.fr</field>
+        <field name="submitter_affiliation">Texas Tech University Health Sciences Center</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012079</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012080</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012081</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012083</field>
       </additional_fields>
     </entry>
   </entries>

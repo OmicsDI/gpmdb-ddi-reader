@@ -5,23 +5,28 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005713">
-      <name><%%></name>
-      <description>"TRANCHE KEY: gKUhaMZIAuK8k+Ks3z+aNKQP+rpfxqOLOY0BJbCyEMux4ZtrCtqEYz8LIw+ThmqTxMAzevAvDYPEvNOg3pVRwf+oxd4AAAAAAAAB/Q== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 196 BHI BR1{{/i}}"</description>
+    <entry id="GPM31900009196">
+      <name>mTAL Phosphoproteome Data</name>
+      <description>TRANCHE KEY: F+7Jv1/Py0TMAp5w+spCDGMMJ06Ki965Ad1rsc0DVk457/LxujZziDhPKcYKUst960wKR+Jlsfv55OAG0caHw0l8d8oAAAAAAAAHsQ== Raw MS data from mTAL phosphoproteomic profiling and quantification project. Data file mTAL_hormone_02.RAW.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="species">rat</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Zeiser JJ, et al.</field>
-        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
-        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005713</field>
+        <field name="submitter">Trairak Pisitkun, et al.</field>
+        <field name="submitter_mail">pisitkut@nhlbi.nih.gov</field>
+        <field name="submitter_affiliation">NHLBI NIH</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009195</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009198</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009196</field>
       </additional_fields>
     </entry>
   </entries>

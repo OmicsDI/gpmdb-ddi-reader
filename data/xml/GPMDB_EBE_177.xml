@@ -5,28 +5,31 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100159855">
-      <name><%%></name>
-      <description>"TRANCHE KEY: CfNZIziiyviM9Lmjs8oACkOTmPamdyJeBfRCSuqyvDJcVTkkHy9ENCl9CvZLnic0R85ZMKBfHJz9iABXiaVvU6BtxB0AAAAAAAAfIw==  These data support the following publication in Genome Research: Mittler G, Butter F, Mann M. Genome Res. 2008 Nov 17. A SILAC-based DNA protein interaction screen that identifies candidate binding proteins to functional DNA elements [[http://genome.cshlp.org/content/early/2008/11/17/gr.081711.108.abstract doi:10.1101/gr.081711.108]]. MSM files from original dataset."</description>
+    <entry id="GPM31900007209">
+      <name>Kidney_Mito_UT</name>
+      <description>Data transfer from Peptide Atlas Pae000358. Mouse kidney mitochondrion sample.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">mouse</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Gerhard Mittler, Falk Butter and Matthias Mann</field>
+        <field name="submitter">Andrew Emili</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Max-Planck-Institute for Biochemistry and Immunology</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159849</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159854</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159850</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159852</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159853</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159855</field>
+        <field name="submitter_affiliation">University of Toronto</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007210</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007205</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007228</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007206</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007222</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007209</field>
       </additional_fields>
     </entry>
   </entries>

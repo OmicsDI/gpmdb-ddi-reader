@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100028614">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM31900007840">
+      <name>PAe000389</name>
+      <description>TRANCHE KEY: 1a87un+7mrjV4nuAwmruqdzw1F3T95Cs2d8S22w0hc9oUBifW8HRnVLfhQz71IH7O9dRtn3l64GElnAdhwINVfVHHuQAAAAAAAAQzw== PeptideAtlas ID: PAe000389.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Cordula</field>
+        <field name="submitter">Z. Sun</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028614</field>
+        <field name="submitter_affiliation">ISB</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007840</field>
       </additional_fields>
     </entry>
   </entries>

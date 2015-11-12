@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005818">
-      <name><%%></name>
-      <description>"TRANCHE KEY: M/mmTHUpXe8PXZAViYbG5qCL8+JsjLq7vliaPEsEJww8ydTnBKoyHf+6tloP5m8+BbsN4Xi1IOAu0G4/0RuHIuoBIWUAAAAAAAAClA== Original data file: Mudpit_SP_OA-4_Rezip_Frac26-30.RAW_(F025206).mgf. Data published as part of J Proteome Res. 2011 Dec 21 ([[http://www.ncbi.nlm.nih.gov/pubmed/22188163 PubMed]]). From the Abstract: {{i}}The current clinical methods of differentiating NOA cases from OA are indeterminate and often require surgical intervention for a conclusive diagnosis. We catalogued 2048 proteins in seminal plasma from men presented with NOA. Using spectral-counting we compared the NOA proteome to our previously published proteomes of fertile control men and post-vasectomy (PV) men and identified proteins at differential abundance levels amongst these clinical groups.{{/i}}"</description>
+    <entry id="GPM32010006638">
+      <name>chr17 hancock ERBB2 positive gastric cancer data N1T1</name>
+      <description>Data from [[ftp://ftp.proteomecentral.org/chr17/data/hancock/ERBB2_positive_gastric_cancer_data/N1T1 chr17 hancock ERBB2_positive_gastric_cancer_data N1T1]]. Original data file: GI_T1_1.mgf</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,20 +21,18 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Batruch I, et al.</field>
-        <field name="submitter_mail">ibatruch.acdclabs@gmail.com</field>
-        <field name="submitter_affiliation">Mount Sinai Hospital, University of Toronto</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005808</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005819</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005820</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005815</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005810</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005809</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005814</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005816</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005817</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005813</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005818</field>
+        <field name="submitter">Hancock W, et al.</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">The Barnett Institute, Northeastern University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006636</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006642</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006640</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006641</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006635</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006633</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006639</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006637</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006638</field>
       </additional_fields>
     </entry>
   </entries>

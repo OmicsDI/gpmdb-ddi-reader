@@ -5,23 +5,31 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005712">
-      <name><%%></name>
-      <description>"TRANCHE KEY: 2XzYu2CnopKVUKFvfVEVt5rHvLeEfo1JgcdIEZx5+kTwicPLbNOJvXTI9ZxGxpG5rOWwxMogm/njNXBSBLylxIV7YqUAAAAAAAAB/Q== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 196 BHI BR2{{/i}}"</description>
+    <entry id="GPM32010008782">
+      <name>Renal Transplant Urine Exosome Proteomics</name>
+      <description>TRANCHE KEY: RD+8p8/vHKT7QhWVYe0hMsVKKEZitqPGBgv60DDvoGuOQ1ZaGz6Bpgmy+o/2FSOe+Y4v1BfFtzlZcKEOJ43T7HwEVkUAAAAAAAAiHg== Experiment: LTQ_Orbitrap_XL_2nd_set, TI_LTQ_Orbitrap_XL_2nd_set, data file: folder summary. From Tranche: {{i}}Renal Transplant Urine Exosome Proteomics Orbitrap Velos Data{{/i}}</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="species">human, Escherichia_coli_K_12_substr__MG1655</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Zeiser JJ, et al.</field>
-        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
-        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005712</field>
+        <field name="submitter">Pisitkun T, et al.</field>
+        <field name="submitter_mail">pisitkut@nhlbi.nih.gov</field>
+        <field name="submitter_affiliation">NHLBI NIH</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008795</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008769</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008820</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008807</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008743</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008782</field>
       </additional_fields>
     </entry>
   </entries>

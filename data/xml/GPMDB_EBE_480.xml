@@ -5,26 +5,27 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100154753">
-      <name><%%></name>
-      <description>"TRANCHE KEY: OrreZEePlI1nNn+HcvxIt9AcDbzRAid6Q2hGrsFrWwWikMnPtbXKnxKiiaedM1ujAxRhECyWuswy7gJpTPikIxUOe38AAAAAAAAICQ== The files in directory were generated as part of the ABRF iPRG 2009 Study. The sample is E. coli lysate. Five of the runs contain an additional spike of E. coli proteins, comprising 10% of the sample. Proteins were reduced and alkylated by DTT and iodoacetamide, respectively. E. coli lysate was run partly into a gel, and in-gel digestion released the peptides from the gel. The protein spike was digested in-solution. The digested spike was added to the digested E. coli lysate proteins. In a collaboration between the Ayers Institute and Mass Spectrometry Research Center at Vanderbilt University Medical Center, these two separate samples were separated five times each in an RPLC/MS/MS experiment lasting 184 minutes (of which the shallow gradient lasted two hours ). The instrument collecting data was a Thermo LTQ-XL Orbitrap. Eight centroided tandem mass spectra were collected following each profile MS scan. The files contain, on average, 16,700 tandem mass spectra. Collection of these data was supported by U24 CA126479. "</description>
+    <entry id="GPM32100030590">
+      <name>091216</name>
+      <description>2h Platelet Releasate Stimulation</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">e_coli</field>
+        <field name="species">human_up</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">David Tabb </field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Vancerbilt University Medical Center</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154756</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154755</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154757</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154753</field>
+        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter_mail">chengcheng@brc.ubc.ca</field>
+        <field name="submitter_affiliation">The Biomedical Research Centre</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008533</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030590</field>
       </additional_fields>
     </entry>
   </entries>

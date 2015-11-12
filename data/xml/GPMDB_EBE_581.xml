@@ -5,30 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010006201">
-      <name><%%></name>
-      <description>"TRANCHE KEY: rSK2uX3cA5h/YrSal0U3y6Y0VneHG7p3J6fdXWAeLYC6HbnIejsgoKTgUNZLWe2Q+GRNQcc+xogxlG723ayC88ONM1cAAAAAAAAClg== Original data file: A10-12030.mzXML, quiescense cells. From Tranche: {{i}}Unfractionated samples of proliferating and quiecsence S. pombe cells (3 biological replicates each){{/i}}"</description>
+    <entry id="GPM31900009325">
+      <name>GTPase 6A-2 20100731 mascot mgf (batch)</name>
+      <description>Not available</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">s_pombe</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Schmidt A, et al.</field>
-        <field name="submitter_mail">alex.schmidt@unibas.ch</field>
-        <field name="submitter_affiliation">University of Basel</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006198</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006200</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006197</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006193</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006196</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006194</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006199</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006201</field>
+        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009325</field>
       </additional_fields>
     </entry>
   </entries>

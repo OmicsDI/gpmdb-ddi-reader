@@ -5,25 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100011076">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM31900005228">
+      <name>ESI-MS</name>
+      <description>Not available</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">ensp</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">mdy</field>
-        <field name="submitter_mail">rr@hotmail.com</field>
-        <field name="submitter_affiliation">nyp </field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100011079</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100011077</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100011076</field>
+        <field name="submitter">Tero</field>
+        <field name="submitter_mail">riipi@mappi.helsinki.fi</field>
+        <field name="submitter_affiliation">HY</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900005228</field>
       </additional_fields>
     </entry>
   </entries>

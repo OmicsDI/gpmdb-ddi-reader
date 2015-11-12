@@ -5,23 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900007399">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM10100155027">
+      <name>Mascot Percolator</name>
+      <description>Mascot Percolator data set 1.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human, human_up, human_ipi, hit, human_unigene, human_nr</field>
+        <field name="species">e_coli</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">CL:0000775 neutrophil</field>
-        <field name="submitter">Greg Luerman</field>
-        <field name="submitter_mail">Greg.Luerman@louisville.edu</field>
-        <field name="submitter_affiliation">University of Louisville</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007399</field>
+        <field name="cell_type">CL:0000034</field>
+        <field name="submitter">Mascot Percolator</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155027</field>
       </additional_fields>
     </entry>
   </entries>

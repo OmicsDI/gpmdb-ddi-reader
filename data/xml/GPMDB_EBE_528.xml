@@ -5,23 +5,30 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM00300016677">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM32010005664">
+      <name>Pex14p Interactome</name>
+      <description>TRANCHE KEY: GPVCapH1+93aiU4nI5ebxZRtnY5cnGnkrg7axnpxSm/6slBJmhiyBJ9pT9GAX9cTPZG2XYf9pRi1GB/yCBff7EC2/9QAAAAAAAHRug== Original data directory: AP-PM; data file: F44621032.mgf. SILAC measurement.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">cow</field>
+        <field name="species">yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Saralin Davis</field>
-        <field name="submitter_mail">saralindavis@gmail.com</field>
-        <field name="submitter_affiliation">UC San Diego</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300016677</field>
+        <field name="submitter">Oeljeklaus S, et al.</field>
+        <field name="submitter_mail">silke.oeljeklaus@biologie.uni-freiburg.de</field>
+        <field name="submitter_affiliation">University of Freiburg, Institute of Biology II</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005661</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005659</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005662</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005663</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005664</field>
       </additional_fields>
     </entry>
   </entries>

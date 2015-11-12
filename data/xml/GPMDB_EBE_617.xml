@@ -5,24 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010008824">
-      <name><%%></name>
-      <description>"TRANCHE KEY: CpQQAfZEh65p4EkUZBLZpCZ65K1PEw90EBt/j6pS/mnf+shkDfuK78+tLtHSRfIkyB0OnUGuusi/+gUx9XSy+p2pHxEAAAAAAAACXg== Original data file: 103111-Yeast-2hr-01.mgf. From Tranche: {{i}}Yeast triplicate - raw data{{/i}}"</description>
+    <entry id="GPM20100005309">
+      <name>Cross-linking a peptide ligand to VEGF</name>
+      <description>Not available</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1</field>
+        <field name="species">human, human_female</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Moruz L, et al.</field>
-        <field name="submitter_mail">luminita.moruz@scilifelab.se</field>
-        <field name="submitter_affiliation">Stockholm University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008825</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008824</field>
+        <field name="submitter">Bernadette V. Marquez</field>
+        <field name="submitter_mail">bmarquez@ucdavis.edu</field>
+        <field name="submitter_affiliation">UC Davis</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100005309</field>
       </additional_fields>
     </entry>
   </entries>

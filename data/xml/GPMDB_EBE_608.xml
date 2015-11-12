@@ -5,23 +5,44 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100033013">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM10100155549">
+      <name>ABRF iPRG 2009 E. coli subtractive analysis</name>
+      <description>TRANCHE KEY: MkB9t5kdzRte37ShP6e1QrAXLiv6kKhquHJjIq1Fbw5KQGt6QKn1nlCJGKcCQ01jCbYmTsi8Q0G1YrmeQD+jrhc4/EwAAAAAAAAKeA== The files in directory were generated as part of the ABRF iPRG 2009 Study. The sample is E. coli lysate. The five red RPLC runs lack the green set of proteins. The five yellow runs lack the blue set of proteins. Both red and yellow runs contain a spike of BSA to enable quantitative comparison among runs. Proteins were reduced and alkylated by DTT and iodoacetamide, respectively, and separated in a 1D gel. The proteins were trypsinized, and the peptides were added to thein-solution digest of BSA. In a collaboration between the Ayers Institute and Mass Spectrometry Research Center at Vanderbilt University Medical Center, the red and yellow samples were each separated five times in an RPLC/MS/MS experiment lasting 184 minutes (of which the shallow gradient lasted two hours ). The instrument collecting data was a Thermo LTQ-XL Orbitrap. Eight centroided tandem mass spectra were collected following each profile MS scan. Collection of these data was supported by U24 CA126479. Instrument: Thermo Fisher Scientific, LTQ-XL Orbitrap, nESI .</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">e_coli</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter">David L. Tabb</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100033013</field>
+        <field name="submitter_affiliation">Vanderbilt University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155557</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155566</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155553</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155550</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155558</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155552</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155554</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155563</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155555</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155551</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155569</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155564</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155556</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155560</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155562</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155568</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155565</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155567</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100155549</field>
       </additional_fields>
     </entry>
   </entries>

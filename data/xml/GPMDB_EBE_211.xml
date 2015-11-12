@@ -5,10 +5,13 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100028088">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM31900009409">
+      <name>Gastritis Gastric Juice Shotgun Digest</name>
+      <description>Sample: N1350. PRIDE ID: 12091.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,10 +21,11 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Cordula</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028088</field>
+        <field name="submitter">Cynthia Liang, et al.</field>
+        <field name="submitter_mail">dbslmyrc@nus.edu.sg </field>
+        <field name="submitter_affiliation">National University of Singapore</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009407</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009409</field>
       </additional_fields>
     </entry>
   </entries>

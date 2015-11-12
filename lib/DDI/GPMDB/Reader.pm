@@ -12,7 +12,7 @@ use DDI::GPMDB::XMLFile;
 sub new {
     my $class   = shift;
     my $mongodb = shift;
-    my $self  = { };
+    my $self    = { };
 
     bless($self, $class);
     return $self;
@@ -66,34 +66,34 @@ sub create_reference_files {
   DATA_LOOP:
   for my $file ( keys %files ) {
 
-      my $pid = $pm->start and next DATA_LOOP;
-      my $reg;
+    my $pid = $pm->start and next DATA_LOOP;
+    my $reg;
 
-      chomp $file;
+    chomp $file;
 
-      $file =~ m/GPM(\d{3})\d{5,15}/g;
-      my $folder = $1;
+    $file =~ m/GPM(\d{3})\d{5,15}/g;
+    my $folder = $1;
 
-      my $status_flag = 0;
-      if ( -e "$source/$folder/$file.xml.gz") {
+    my $status_flag = 0;
+    if ( -e "$source/$folder/$file.xml.gz") {
 
-          $status_flag = 1;
+        $status_flag = 1;
 
-      } else {
+    } else {
 
-          die "Unknown file format for $file";
-      }
+        die "Unknown file format for $file";
+    }
 
-      if ( $status_flag == 1 ) {
+    if ( $status_flag == 1 ) {
 
-          my $gz = IO::Zlib->new();
-          $gz->open("$source/$folder/$file.xml.gz","rb");
+        my $gz = IO::Zlib->new();
+        $gz->open("$source/$folder/$file.xml.gz","rb");
 
-          my $parser = DDI::GPMDB::Parser->new();
-          my $model = $parser->parse_model($gz);
-		      $reg = $model;
+        my $parser = DDI::GPMDB::Parser->new();
+        my $model = $parser->parse_model($gz);
+	      $reg = $model;
 
-      }
+    }
 
     $pm->finish(0, \$reg);
 
@@ -103,8 +103,8 @@ sub create_reference_files {
   say "Creating reference files";
   create_csv_file($dir, \@responses);
 
-#say "Grouping and printing XML files";
-#create_xml_files($dir);
+  #say "Grouping and printing XML files";
+  #create_xml_files($dir);
 
   return;
 }
@@ -182,27 +182,31 @@ sub create_xml_files {
 			next;
 		}
 
+    # using project name as hash key for grouping
+    # this function keeps checking if all the modules with the same project name have
+    # different information instead of 'none', if they do, this information is ported to
+    # the object. This is necessary because the information is fragmented through out the models
 		my $key = "$terms[0]";
 
     if ( exists($group{$key}) ) {
 
       my $xml = $group{$key};
 
-      $xml->{project} = $terms[0] if $terms[0] ne "none";
-      $xml->{pxd} = $terms[1] if $terms[1] ne "none";
-      $xml->{pubmed} = $terms[2] if $terms[2] ne "none";
-      $xml->{title} = $terms[3] if $terms[3] ne "none";
-      $xml->{taxon} = $terms[4] if $terms[4] ne "none";
-      $xml->{brenda_tissue} = $terms[5] if $terms[5] ne "none";
-      $xml->{cell_type} = $terms[6] if $terms[6] ne "none";
-      $xml->{email} = $terms[7] if $terms[7] ne "none";
-      $xml->{go_subcell} = $terms[8] if $terms[8] ne "none";
-      $xml->{institution} = $terms[9] if $terms[9] ne "none";
-      $xml->{name} = $terms[10]if $terms[10] ne "none";
-      $xml->{comment} = $terms[11] if $terms[11] ne "none";
-      $xml->{massive} = $terms[12] if $terms[12] ne "none";
-      $xml->{pride} = $terms[13] if $terms[13] ne "none";
-      #$xml->{tranche} = $terms[14] if $terms[14] ne "none";
+      $xml->{project}         = $terms[0] if $terms[0] ne "none";
+      $xml->{pxd}             = $terms[1] if $terms[1] ne "none";
+      $xml->{pubmed}          = $terms[2] if $terms[2] ne "none";
+      $xml->{title}           = $terms[3] if $terms[3] ne "none";
+      $xml->{taxon}           = $terms[4] if $terms[4] ne "none";
+      $xml->{brenda_tissue}   = $terms[5] if $terms[5] ne "none";
+      $xml->{cell_type}       = $terms[6] if $terms[6] ne "none";
+      $xml->{email}           = $terms[7] if $terms[7] ne "none";
+      $xml->{go_subcell}      = $terms[8] if $terms[8] ne "none";
+      $xml->{institution}     = $terms[9] if $terms[9] ne "none";
+      $xml->{name}            = $terms[10] if $terms[10] ne "none";
+      $xml->{comment}         = $terms[11] if $terms[11] ne "none";
+      $xml->{massive}         = $terms[12] if $terms[12] ne "none";
+      $xml->{pride}           = $terms[13] if $terms[13] ne "none";
+      #$xml->{tranche}        = $terms[14] if $terms[14] ne "none";
 
       push($xml->{models}, $terms[3]);
       $group{$key} = $xml;
@@ -211,21 +215,21 @@ sub create_xml_files {
 
       my $xml = DDI::GPMDB::XMLFile->new();
 
-      $xml->{project} = $terms[0];
-      $xml->{pxd} = $terms[1];
-      $xml->{pubmed} = $terms[2];
-	    $xml->{title} = $terms[3];
-	    $xml->{taxon} = $terms[4];
-	    $xml->{brenda_tissue} = $terms[5];
-	    $xml->{cell_type} = $terms[6];
-	    $xml->{email} = $terms[7];
-	    $xml->{go_subcell} = $terms[8];
-	    $xml->{institution} = $terms[9];
-	    $xml->{name} = $terms[10];
-	    $xml->{comment} = $terms[11];
-	    $xml->{massive} = $terms[12];
-	    $xml->{pride} = $terms[13];
-	    $xml->{tranche} = $terms[14];
+      $xml->{project}        = $terms[0];
+      $xml->{pxd}            = $terms[1];
+      $xml->{pubmed}         = $terms[2];
+	    $xml->{title}          = $terms[3];
+	    $xml->{taxon}          = $terms[4];
+	    $xml->{brenda_tissue}  = $terms[5];
+	    $xml->{cell_type}      = $terms[6];
+	    $xml->{email}          = $terms[7];
+	    $xml->{go_subcell}     = $terms[8];
+	    $xml->{institution}    = $terms[9];
+	    $xml->{name}           = $terms[10];
+	    $xml->{comment}        = $terms[11];
+	    $xml->{massive}        = $terms[12];
+	    $xml->{pride}          = $terms[13];
+	    $xml->{tranche}        = $terms[14];
 
       $group{$key} = $xml;
     }
@@ -251,14 +255,14 @@ sub print_xml {
 
 		my $filename = "data/xml/GPMDB_EBE_".$counter.".xml";
 
-    $xml->{pubmed} = "Not available" if $xml->{pubmed} eq "none";
-    $xml->{taxon} = "Not available" if $xml->{taxon} eq "none";
+    $xml->{pubmed}        = "Not available" if $xml->{pubmed} eq "none";
+    $xml->{taxon}         = "Not available" if $xml->{taxon} eq "none";
     $xml->{brenda_tissue} = "Not available" if $xml->{brenda_tissue} eq "none";
-    $xml->{cell_type} = "Not available" if $xml->{cell_type} eq "none";
-    $xml->{email} = "Not available" if $xml->{email} eq "none";
-    $xml->{institution} = "Not available" if $xml->{institution} eq "none";
-    $xml->{name} = "Not available" if $xml->{name} eq "none";
-    $xml->{comment} = "Not available" if $xml->{comment} eq "none";
+    $xml->{cell_type}     = "Not available" if $xml->{cell_type} eq "none";
+    $xml->{email}         = "Not available" if $xml->{email} eq "none";
+    $xml->{institution}   = "Not available" if $xml->{institution} eq "none";
+    $xml->{name}          = "Not available" if $xml->{name} eq "none";
+    $xml->{comment}       = "Not available" if $xml->{comment} eq "none";
 
 		open( my $xmlfile, '>', $filename) or die "Cannot create XML file";
 
@@ -270,8 +274,8 @@ sub print_xml {
 		say $xmlfile "  <entry_count>1</entry_count>";
 		say $xmlfile "  <entries>";
 		say $xmlfile "    <entry id=\"$xml->{title}\">";
-		say $xmlfile "      <name><%%><\/name>";
-		say $xmlfile "      <description>\"$xml->{comment}\"<\/description>";
+		say $xmlfile "      <name>$xml->{project}<\/name>";
+		say $xmlfile "      <description>$xml->{comment}<\/description>";
 
     if ( $xml->{pxd} eq "none" && ($xml->{pubmed} eq "none" || $xml->{pubmed} eq "Not available") && $xml->{massive} eq "none" && $xml->{pride} eq "none") {
         say $xmlfile "      <cross_references><\/cross_references>";
@@ -283,6 +287,10 @@ sub print_xml {
         say $xmlfile "      <ref dbkey=\"$xml->{pride}\" dbname=\"PRIDE\"\/>" if $xml->{pride} ne "none";
         say $xmlfile "      <\/cross_references>";
 	  }
+
+    say $xmlfile "      <dates>";
+    say $xmlfile "        <date type=\"submission\" value=\"xx-xx-xx\"\/>";
+    say $xmlfile "      </dates>";
 
     say $xmlfile "      <additional_fields>";
     say $xmlfile "        <field name=\"omics_type\">Proteomics</field>";

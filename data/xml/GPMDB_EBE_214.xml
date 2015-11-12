@@ -5,23 +5,32 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM06600009687">
-      <name><%%></name>
-      <description>"TRANCHE KEY: Y297YWVSnnKcaY3jSnQkuCWj7tA1mls59uBBjjBpyqF5hOQ4lSmAuWNhvtdC1EQCsj5A7XFM0/3zj9YvVUIJlIuuwcoAAAAAAAABrA== Data appears to be from a linear quadrupole ion trap."</description>
+    <entry id="GPM32010003131">
+      <name>phosphopeptide 6</name>
+      <description>TRANCHE KEY: 1iN3F54GXsWFP95ZDWXXW+x7JeNVDPDUif//0IKWVk6v4cJ8dVFU4lj9A59DPDlv+rlKBfm32q+Bz/4Owd6LUcfSLL8AAAAAAAABhQ== Data file name: exp5-phosphopeptides-5.mgf.</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">mouse, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">mentorwan</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009687</field>
+        <field name="submitter">Looso M, et al.</field>
+        <field name="submitter_mail">marcus.krueger@mpi-bn.mpg.de</field>
+        <field name="submitter_affiliation">Heart and Lung Research, Max-Planck-Institute</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003134</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003127</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003129</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003133</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003128</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003130</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003131</field>
       </additional_fields>
     </entry>
   </entries>

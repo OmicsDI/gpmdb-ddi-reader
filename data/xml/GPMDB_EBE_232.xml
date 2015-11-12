@@ -5,29 +5,26 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100153991">
-      <name><%%></name>
-      <description>"TRANCHE KEY: wx6Md0EDEKdgYAJAEz8/hEm34SBzmAniSn5vM8K//F6LnUIAofmGeK+ypdyxjs9ROr047eGbrbiNXgzfKs5AX2eLtOMAAAAAAAAJEQ== Amy Ham and Kristin Cheek processed these yeast samples at the VUMC Mass Spectrometry Research Center Proteomics Core. Whole cell extracts of S. cerevisiae were reduced and alkylated by DTT and IAA, digested with trypsin, and subjected to 184-minute RPLC separations en route to a Thermo LTQ Orbitrap tandem mass spectrometer. The instrument was set to capture profile MS scans in the Orbitrap and centroid MS/MS scans in the LTQ. Three different sets of files comprise the set; two triplicate runs were generated on 6/24/07, and duplicate files were generated on 7/24/07. These three sets differ slightly in their Dynamic Exclusion settings. These RAW files average just over 13,000 tandem mass spectra each. Eight MS/MS scans were collected for each MS scan. "</description>
+    <entry id="GPM00300016928">
+      <name>Snowmass Locality</name>
+      <description>Bison Latifrons</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast</field>
+        <field name="species">cow, horse</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Amy Ham and Kristin Creek</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">VUMC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153990</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153989</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153992</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153996</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153994</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153995</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100153991</field>
+        <field name="submitter">Kirk Hansen</field>
+        <field name="submitter_mail">kirk.hansen@ucdenver.edu</field>
+        <field name="submitter_affiliation">UC Denver</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300016928</field>
       </additional_fields>
     </entry>
   </entries>

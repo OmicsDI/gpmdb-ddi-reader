@@ -5,10 +5,15 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100028093">
-      <name><%%></name>
-      <description>"Not available"</description>
-      <cross_references></cross_references>
+    <entry id="GPM31900008089">
+      <name>Low abundance proteome of human red blood cells captured by combinatorial peptide libraries. Behavior of mono- to hexapeptides</name>
+      <description>PRIDE ID: 10052 [[http://www.ncbi.nlm.nih.gov/pubmed/18399644 PubMed 18399644]] Anal Chem 80(2008)3547. </description>
+      <cross_references>
+      <ref dbkey="10052" dbname="PRIDE"/>
+      </cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -17,11 +22,22 @@
         <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Cordula</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028093</field>
+        <field name="cell_type">CL:0000232 erythrocyte</field>
+        <field name="submitter">Sim C, Bachi A, Cattaneo A, Guerrier L, Fortis F, Boschetti E, Podtelejnikov A, Righetti PG.</field>
+        <field name="submitter_mail">alpi.emanuele@hsr.it, cattaneo.angela@hsr.it</field>
+        <field name="submitter_affiliation">San Raffaele Scientific Institute</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009628</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009627</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009625</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009623</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009624</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008092</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008086</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008088</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008091</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008090</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008087</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008089</field>
       </additional_fields>
     </entry>
   </entries>

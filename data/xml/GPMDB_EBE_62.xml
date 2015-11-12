@@ -5,23 +5,27 @@
   <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100028087">
-      <name><%%></name>
-      <description>"Not available"</description>
+    <entry id="GPM31900009036">
+      <name>Data_12 - Pseudomonas aeruginosa - Orbitrap - strain PA14, cell lysate </name>
+      <description>Data obtained from the [[http://www.marcottelab.org/MSdata/Data_12/ authors website]]. Data file: 20090115_SMPA14_3.RAW. From the website: {{i}}Bacterial strains and growth. Pseudomonas aeruginosa UCBPP-PA14 was grown in Synthetic Cystic Fibrosis sputum medium (SCFM), which mimics the nutritional environment of the cystic fibrosis lung and has been previously described (Palmer, 2007). Bacterial growth in liquid media was monitored by measuring the optical density at 600 nm (OD600) during growth at 37with shaking at 250 rpm,m and cells were harvested at an OD600 of 0.4 to 0.5. We performed two biological replications for each experiment. Proteomics experiments. We harvested P. aeruginosa UCBPP-PA14 under the same conditions as described above. After cell lysis with a French press, we spun down cell debris twice (10,000 rpm, 20 min, 4, then removed the supernatant (soluble lysates).{{/i}}</description>
       <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="xx-xx-xx"/>
+      </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">Pseudomonas_aeruginosa, Pseudomonas_aeruginosa_LESB58, Pseudomonas_aeruginosa_PA7, Pseudomonas_aeruginosa_UCBPP-PA14</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Cordula</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028087</field>
+        <field name="submitter">Taejoon Kwon, et al.</field>
+        <field name="submitter_mail">taejoon.kwon@mail.utexas.edu</field>
+        <field name="submitter_affiliation">UT Austin, Austin, Texas USA</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009037</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009036</field>
       </additional_fields>
     </entry>
   </entries>
