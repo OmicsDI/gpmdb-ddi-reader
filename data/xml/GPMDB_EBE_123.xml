@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900005246">
+    <entry id="GPM32100039624">
       <name><%%></name>
-      <description>"fdasgsdb"</description>
+      <description>"13 March 2012"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -18,10 +18,12 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">dfg</field>
-        <field name="submitter_mail">fgdf@fsdgf.com</field>
-        <field name="submitter_affiliation">dfg</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900005246</field>
+        <field name="submitter">Jane O&quot;Hara`</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039596</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039597</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100039624</field>
       </additional_fields>
     </entry>
   </entries>

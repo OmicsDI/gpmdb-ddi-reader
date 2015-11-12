@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100044799">
+    <entry id="GPM00300008799">
       <name><%%></name>
-      <description>"GDP"</description>
+      <description>"SIMAC Tio2- second round stage tip"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -21,7 +21,7 @@
         <field name="submitter">Chengcheng Zhang</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100044799</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008799</field>
       </additional_fields>
     </entry>
   </entries>

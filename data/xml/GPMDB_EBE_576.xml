@@ -2,37 +2,31 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010003247">
+    <entry id="GPM10100160061">
       <name><%%></name>
-      <description>"TRANCHE KEY: XG1KhLQNdx7DmhniG8CwzQZuJ9+Y3MBtg5BTl/koC7IwoZCZQeHV7+URagh6XVncMHI7K/a9Eut3BjFzHDQkwiW+r8gAAAAAAAAVvg== Original data file: DENT-mammoth-ALL.msm. Data published as part of J Proteome Res. 2011 Dec 14 ([[http://www.ncbi.nlm.nih.gov/pubmed/22103443 PubMed]]). Reanalysis for non-specific cleavage. From the Abstract: {{i}}We used high-sensitivity, high-resolution tandem mass spectrometry to shotgun sequence ancient protein remains extracted from a 43,000 year old woolly mammoth (Mammuthus primigenius) bone preserved in the Siberian permafrost. {{/i}} "</description>
+      <description>"Data transfer from Peptide Atlas Pae000373. Mouse brain cytoplasm sample."</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Loxodonta_africana</field>
+        <field name="species">mouse</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Cappellini E, et al.</field>
+        <field name="submitter">Andrew Emili</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Centre for GeoGenetics, Natural History Museum of Denmark, University of Copenhagen</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003236</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003237</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003249</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003250</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003222</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003239</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003248</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003223</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003238</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003225</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003240</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010003247</field>
+        <field name="submitter_affiliation">University of Toronto</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160062</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160067</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160064</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160063</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160065</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100160061</field>
       </additional_fields>
     </entry>
   </entries>

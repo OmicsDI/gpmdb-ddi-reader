@@ -2,29 +2,33 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900007200">
+    <entry id="GPM32010006201">
       <name><%%></name>
-      <description>"Data transfer from Peptide Atlas Pae000353. Mouse heart mitochondrion sample."</description>
+      <description>"TRANCHE KEY: rSK2uX3cA5h/YrSal0U3y6Y0VneHG7p3J6fdXWAeLYC6HbnIejsgoKTgUNZLWe2Q+GRNQcc+xogxlG723ayC88ONM1cAAAAAAAAClg== Original data file: A10-12030.mzXML, quiescense cells. From Tranche: {{i}}Unfractionated samples of proliferating and quiecsence S. pombe cells (3 biological replicates each){{/i}}"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse</field>
+        <field name="species">s_pombe</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Andrew Emili</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">University of Toronto</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007201</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007194</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007198</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007200</field>
+        <field name="submitter">Schmidt A, et al.</field>
+        <field name="submitter_mail">alex.schmidt@unibas.ch</field>
+        <field name="submitter_affiliation">University of Basel</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006198</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006200</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006197</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006193</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006196</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006194</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006199</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006201</field>
       </additional_fields>
     </entry>
   </entries>

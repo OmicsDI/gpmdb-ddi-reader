@@ -2,109 +2,42 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100400367">
+    <entry id="GPM32010011587">
       <name><%%></name>
-      <description>"TRANCHE KEY: 3PbXGkfuNwNLOqLgJUCoIqVMHrJhEnDm1oKNJGSrKRb4+sCYwg0568vbW6UJRdiK3jn2cgDj7IldFTIX3kA0K37+ND0AAAAAAAAtfg== 4 MudPIT runs were compared to 4 OFFGEL runs. Samples were from C2C12 mouse skeletal muscle cells. Samples were silica-bead enriched cell-surface fractions. Data set: C2C12_MudPIT3"</description>
+      <description>"PRIDE ID: 19298, Proteomic analysis of alpha4beta1 integrin adhesion complexes. Data published as part of Proteomics 2012 May 23 ([[http://www.ncbi.nlm.nih.gov/pubmed/22623428 PubMed]]). From the Abstract: {{i}}... Here, we report the isolation of ligand-induced adhesion complexes associated with wild-type alpha-4-beta-1 integrin, an activated ?4?1 variant in the absence of the ? cytoplasmic domain (X4C0) and a chimeric alpha-4-beta-1 variant with beta-5 leg and cytoplasmic domains (alpha-4P-alpha-5L), and the cataloguing of their proteomes by MS ... {{/i}}"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse</field>
+        <field name="species">human_female, Human_adenovirus_54, Human_adenovirus_A, Human_adenovirus_B, Human_adenovirus_C, Human_adenovirus_D, Human_adenovirus_E, Human_adenovirus_F, Human_adenovirus_G, Human_astrovirus, Human_bocavirus, Human_bocavirus_2, Human_bocavirus_3, Human_bocavirus_4, Human_coronavirus_229E, Human_coronavirus_HKU1, Human_coronavirus_NL63, Human_coronavirus_OC43, Human_cosavirus_A, Human_cosavirus_B, Human_cosavirus_D, Human_cosavirus_E, Human_enteric_coronavirus_4408, Human_enterovirus_100, Human_enterovirus_A, Human_enterovirus_B, Human_enterovirus_C, Human_enterovirus_D, Human_erythrovirus_V9, Human_herpesvirus_1, Human_herpesvirus_2, Human_herpesvirus_3, Human_herpesvirus_4_type_1, Human_herpesvirus_4_type_2, Human_herpesvirus_5, Human_herpesvirus_6A, Human_herpesvirus_6B, Human_herpesvirus_7, Human_herpesvirus_8_type_P, Human_immunodeficiency_virus_1, Human_immunodeficiency_virus_2, Human_metapneumovirus, Human_papillomavirus_FA75_KI88_03, Human_papillomavirus_RTRX7, Human_papillomavirus_type_10, Human_papillomavirus_type_100, Human_papillomavirus_type_101, Human_papillomavirus_type_103, Human_papillomavirus_type_104, Human_papillomavirus_type_105, Human_papillomavirus_type_108, Human_papillomavirus_type_109, Human_papillomavirus_type_112, Human_papillomavirus_type_113, Human_papillomavirus_type_16, Human_papillomavirus_type_24, Human_papillomavirus_type_26, Human_papillomavirus_type_32, Human_papillomavirus_type_34, Human_papillomavirus_type_4, Human_papillomavirus_type_41, Human_papillomavirus_type_48, Human_papillomavirus_type_49, Human_papillomavirus_type_5, Human_papillomavirus_type_50, Human_papillomavirus_type_53, Human_papillomavirus_type_60, Human_papillomavirus_type_63, Human_papillomavirus_type_6b, Human_papillomavirus_type_7, Human_papillomavirus_type_71, Human_papillomavirus_type_88, Human_papillomavirus_type_9, Human_papillomavirus_type_92, Human_papillomavirus_type_96, Human_papillomavirus_type_98, Human_papillomavirus_type_99, Human_papillomavirus___1, Human_papillomavirus___18, Human_papillomavirus___2, Human_papillomavirus___54, Human_papillomavirus___61, Human_papillomavirus___cand90, Human_parainfluenza_virus_1, Human_parainfluenza_virus_2, Human_parainfluenza_virus_3, Human_parechovirus, Human_parvovirus_4, Human_parvovirus_B19, Human_picobirnavirus, Human_respiratory_syncytial_virus, Human_rhinovirus_A, Human_rhinovirus_B, Human_rhinovirus_C, Human_TMEV_like_cardiovirus, Human_T_lymphotropic_virus_1, Human_T_lymphotropic_virus_2, Human_T_lymphotropic_virus_4</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Kislinger Lab</field>
+        <field name="submitter">Byron A, et al.</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">University of Toronto</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400340</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400431</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400345</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400386</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400392</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400419</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400415</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400338</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400409</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400399</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400438</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400391</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400383</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400380</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400339</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400397</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400403</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400364</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400420</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400344</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400422</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400426</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400418</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400428</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400337</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400412</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400433</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400394</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400384</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400423</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400395</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400421</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400413</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400347</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400385</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400379</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400381</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400390</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400404</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400341</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400371</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400387</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400430</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400411</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400402</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400439</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400376</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400434</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400410</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400389</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400346</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400377</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400400</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400417</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400407</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400425</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400429</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400435</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400363</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400436</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400416</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400437</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400378</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400368</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400382</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400408</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400432</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400373</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400372</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400369</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400374</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400365</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400342</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400388</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400348</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400405</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400398</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400343</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400370</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400424</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400406</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400393</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400366</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100400367</field>
+        <field name="submitter_affiliation">Wellcome Trust Centre for Cell-Matrix Research, Faculty of Life Sciences, University of Manchester, Manchester</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011579</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011581</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011582</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011574</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011576</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011588</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011585</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011583</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011584</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011580</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011575</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011586</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011573</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011590</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011578</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011589</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011587</field>
       </additional_fields>
     </entry>
   </entries>

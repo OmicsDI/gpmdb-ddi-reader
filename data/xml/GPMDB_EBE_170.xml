@@ -2,13 +2,15 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010008625">
+    <entry id="GPM32010011550">
       <name><%%></name>
-      <description>"TRANCHE KEY: JKfKGUfOV1ac5d5ysSokBvLv3ZHf+SUVb/UWqHxM2ZD8sD/8A3Kn/Fo31vr6bIedWgoy5rVr3Ge9wh1vxkd3YB9qXeMAAAAAAAALvA== Original experiment: 48_Hr, data file: S_SCX-48_Hr-8.mgf. From Tranche: {{i}}.Raw files of temporally-stimulated OVCAR-3 cell with EGF and/or LY294002_Marzinke et al 2012 manuscript{{/i}}. ATCC description of [[http://www.atcc.org/ATCCAdvancedCatalogSearch/ProductDetails/tabid/452/Default.aspx?ATCCNum=HTB-161&Template=cellBiology OVCAR-3 cells]]."</description>
-      <cross_references></cross_references>
+      <description>"PRIDE ID: 15475 Data published as part of Biochem J. 2011 437:431-42 ([[http://www.ncbi.nlm.nih.gov/pubmed/21564021 PubMed]]).From the Abstract: {{i}}... In the present study, we show that hGrM and mGrM have diverged during evolution. Positional scanning libraries of tetrapeptide substrates revealed that mGrM is preferred to cleave after a methionine residue, whereas hGrM clearly favours a leucine residue at the P1 position ...{{/i}}"</description>
+      <cross_references>
+      <ref dbkey="15475" dbname="PRIDE"/>
+      </cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
@@ -18,35 +20,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Marzinke MA, et al.</field>
-        <field name="submitter_mail">mmarzin1@jhmi.edu</field>
-        <field name="submitter_affiliation">Johns Hopkins Medical Institutions</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008609</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008612</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008619</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008606</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008621</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008610</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008600</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008622</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008608</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008615</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008605</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008607</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008626</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008613</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008620</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008623</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008618</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008602</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008611</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008604</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008614</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008624</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008601</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008617</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008616</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010008625</field>
+        <field name="submitter">de Poot SA, et al.</field>
+        <field name="submitter_mail">kim.plasman@vib-ugent.be </field>
+        <field name="submitter_affiliation">Department of Pathology, University Medical Center Utrecht, Utrecht, The Netherlands</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011550</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,26 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100007562">
+    <entry id="GPM31900006268">
       <name><%%></name>
-      <description>"vesicles"</description>
+      <description>"Not available"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">nr</field>
+        <field name="species">mouse</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">edwin lasonder</field>
-        <field name="submitter_mail">e.lasonder@ncmls.ru.nl</field>
-        <field name="submitter_affiliation">UMC St Radboud</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100007562</field>
+        <field name="submitter">lsandberg</field>
+        <field name="submitter_mail">lsandberg@llu.edu</field>
+        <field name="submitter_affiliation">loma linda university</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900006268</field>
       </additional_fields>
     </entry>
   </entries>

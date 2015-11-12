@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM00300008792">
+    <entry id="GPM32100028101">
       <name><%%></name>
-      <description>"TiO2 alone- second round stage tip"</description>
+      <description>"Not available"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -18,10 +18,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter">Cordula</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300008792</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028101</field>
       </additional_fields>
     </entry>
   </entries>

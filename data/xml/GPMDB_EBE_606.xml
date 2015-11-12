@@ -2,26 +2,28 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100035295">
+    <entry id="GPM10100158750">
       <name><%%></name>
-      <description>"Not available"</description>
-      <cross_references></cross_references>
+      <description>"PRIDE ID: 8755 ProteomExchange data transfer. Asara JM, Schweitzer MH, Freimark LM, Phillips M, Cantley LC. Protein sequences from mastodon and Tyrannosaurus rex revealed by mass spectrometry. Science. 2007 Apr 13;316(5822):280-5. Asara JM, Garavelli JS, Slatter DA, Schweitzer MH, Freimark LM, Phillips M, Cantley LC. Interpreting sequences from mastodon and T. rex. Science. 2007 Sep 7;317(5843):1324-5."</description>
+      <cross_references>
+      <ref dbkey="8755" dbname="PRIDE"/>
+      </cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_up</field>
+        <field name="species">chicken</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Jiqing</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100035295</field>
+        <field name="submitter">John M Asara </field>
+        <field name="submitter_mail">jasara@bidmc.harvard.edu </field>
+        <field name="submitter_affiliation">Beth Israel Deaconess Medical Center, Harvard Medical School </field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100158750</field>
       </additional_fields>
     </entry>
   </entries>

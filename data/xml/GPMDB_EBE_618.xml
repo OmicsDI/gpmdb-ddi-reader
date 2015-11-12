@@ -2,26 +2,30 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100030382">
+    <entry id="GPM32010005664">
       <name><%%></name>
-      <description>"Oxidized human serum albumin"</description>
+      <description>"TRANCHE KEY: GPVCapH1+93aiU4nI5ebxZRtnY5cnGnkrg7axnpxSm/6slBJmhiyBJ9pT9GAX9cTPZG2XYf9pRi1GB/yCBff7EC2/9QAAAAAAAHRug== Original data directory: AP-PM; data file: F44621032.mgf. SILAC measurement."</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_up</field>
+        <field name="species">yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Cato Brede</field>
-        <field name="submitter_mail">catob@extern.uio.no</field>
-        <field name="submitter_affiliation">Stavanger University Hospital</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100030382</field>
+        <field name="submitter">Oeljeklaus S, et al.</field>
+        <field name="submitter_mail">silke.oeljeklaus@biologie.uni-freiburg.de</field>
+        <field name="submitter_affiliation">University of Freiburg, Institute of Biology II</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005661</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005659</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005662</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005663</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005664</field>
       </additional_fields>
     </entry>
   </entries>

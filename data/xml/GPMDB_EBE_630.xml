@@ -2,48 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010002599">
+    <entry id="GPM00300003314">
       <name><%%></name>
-      <description>"TRANCHE KEY: qbgZLSf8nekHL0jrIBsWbzm5GhTJW2Ae72ntDODKWDG2CMrDLiuPYtpRtR8hy6hhXWzmK1n4ZMY2vm+J8C5NHSIy6iUAAAAAAAACVw== Original data file: Band5_PNS_3.mgf. From Tranche: {{i}}24 raw files from an Orbitrap XL, zipped. 3 biological replicates of 8 gelbands of a Post-nuclear Supernatant (PNS) fraction from J774.1 mouse macrophages{{/i}}"</description>
+      <description>"Not available"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse_female, Abelson_murine_leukemia_virus, Moloney_murine_sarcoma_virus, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
+        <field name="species">cow</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Trost M, et al.</field>
-        <field name="submitter_mail">m.trost@dundee.ac.uk</field>
-        <field name="submitter_affiliation">University of Dundee</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002598</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002585</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002603</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002588</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002601</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002604</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002608</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002600</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002596</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002605</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002595</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002607</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002591</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002597</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002592</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002594</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002587</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002602</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002593</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002590</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002586</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002589</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010002599</field>
+        <field name="submitter">sabik</field>
+        <field name="submitter_mail">sabikh@agr.gc.ca</field>
+        <field name="submitter_affiliation">CRDA</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300003314</field>
       </additional_fields>
     </entry>
   </entries>

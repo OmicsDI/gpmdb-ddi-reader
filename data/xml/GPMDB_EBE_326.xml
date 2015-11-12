@@ -2,26 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100042968">
+    <entry id="GPM10100161298">
       <name><%%></name>
-      <description>"incorporation "</description>
+      <description>"TRANCHE KEY: GcxPsBKmO32UUJ2w3RmY2jLygIkD2UcjGI+EZ95wK8DLQ/cIS6tp8VkoEkP/tn3mulMfgWTSxNc4IxOwDfDRaZ/S6TIAAAAAAAAA3g== Peptide Atlas ID: PAe000309."</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_up</field>
+        <field name="species">mouse</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Iris Egner</field>
+        <field name="submitter">Z Sun</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">UBC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100042968</field>
+        <field name="submitter_affiliation">Not available</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100161298</field>
       </additional_fields>
     </entry>
   </entries>

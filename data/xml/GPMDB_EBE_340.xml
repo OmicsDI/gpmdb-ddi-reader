@@ -2,36 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100001235">
+    <entry id="GPM32010006530">
       <name><%%></name>
-      <description>"opd00038_YEAST data set downloaded from OPD and reanalyzed. The downloaded mzXML file was altered to be valid mzXML."</description>
+      <description>"PRIDE ID: 15476. Data published as part of PLoS One 2011 6:e21964 ([[http://www.ncbi.nlm.nih.gov/pubmed/21818284 PubMed]]). From the Abstract: {{i}}Mollicutes (mycoplasmas) have been recognized as highly evolved prokaryotes with an extremely small genome size and very limited coding capacity. Thus, they may serve as a model of a &quot;minimal cell&quot;: a cell with the lowest possible number of genes yet capable of autonomous self-replication. We present the results of a comparative analysis of proteomes of three mycoplasma species: A. laidlawii, M. gallisepticum, and M. mobile. The core proteome components found in the three mycoplasma species are involved in fundamental cellular processes which are necessary for the free living of cells. They include replication, transcription, translation, and minimal metabolism ...{{/i}}"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">yeast</field>
+        <field name="species">Acholeplasma_laidlawii_PG_8A_uid58901, Mycoplasma_mobile_163K_uid58077, Mycoplasma_gallisepticum_R_low__uid57993, Acholeplasma_phage_L2, Acholeplasma_phage_MV_L1, Mycoplasma_phage_MAV1, Mycoplasma_phage_P1, Mycoplasma_phage_phiMFV1</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Peng Lu</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">University of Texas</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001236</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001244</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001239</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001245</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001237</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001243</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001240</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001238</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001241</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001251</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100001235</field>
+        <field name="submitter">Fisunov GY, et al.</field>
+        <field name="submitter_mail">herr.romanoff@gmail.com</field>
+        <field name="submitter_affiliation">Scientific Research Institute of Physical-Chemical Medicine, Federal Bio-Medical Agency of Russia, Moscow, Russia</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006530</field>
       </additional_fields>
     </entry>
   </entries>

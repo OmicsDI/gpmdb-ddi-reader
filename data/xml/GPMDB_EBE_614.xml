@@ -2,32 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010011404">
+    <entry id="GPM32010005709">
       <name><%%></name>
-      <description>"TRANCHE KEY: aHg5ExovKRZIs+No5uhmObRQ1mExxGxNfXxKQ+QvVRBw94RR5tEuLZVIWPPlyYnIwwcdctRHRi1qZw4oaHpduSAgVT0AAAAAAAAJ/g== Original directory: A. flavus R02, data file: hm_2254_JG_110909b_AF_R_02_200mM.RAW. From Tranche: {{i}}Proteomic samples were part of a study by Gibbons et al. 2012 Current Biology entitled &quot;The evolutionary imprint of domestication on genome variation and function of the filamentous fungus Aspergillus oryzae&quot;. Two biological replicates of Aspergillus oryzae RIB 40 and Aspergillus flavus NRRL 3357 were grown on rice, in the dark, at 30 C for 24 hours. Fungal tissue was harvested and ground with a mortar and pestle in liquid nitrogen. Each of the four samples was then denatured with 8M urea 100 mM tris pH 8.5, reduced with TCEP, and alkylated with iodoacetamide prior to dilution to 2 M urea and overnight digestion with porcine trypsin. The resulting peptides from 0.4 mg of cellular material were subjected to MudPIT. This work was supported by the Graduate Program in Biological Sciences at Vanderbilt University and the National Institute of Allergy and Infectious Diseases, National Institutes of Health (NIH, NIAID: F31AI091343-01) as well as the Searle Scholars Program and the National Science Foundation (DEB-0844968).{{/i}}"</description>
+      <description>"TRANCHE KEY: 2oGey5MjnqjK2GWnWc98nS4+UhH7nH7vCMreK3dPYMt1NC+fLg3JXJHFpE5nrAt/maiMDUsthoHRV4aQrkgvs2pCGhMAAAAAAAAB/g== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 630 BHI BR1{{/i}}"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Aspergillus_flavus_NRRL3357</field>
+        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Gibbons JG, et al. </field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Vanderbilt University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011408</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011405</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011401</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011406</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011402</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011403</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010011404</field>
+        <field name="submitter">Zeiser JJ, et al.</field>
+        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
+        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005709</field>
       </additional_fields>
     </entry>
   </entries>

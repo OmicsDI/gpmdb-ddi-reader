@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005711">
+    <entry id="GPM32010005713">
       <name><%%></name>
-      <description>"TRANCHE KEY: kvhBu+BfOu+Whgd8vXq24Qp+qyXVGEZTmzDnPJkDqIGeOfu9eTbMperBSIapHN/OUtxIx8qa79kgwglBR1Z63aWSj0AAAAAAAAAB9w== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 196 DM BR1{{/i}}"</description>
+      <description>"TRANCHE KEY: gKUhaMZIAuK8k+Ks3z+aNKQP+rpfxqOLOY0BJbCyEMux4ZtrCtqEYz8LIw+ThmqTxMAzevAvDYPEvNOg3pVRwf+oxd4AAAAAAAAB/Q== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 196 BHI BR1{{/i}}"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -21,7 +21,7 @@
         <field name="submitter">Zeiser JJ, et al.</field>
         <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
         <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005711</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005713</field>
       </additional_fields>
     </entry>
   </entries>

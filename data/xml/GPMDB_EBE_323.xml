@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM20100003107">
+    <entry id="GPM31900009409">
       <name><%%></name>
-      <description>"Soluble fraction from Monomac I cells exposed to Securinine for 24 hrs."</description>
+      <description>"Sample: N1350. PRIDE ID: 12091."</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -18,11 +18,11 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Matt Shipman</field>
-        <field name="submitter_mail">mshipman@chemistry.montana.edu</field>
-        <field name="submitter_affiliation">Montana State University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003108</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100003107</field>
+        <field name="submitter">Cynthia Liang, et al.</field>
+        <field name="submitter_mail">dbslmyrc@nus.edu.sg </field>
+        <field name="submitter_affiliation">National University of Singapore</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009407</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009409</field>
       </additional_fields>
     </entry>
   </entries>

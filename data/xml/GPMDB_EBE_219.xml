@@ -2,26 +2,54 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010005709">
+    <entry id="GPM32010006682">
       <name><%%></name>
-      <description>"TRANCHE KEY: 2oGey5MjnqjK2GWnWc98nS4+UhH7nH7vCMreK3dPYMt1NC+fLg3JXJHFpE5nrAt/maiMDUsthoHRV4aQrkgvs2pCGhMAAAAAAAAB/g== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 630 BHI BR1{{/i}}"</description>
+      <description>"Data from [[ftp://ftp.proteomecentral.org/chr17/data/hancock/ERBB2_positive_gastric_cancer_data/N5T5 chr17 hancock ERBB2_positive_gastric_cancer_data N5T5]]. Original data file: GI_T5_5.mgf"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="species">human, Human_adenovirus_54, Human_adenovirus_A, Human_adenovirus_B, Human_adenovirus_C, Human_adenovirus_D, Human_adenovirus_E, Human_adenovirus_F, Human_adenovirus_G, Human_astrovirus, Human_bocavirus, Human_bocavirus_2, Human_bocavirus_3, Human_bocavirus_4, Human_coronavirus_229E, Human_coronavirus_HKU1, Human_coronavirus_NL63, Human_coronavirus_OC43, Human_cosavirus_A, Human_cosavirus_B, Human_cosavirus_D, Human_cosavirus_E, Human_enteric_coronavirus_4408, Human_enterovirus_100, Human_enterovirus_A, Human_enterovirus_B, Human_enterovirus_C, Human_enterovirus_D, Human_erythrovirus_V9, Human_herpesvirus_1, Human_herpesvirus_2, Human_herpesvirus_3, Human_herpesvirus_4_type_1, Human_herpesvirus_4_type_2, Human_herpesvirus_5, Human_herpesvirus_6A, Human_herpesvirus_6B, Human_herpesvirus_7, Human_herpesvirus_8_type_P, Human_immunodeficiency_virus_1, Human_immunodeficiency_virus_2, Human_metapneumovirus, Human_papillomavirus_FA75_KI88_03, Human_papillomavirus_RTRX7, Human_papillomavirus_type_10, Human_papillomavirus_type_100, Human_papillomavirus_type_101, Human_papillomavirus_type_103, Human_papillomavirus_type_104, Human_papillomavirus_type_105, Human_papillomavirus_type_108, Human_papillomavirus_type_109, Human_papillomavirus_type_112, Human_papillomavirus_type_113, Human_papillomavirus_type_16, Human_papillomavirus_type_24, Human_papillomavirus_type_26, Human_papillomavirus_type_32, Human_papillomavirus_type_34, Human_papillomavirus_type_4, Human_papillomavirus_type_41, Human_papillomavirus_type_48, Human_papillomavirus_type_49, Human_papillomavirus_type_5, Human_papillomavirus_type_50, Human_papillomavirus_type_53, Human_papillomavirus_type_60, Human_papillomavirus_type_63, Human_papillomavirus_type_6b, Human_papillomavirus_type_7, Human_papillomavirus_type_71, Human_papillomavirus_type_88, Human_papillomavirus_type_9, Human_papillomavirus_type_92, Human_papillomavirus_type_96, Human_papillomavirus_type_98, Human_papillomavirus_type_99, Human_papillomavirus___1, Human_papillomavirus___18, Human_papillomavirus___2, Human_papillomavirus___54, Human_papillomavirus___61, Human_papillomavirus___cand90, Human_parainfluenza_virus_1, Human_parainfluenza_virus_2, Human_parainfluenza_virus_3, Human_parechovirus, Human_parvovirus_4, Human_parvovirus_B19, Human_picobirnavirus, Human_respiratory_syncytial_virus, Human_rhinovirus_A, Human_rhinovirus_B, Human_rhinovirus_C, Human_TMEV_like_cardiovirus, Human_T_lymphotropic_virus_1, Human_T_lymphotropic_virus_2, Human_T_lymphotropic_virus_4</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Zeiser JJ, et al.</field>
-        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
-        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005709</field>
+        <field name="submitter">Hancock W, et al.</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">The Barnett Institute, Northeastern University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006686</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006688</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006683</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006669</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006674</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006685</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006668</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006689</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006666</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006673</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006692</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006677</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006684</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006664</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006670</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006679</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006681</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006678</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006687</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006672</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006675</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006676</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006667</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006665</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006663</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006671</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006690</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006680</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006682</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100159855">
+    <entry id="GPM32100033007">
       <name><%%></name>
-      <description>"TRANCHE KEY: CfNZIziiyviM9Lmjs8oACkOTmPamdyJeBfRCSuqyvDJcVTkkHy9ENCl9CvZLnic0R85ZMKBfHJz9iABXiaVvU6BtxB0AAAAAAAAfIw==  These data support the following publication in Genome Research: Mittler G, Butter F, Mann M. Genome Res. 2008 Nov 17. A SILAC-based DNA protein interaction screen that identifies candidate binding proteins to functional DNA elements [[http://genome.cshlp.org/content/early/2008/11/17/gr.081711.108.abstract doi:10.1101/gr.081711.108]]. MSM files from original dataset."</description>
+      <description>"Not available"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -18,15 +18,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Gerhard Mittler, Falk Butter and Matthias Mann</field>
+        <field name="submitter">Chengcheng Zhang</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Max-Planck-Institute for Biochemistry and Immunology</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159849</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159854</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159850</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159852</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159853</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100159855</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100033007</field>
       </additional_fields>
     </entry>
   </entries>

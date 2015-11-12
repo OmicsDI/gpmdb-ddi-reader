@@ -2,26 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100010170">
+    <entry id="GPM31900009531">
       <name><%%></name>
-      <description>"Not available"</description>
+      <description>"TRANCHE KEY: ndqld+/iB/B6SSp+JvkOz7CfjHvcxdKHMyV3N0Bd7Zih5IV+9wXaVWHA88tj3NUDcfQyqRU5dZPxuZhSIjKWQAGPkOEAAAAAAAABxQ=="</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">nr</field>
+        <field name="species">human, Mycobacterium_tuberculosis_CDC1551, Mycobacterium_tuberculosis_F11, Mycobacterium_tuberculosis_H37Ra, Mycobacterium_tuberculosis_H37Rv, Mycobacterium_tuberculosis_KZN_1435</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">johann holzmann</field>
-        <field name="submitter_mail">johann.holzmann@meduniwien.ac.at</field>
-        <field name="submitter_affiliation">anatomie</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100010170</field>
+        <field name="submitter">Karen Dobos, et al.</field>
+        <field name="submitter_mail">karen.dobos@colostate.edu</field>
+        <field name="submitter_affiliation">Microbiology, Immunology and Pathology, Colorado State University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009531</field>
       </additional_fields>
     </entry>
   </entries>

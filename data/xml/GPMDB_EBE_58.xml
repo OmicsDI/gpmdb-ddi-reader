@@ -2,40 +2,31 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010006819">
+    <entry id="GPM20100001042">
       <name><%%></name>
-      <description>"PRIDE ID: 11374. Data published as part of Proteomics. 2010 Jul;10(14):2728-32 ([[http://www.ncbi.nlm.nih.gov/pubmed/20512790 PubMed]]). From the Abstract: {{i}}The current study used three different proteomic strategies, which differed by their extent of intact protein separation, to examine the proteome of a pluripotent mouse embryonic stem cell line, R1. Proteins from whole-cell lysates were subjected either to 2-D-LC, or 1-DE, or were unfractionated prior to enzymatic digestion and subsequent analysis by MS ...{{/i}}"</description>
+      <description>"A set of known proteins with purity verified usnig 1D gel analysis, digested by trypsin, and analyzed using an ABI 4700 TOFTOF."</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse, Abelson_murine_leukemia_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">CL:0000034 stem cell</field>
-        <field name="submitter">Gundry RL, et al.</field>
-        <field name="submitter_mail">rgundry1@jhmi.edu</field>
-        <field name="submitter_affiliation">The Johns Hopkins University School of Medicine</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006818</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006809</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006816</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006810</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006805</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006821</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006815</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006823</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006814</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006817</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006807</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006822</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006808</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006820</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010006819</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Phil Andrews</field>
+        <field name="submitter_mail">strahler@umich.edu</field>
+        <field name="submitter_affiliation">University of Michigan</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001037</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001040</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001043</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001038</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001039</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100001042</field>
       </additional_fields>
     </entry>
   </entries>

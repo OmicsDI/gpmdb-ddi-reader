@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM31900008395">
+    <entry id="GPM31900009413">
       <name><%%></name>
-      <description>"PRIDE ID: 9989. [[http://stke.sciencemag.org/cgi/content/abstract/2/87/ra51 Sci Signal. 2009 Sep 8;2(87):ra51]]."</description>
+      <description>"TRANCHE KEY: vqrCKmSLTcp7seBsc1E5XP3gb4OGaMvX1Se7vKtuzMGH74ztfkrCMWe8T0Ix+GzTdBQ1FRBGiTst+GWvXVFOr9ebZXUAAAAAAAAW8A== Data directory: HsT98G_BMYB-N19-IP_PE_Sync-24h_Ti_2_Subset. From Tranche: {{i}}HsBMYB_IPs.tar.gz = MudPIT analyses of proteins pulled down by immunoprecipitation of human BMYB{{/i}}"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -18,12 +18,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Humphries JD, Byron A, Bass MD, Craig SE, Pinney JW, Knight D, Humphries MJ</field>
-        <field name="submitter_mail">adam.byron@manchester.ac.uk, j.d.humphries@manchester.ac.uk</field>
-        <field name="submitter_affiliation">University of Manchester</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008382</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008396</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008395</field>
+        <field name="submitter">Laurence Florens, et al.</field>
+        <field name="submitter_mail">laf@stowers.edu</field>
+        <field name="submitter_affiliation">The Stowers Institute for Medical Research</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009413</field>
       </additional_fields>
     </entry>
   </entries>

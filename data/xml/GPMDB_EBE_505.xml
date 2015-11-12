@@ -2,28 +2,30 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM20100004344">
+    <entry id="GPM31900007245">
       <name><%%></name>
-      <description>"TRANCHE KEY: NdiROUItX7k9z+ngRaecKK3ODAJZYeMJKFYoa/nUaCn+n8THzLxWAXsGpHnoff06snHMpGBtSKUtnZaIx2SAgBoaz2MAAAAAAAADGQ== From Tranche: {{i}} We obtained the Plasma data set from Christopher Becker, PPD, Inc. (Menlo Park, CA), now part of Caprion Proteomics. The sample is human blood plasma, depleted of 6 abundant proteins using a multiple-affinity removal system (Agilent), reduced, alkylated with iodoacetic acid, trypsin-digested, and analyzed by capillary LC-ESI-MS/MS (with 0.1% formic acid in the solvent) on a Thermo LTQ instrument. Cysteines are carboxymethylated.{{/i}}"</description>
-      <cross_references></cross_references>
+      <description>"Andrew Emili"</description>
+      <cross_references>
+      <ref dbkey="Data transfer from Peptide Atlas Pae000360. Mouse kidney nucleus sample." dbname="massive"/>
+      </cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">mouse, mouse</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Marshall Bern</field>
-        <field name="submitter_mail">bern@parc.com</field>
-        <field name="submitter_affiliation">Palo Alto Research Center</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004345</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004343</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100004344</field>
+        <field name="submitter">: </field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">University of Toronto</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007208</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007243</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007245</field>
       </additional_fields>
     </entry>
   </entries>

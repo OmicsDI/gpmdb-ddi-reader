@@ -2,10 +2,10 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100010235">
+    <entry id="GPM31900007816">
       <name><%%></name>
       <description>"Not available"</description>
       <cross_references></cross_references>
@@ -14,14 +14,19 @@
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">IPI</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Roc</field>
-        <field name="submitter_mail">g39219004@ym.edu.tw</field>
-        <field name="submitter_affiliation">National Yang Ming University </field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100010235</field>
+        <field name="submitter">Genadij Razdorov</field>
+        <field name="submitter_mail">genadijrazdorov@yahoo.com</field>
+        <field name="submitter_affiliation">MEF Zagreb</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009556</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009555</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009554</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009557</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM06600009553</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900007816</field>
       </additional_fields>
     </entry>
   </entries>

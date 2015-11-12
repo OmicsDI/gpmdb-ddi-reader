@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10180000286">
+    <entry id="GPM32100049631">
       <name><%%></name>
-      <description>"TRANCHE KEY: 1mXmOm5xXpQ/LZkjf28BV1NPGXX71poLBVvSwHVGKnAvjcBiKaRXxaxR9yhuI+tRfeQPOgs47tDOZcgn3SYQBB/HT4EAAAAAAAABvQ== Experiment F080125. From Tranche: {{i}}Tiple SILAC experiments in Jurkat T cells and pY_Protein isolation by anti-pY antibodies{{/i}} (sic)."</description>
+      <description>"Fr_1"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -18,12 +18,19 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Mogjib Salek, et al.</field>
-        <field name="submitter_mail">mogjib.salek@path.ox.ac.uk</field>
-        <field name="submitter_affiliation">Dept. of Pathology, Oxford University, UK</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000265</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000245</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10180000286</field>
+        <field name="submitter">Chengcheng Zhang and Kate Liu</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049690</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049694</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049633</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049637</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049635</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049692</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049634</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049636</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049693</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100049631</field>
       </additional_fields>
     </entry>
   </entries>

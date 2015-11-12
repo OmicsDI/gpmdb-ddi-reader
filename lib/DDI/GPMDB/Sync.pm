@@ -63,11 +63,11 @@ sub lookup {
     my $folder  = shift;
     my $ref     = shift;
     my $igref   = shift;
-    
+
     my %files  = %{$ref};
     my %ignore = %{$igref};
     my @list;
-    
+
     say "fetching file list";
     my @ftp_lists = $self->{ftp}->ls("/gpmdb/$folder");
 
@@ -120,28 +120,26 @@ sub fetch {
 	      say "Fetching zipped model $file";
 
 	      if ( -z("$source_files/$folder/$file.xml.gz") ) {
-            
-            say "[Sanity Test Failed]: Adding model $file to ignore list";
-		    system("rm -f $source_files/$folder/$file.xml.gz");
-		    system("echo $file >> $ignore");
+
+          say "[Sanity Test Failed]: Adding model $file to ignore list";
+		      system("rm -f $source_files/$folder/$file.xml.gz");
+		      system("echo $file >> $ignore");
 
 	      } else {
-            
+
             say "[Test OK]: storing model $file";
-		    #system("gunzip -f $source_files/$folder/$file.xml.gz");
+		        #system("gunzip -f $source_files/$folder/$file.xml.gz");
 	      }
 
 	    } else {
 
 		    if ( $sync->{ftp}->get("$folder/$file.xml", "$source_files/$folder/$file.xml") or die $sync->{ftp}->message) {
-		    
-              say "Fetching model $file";
+          say "Fetching model $file";
 	    	}
-        }
-
+      }
 	}
 
-    system("find $source_files -type f > $data");
+  system("find $source_files -type f > $data");
 }
 
 1;

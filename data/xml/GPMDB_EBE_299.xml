@@ -2,26 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010012697">
+    <entry id="GPM00300015893">
       <name><%%></name>
-      <description>"PRIDE ID: 17709. From Pride: {{i}}In gel digestion{{/i}}"</description>
+      <description>"Not available"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">Butyrivibrio_proteoclasticus_B316, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Jordan W, et al.</field>
-        <field name="submitter_mail">bill.jordan@vuw.ac.nz </field>
-        <field name="submitter_affiliation">Victoria University, Wellington, New Zealand</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012697</field>
+        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM00300015893</field>
       </additional_fields>
     </entry>
   </entries>

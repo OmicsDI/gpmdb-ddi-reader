@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100033341">
+    <entry id="GPM20100002265">
       <name><%%></name>
-      <description>"c8*3 second round"</description>
+      <description>"We are labeling the B-cel proteome using iTRAQ. Stangely we are not finding the amount of IDs we would expect based on the amount of nice MS/MS spectra using Mascot."</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -17,11 +17,11 @@
         <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">Chengcheng Zhang</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">BRC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100033341</field>
+        <field name="cell_type">CL:0000822</field>
+        <field name="submitter">Dhaenens</field>
+        <field name="submitter_mail">maarten.dhaenens@ugent.be</field>
+        <field name="submitter_affiliation">Ghent University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100002265</field>
       </additional_fields>
     </entry>
   </entries>

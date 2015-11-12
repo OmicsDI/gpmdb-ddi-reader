@@ -1,11 +1,11 @@
-# location for the mode listing
+# location of the model list
 data_file=data/files.txt
 
-# location for the ignore file list
+# location of the list of files to be ignored
 ignore=data/ignore.txt
 
 # location of the gpmdb folders
 source_files=/home/felipevl/Servers/Pathbio/gpmdump/gpmdb
 
-# list of folders to check
+# list of directories to process (leave a space after '=')
 model_dirs= 003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999

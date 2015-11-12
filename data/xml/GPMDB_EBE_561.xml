@@ -2,30 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100154032">
+    <entry id="GPM31900008780">
       <name><%%></name>
-      <description>"TRANCHE KEY: t7lfD+VtLYdFQT8Bhlq7Zok3c52+JWOeJKmWUcCBTA/d65bAVtmTiIZkg8QMoCpWGXy/77QFnszqvSxjkDiuCCwNPBgAAAAAAAAT3w== These data accompany the article &quot;Use of Fluorescence-Activated Vesicle Sorting for Isolation of Naked2-Associated, Basolaterally-Targeted Exocytic Vesicles for Proteomic Analysis by Z Cao et al in Molecular and Cellular Proteomics (http://dx.doi.org/10.1074/mcp.M700155-MCP200). The vesicles were generated in a Madin-Darby canine kidney cell line ..."</description>
+      <description>"Data file: exp1reptrypsin (14N amino acids) TRANCHE KEY: f9XjmbCVZwessddnJXDrKqDBiGTCEoLvFvr2v0zKnl5+TpH29Un/pvJQscS4JCLh4IJEyr6f1yz/32CpHeORp2UTTgMAAAAAAAAKXw== Data from two biological replicates in yeast (each was disgested using trypsin and LysN) were analyzed. "</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">dog</field>
+        <field name="species">yeast, Saccharomyces_20S_RNA_narnavirus, Saccharomyces_23S_RNA_narnavirus, Saccharomyces_cerevisiae_killer_virus_M1, Saccharomyces_cerevisiae_virus_L_A__L1_, Saccharomyces_cerevisiae_virus_L_BC__La_</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Z. Cao et al</field>
-        <field name="submitter_mail">robert.coffey@vanderbilt.edu</field>
-        <field name="submitter_affiliation">Vanderbilt University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154030</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154012</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154033</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154034</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100154032</field>
+        <field name="submitter">Danny Navarro, et al.</field>
+        <field name="submitter_mail">j.d.navarro@uu.nl</field>
+        <field name="submitter_affiliation">NPC, Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008780</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,31 +2,29 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32010001516">
+    <entry id="GPM32010012211">
       <name><%%></name>
-      <description>"TRANCHE KEY: TzGvo1FbhJkLaM/FDLKTewGrBYDqWRPO/Oe9KHmXiohZonXBuLlolUe2NuY4G/UIubBhNQjySdOasclB3Os1vYmje8gAAAAAAAAJtw== Original data file: Isabel-2stateSILAC-Agstain_merge.mgf. Folder: Isabel_2stateSILAC_Agstain. From Tranche: {{i}}The cellular proto-oncogene c-Src is a non-receptor protein tyrosine kinase (PTK) involved in cell growth and cytoskeletal regulation but its precise functions in cell signaling are complex and not fully understood. Identification of c-Src-s PTK cellular substrates remains a major challenge as there is no simple way to directly stimulate its activity without triggering a range of other signaling pathways. Here we combine the chemical rescue of transfected mutant R390A c-Src in Src-deficient mouse embryonic fibroblasts (SYF cells) and mass spectrometry-based phosphoproteomics to analyze the range of tyrosine phosphorylation events that occur in the cell upon rapid stimulation of c-Src PTK activity. Dozens of previously uncharacterized c-Src protein targets and putative phosphorylation sites have been identified, many of which play key roles in signaling and cytoskeletal networks, particularly cell adhesion. One of these c-Src targets, C3G, a small G-protein guanine nucleotide exchange factor, was further investigated, and the effects of c-Src on spatial and temporal C3G activation of its target, Rap1, were revealed. These results provide a strategy for obtaining a comprehensive understanding of the functions of non-receptor tyrosine kinases in cell signaling with high kinetic resolution.{{/i}}"</description>
+      <description>"TRANCHE KEY: k/4IrsFo+FBW4WCCP+kamVguSdiErxZOegyfG7V0bQVv6Z40ssDLGseTBUqtNZtTiJG0UCzI8Ud2xIIykuPuW1e6FJoAAAAAAAACAQ== Original data file: 20120319_BoSo_Collab_PL-MDA_K4_S8.mzML. From Tranche: {{i}} CMAP PL-MDA Monoculture K4 cell lysate (E216, S8) {{/i}}"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">mouse, Abelson_murine_leukemia_virus, Mouse_mammary_tumor_virus, Mouse_parvovirus_1, Mouse_parvovirus_2, Mouse_parvovirus_3, Mouse_parvovirus_4a, Mouse_parvovirus_5a, Murid_herpesvirus_1, Murid_herpesvirus_2, Murid_herpesvirus_4, Murine_adenovirus_3, Murine_adenovirus_A, Murine_hepatitis_virus_A59, Murine_hepatitis_virus_JHM, Murine_norovirus_1, Murine_osteosarcoma_virus, Murine_pneumotropic_virus, Murine_polyomavirus, Murine_type_C_retrovirus</field>
+        <field name="species">human, mcherry, Human_adenovirus_54, Human_adenovirus_A, Human_adenovirus_B, Human_adenovirus_C, Human_adenovirus_D, Human_adenovirus_E, Human_adenovirus_F, Human_adenovirus_G, Human_astrovirus, Human_bocavirus, Human_bocavirus_2, Human_bocavirus_3, Human_bocavirus_4, Human_coronavirus_229E, Human_coronavirus_HKU1, Human_coronavirus_NL63, Human_coronavirus_OC43, Human_cosavirus_A, Human_cosavirus_B, Human_cosavirus_D, Human_cosavirus_E, Human_enteric_coronavirus_4408, Human_enterovirus_100, Human_enterovirus_A, Human_enterovirus_B, Human_enterovirus_C, Human_enterovirus_D, Human_erythrovirus_V9, Human_herpesvirus_1, Human_herpesvirus_2, Human_herpesvirus_3, Human_herpesvirus_4_type_1, Human_herpesvirus_4_type_2, Human_herpesvirus_5, Human_herpesvirus_6A, Human_herpesvirus_6B, Human_herpesvirus_7, Human_herpesvirus_8_type_P, Human_immunodeficiency_virus_1, Human_immunodeficiency_virus_2, Human_metapneumovirus, Human_papillomavirus_FA75_KI88_03, Human_papillomavirus_RTRX7, Human_papillomavirus_type_10, Human_papillomavirus_type_100, Human_papillomavirus_type_101, Human_papillomavirus_type_103, Human_papillomavirus_type_104, Human_papillomavirus_type_105, Human_papillomavirus_type_108, Human_papillomavirus_type_109, Human_papillomavirus_type_112, Human_papillomavirus_type_113, Human_papillomavirus_type_16, Human_papillomavirus_type_24, Human_papillomavirus_type_26, Human_papillomavirus_type_32, Human_papillomavirus_type_34, Human_papillomavirus_type_4, Human_papillomavirus_type_41, Human_papillomavirus_type_48, Human_papillomavirus_type_49, Human_papillomavirus_type_5, Human_papillomavirus_type_50, Human_papillomavirus_type_53, Human_papillomavirus_type_60, Human_papillomavirus_type_63, Human_papillomavirus_type_6b, Human_papillomavirus_type_7, Human_papillomavirus_type_71, Human_papillomavirus_type_88, Human_papillomavirus_type_9, Human_papillomavirus_type_92, Human_papillomavirus_type_96, Human_papillomavirus_type_98, Human_papillomavirus_type_99, Human_papillomavirus___1, Human_papillomavirus___18, Human_papillomavirus___2, Human_papillomavirus___54, Human_papillomavirus___61, Human_papillomavirus___cand90, Human_parainfluenza_virus_1, Human_parainfluenza_virus_2, Human_parainfluenza_virus_3, Human_parechovirus, Human_parvovirus_4, Human_parvovirus_B19, Human_picobirnavirus, Human_respiratory_syncytial_virus, Human_rhinovirus_A, Human_rhinovirus_B, Human_rhinovirus_C, Human_TMEV_like_cardiovirus, Human_T_lymphotropic_virus_1, Human_T_lymphotropic_virus_2, Human_T_lymphotropic_virus_4</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Ferrando IM, et al.</field>
-        <field name="submitter_mail">pcole@jhmi.edu</field>
-        <field name="submitter_affiliation">Johns Hopkins School of Medicine</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001513</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001512</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001514</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001511</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001517</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010001516</field>
+        <field name="submitter">Gauthier N, et al.</field>
+        <field name="submitter_mail">gauthier@cbio.mskcc.org</field>
+        <field name="submitter_affiliation">MSKCC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012207</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012205</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012203</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012211</field>
       </additional_fields>
     </entry>
   </entries>

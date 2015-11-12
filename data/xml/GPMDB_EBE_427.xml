@@ -2,26 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100023056">
+    <entry id="GPM20100002400">
       <name><%%></name>
-      <description>"Sq Cell Ca Tumor"</description>
+      <description>"Not available"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">cow</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">Not available</field>
-        <field name="submitter">lsandberg</field>
-        <field name="submitter_mail">lsandberg@llu.edu</field>
-        <field name="submitter_affiliation">Loma Linda University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100023056</field>
+        <field name="cell_type">CL:0000314</field>
+        <field name="submitter">Agron Mataj</field>
+        <field name="submitter_mail">Agron.Mataj@sci.monash.edu.au</field>
+        <field name="submitter_affiliation">Monash University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM20100002400</field>
       </additional_fields>
     </entry>
   </entries>

@@ -2,26 +2,28 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100042112">
+    <entry id="GPM32010012445">
       <name><%%></name>
-      <description>"Human claspin was expressed "</description>
-      <cross_references></cross_references>
+      <description>"PRIDE ID: 16372 , From Pride: {{i}}Determing the substrate specificity and function of NatB using knockout with rescue and knockdown in yeast and human cells respectively.{{/i}}"</description>
+      <cross_references>
+      <ref dbkey="16372" dbname="PRIDE"/>
+      </cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human_up</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Brendan Harhen</field>
-        <field name="submitter_mail">Brendan.Harhen@nuigalway</field>
-        <field name="submitter_affiliation">NUIG</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100042112</field>
+        <field name="submitter">Van Damme P, et al.</field>
+        <field name="submitter_mail">Petra.VanDamme@vib-ugent.be</field>
+        <field name="submitter_affiliation">VIB Department of Medical Protein Research</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010012445</field>
       </additional_fields>
     </entry>
   </entries>

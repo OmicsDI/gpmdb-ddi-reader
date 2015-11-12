@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100028411">
+    <entry id="GPM45100005492">
       <name><%%></name>
-      <description>"platelet sample 3"</description>
+      <description>"TRANCHE KEY: EKYhwbHIfbis7ocZqc+18hDwmT7WZvSLAWp1dVKjhBWF9W2Ubb8IEScvJqhwZMJQMYBpaPATHB/yVedmNlPMeNej10cAAAAAAAADPw== [[http://www.biochemj.org/bj/422/bj4220443.htm Biochem. J. 2009 422:443]]. Data set: CNOT6 (6N20)."</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -17,14 +17,16 @@
         <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
-        <field name="cell_type">CL:0000233 platelet</field>
-        <field name="submitter">Terry Hsiao</field>
-        <field name="submitter_mail">terrypk1@gmail.com</field>
-        <field name="submitter_affiliation">Biomedical Research Center UBC</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028409</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028412</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028414</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100028411</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Annemieke Kolkman, et al.</field>
+        <field name="submitter_mail">a.kolkman@umcutrecht.nl</field>
+        <field name="submitter_affiliation">Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008528</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008531</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008525</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900008530</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005493</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005492</field>
       </additional_fields>
     </entry>
   </entries>

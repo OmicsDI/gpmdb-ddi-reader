@@ -2,12 +2,12 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM10100158773">
+    <entry id="GPM31900009300">
       <name><%%></name>
-      <description>"CNBr-trypsin digest of affinity purified proteins. MS/MS analysis performed using Thermo-Finnigan FT-LTQ hybrid mass spectrometer."</description>
+      <description>"Not available"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -18,10 +18,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Juergen Kast, Julie Wong, et al.</field>
-        <field name="submitter_mail">jpwong@interchange.ubc.ca</field>
-        <field name="submitter_affiliation">University of British Columbia</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM10100158773</field>
+        <field name="submitter">Chengcheng Zhang</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">BRC</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM31900009300</field>
       </additional_fields>
     </entry>
   </entries>

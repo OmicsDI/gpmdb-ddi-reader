@@ -2,27 +2,26 @@
   <name>PRIDE Archive</name>
   <description/>
   <release>3</release>
-  <release_date>2015-10-5</release_date>
+  <release_date>2015-10-11</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM32100012651">
+    <entry id="GPM32010005707">
       <name><%%></name>
-      <description>"human thyroid (HTori) 2D spot a"</description>
+      <description>"TRANCHE KEY: D4vFpH+w7BReqUrD+a3QQwI5hhdPjna5Up256y0eRo8fLmqr3ViKxDA+jXupj0yts3TPS8bCk0p4uUvOvZTKJ1qEzPgAAAAAAAAB+g== From Tranche: {{i}}Secretome analysis of Clostridium difficile strains Supplementary data: Proteome Discoverer *.msf files CD 630 DM BR1{{{/i}}"</description>
       <cross_references></cross_references>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">Clostridium_difficile_630_uid57679, Clostridium_difficile_CD196, Clostridium_difficile_R20291, Clostridium_phage_39_O, Clostridium_phage_c_st, Clostridium_phage_phi3626, Clostridium_phage_phiC2, Clostridium_phage_phiCD27, Clostridium_phage_phiSM101, Clostridium_phage_phi_CD119</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">lsandberg</field>
-        <field name="submitter_mail">lsandberg@llu.edu</field>
-        <field name="submitter_affiliation">Loma Linda University</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100012652</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32100012651</field>
+        <field name="submitter">Zeiser JJ, et al.</field>
+        <field name="submitter_mail">zeiser.johannes@mh-hannover.de</field>
+        <field name="submitter_affiliation">Medzinische Hochschule Hannover</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM32010005707</field>
       </additional_fields>
     </entry>
   </entries>
