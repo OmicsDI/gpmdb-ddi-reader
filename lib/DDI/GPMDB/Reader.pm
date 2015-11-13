@@ -11,7 +11,9 @@ use DDI::GPMDB::XMLFile;
 # constructor
 sub new {
     my $class   = shift;
-    my $self    = { };
+    my $self    = {
+      procs =>  undef,
+    };
 
     bless($self, $class);
     return $self;
@@ -27,7 +29,7 @@ sub create_reference_files {
 	say "Processing directory $dir...";
 
   # instantiate parallel processing module
-  my $pm = Parallel::ForkManager->new(16, '/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp');
+  my $pm = Parallel::ForkManager->new($self->{procs}, '/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp');
   my %responses = ();
   my @responses;
 

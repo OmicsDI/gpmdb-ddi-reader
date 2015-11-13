@@ -1,6 +1,9 @@
 # location of the model list
 data_file=data/files.txt
 
+# number of cores to use for the parsing
+processors=16
+
 # location of the list of files to be ignored
 ignore=data/ignore.txt
 

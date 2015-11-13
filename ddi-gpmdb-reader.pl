@@ -34,6 +34,7 @@ my $proc;
 my $gen;
 my $help;
 my $data;
+my $procs;
 my $ignore;
 my $source_files;
 my @dir;
@@ -51,6 +52,8 @@ while( my $line = <$param> ) {
   chomp $line;
   if ( $line =~ m/data_file=(.*)/ ) {
     $data = $1;
+  } elsif ( $line =~ m/processors=(.*)/ ) {
+    $procs = $1;
   } elsif( $line =~ m/ignore=(.*)/ ) {
     $ignore = $1;
   } elsif( $line =~ m/source_files=(.*)/ ) {
@@ -91,9 +94,9 @@ if( $help ) {
       $sync->fetch($source_files, $data, $ignore, \@files_to_download);
 
   } elsif ( $proc ) {
-
       for my $dir ( @dir ) {
           my $reader = DDI::GPMDB::Reader->new();
+          $reader->{procs} = $procs;
           $reader->create_reference_files($source_files, $data, $dir);
           say "done with directory $dir";
       }
