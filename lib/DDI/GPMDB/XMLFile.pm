@@ -23,6 +23,7 @@ sub new {
       pride           =>  "none",
       taxon           =>  "none",
       pepatlas        =>  "none",
+      subdate         =>  "none",
       models			    => [],
     };
 

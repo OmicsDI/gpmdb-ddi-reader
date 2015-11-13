@@ -8,4 +8,5 @@ ignore=data/ignore.txt
 source_files=/home/felipevl/Servers/Pathbio/gpmdump/gpmdb
 
 # list of directories to process (leave a space after '=')
-model_dirs= 003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999
+#model_dirs= 003 066 101 111 112 201 319 320 321 323 330 451 600 642 643 644 645 652 701 777 874 999
+model_dirs= 319 323 330 451 600 642 643 644 645 652 701 777 874 999

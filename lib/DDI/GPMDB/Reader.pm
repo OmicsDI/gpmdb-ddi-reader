@@ -145,7 +145,8 @@ sub create_csv_file {
     $m->{model}->{comment}, "\t",
     $m->{model}->{massive}, "\t",
     $m->{model}->{pride}, "\t",
-    $m->{model}->{tranche};
+    $m->{model}->{tranche}, "\t",
+    $m->{model}->{subdate};
 	}
 
 	return;
@@ -215,6 +216,8 @@ sub create_xml_files {
       $xml->{name}            = $terms[10] if $terms[10] ne "none";
       $xml->{comment}         = $terms[11] if $terms[11] ne "none";
       $xml->{pride}           = $terms[13] if $terms[13] ne "none";
+      # tranche is $terms[14]
+      $xml->{subdate}         = $terms[15] if $terms[15] ne "none";
 
       # convert tranche id to massive id
       if ( defined($xml->{tranche}) && $xml->{tranche} ne "none" ) {
@@ -263,6 +266,7 @@ sub create_xml_files {
 	    $xml->{comment}        = $terms[11];
 	    $xml->{pride}          = $terms[13];
 	    $xml->{tranche}        = $terms[14];
+      $xml->{subdate}        = $terms[15];
 
       # convert tranche id to massive id
       if ( defined($xml->{tranche}) && $xml->{tranche} ne "none" ) {
@@ -349,7 +353,7 @@ sub print_xml {
 	  }
 
     say $xmlfile "      <dates>";
-    say $xmlfile "        <date type=\"submission\" value=\"xx-xx-xx\"\/>";
+    say $xmlfile "        <date type=\"submission\" value=\"$xml->{subdate}\"\/>";
     say $xmlfile "      </dates>";
 
     say $xmlfile "      <additional_fields>";

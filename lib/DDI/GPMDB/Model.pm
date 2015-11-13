@@ -21,6 +21,7 @@ sub new {
       massive                     =>  "none",
       pubmed                      =>  "none",
       pride                       =>  "none",
+      subdate                     =>  "none",
       C_terminal_mod_mass         =>  0,
       N_terminal_mod_mass         =>  0,
       C_terminal_mass_change      =>  0,

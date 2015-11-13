@@ -73,6 +73,12 @@ sub parse_model {
               $self->{model}->{project} = $1;
             }
 
+        } elsif ( $line =~ m/^\s+<note label=\"process\, start time\">(\d+):(\d+):(\d+):00:16:17<\/note>/ ) {
+
+          if ( $length($1) > 0 && $length($2) > 0 && $length($3) > 0) {
+              $self->{model}->{subdate} = "$1-$2-$3";
+          }
+
         } elsif ( $line =~ m/^\s+<note type=\"input\" label=\"gpmdb, project comment\">(.*)<\/note>/ ) {
 
             if ( length($1) > 0 ) {
