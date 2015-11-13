@@ -326,6 +326,7 @@ sub print_xml {
     $xml->{institution}   = "Not available" if $xml->{institution} eq "none";
     $xml->{name}          = "Not available" if $xml->{name} eq "none";
     $xml->{comment}       = "Not available" if $xml->{comment} eq "none";
+    $xml->{subdate}       = "Not available" if $xml->{subdate} eq "none";
 
 		open( my $xmlfile, '>', $filename) or die "Cannot create XML file";
 
