@@ -1,0 +1,268 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-17</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="Models from 'D:\spectra\larsen\2\1795_135_ARHGAP28_V4682_GFP.RAW.cmn'">
+      <name>RhoGapGef protein-protein interactions</name>
+      <description>LTQ data set: 1795 135 ARHGAP28 V4682 GFP</description>
+      <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="2010-03-28"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">human_rho, Mycoplasma_hominis, Human_herpesvirus_5</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Rick Bagshaw</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">SLRI</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_103_3FLAG-Cdc42_G12V_V1834_M2_rerun.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_114_Citrine-PLEKHG4_V3711.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_14_c9orf100_Citrine_GFPtrap_magent.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_47_Citrine_3xFLAG_Rich1_M2-sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\186_3FLAG_RASGRF2_V3580_M2Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1794_134_ARHGAP28_V4684_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\163_3FLAG_Rac1_Q61l_V4575_M2_Sepharose(nosampleintube).RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_23_Citrine_DOCK5_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_42_Citrine_FGD5_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\178_3FLAG_ARHGAP11A_V4084_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_117_3FLAG-ARHGAP26_V4996.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\179_Citrine_Rac1_Q61L.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_29_Citrine_ARHGAP23_GFPtrap_magnet_repeatfromnotinjected.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_19_3FLAG_ARHGAP27_M2_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1783_122_ARHGAP30_V4695_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1797_137_Pik3r2_V3839_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\197_3FLAG_Snx26_V5335_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_3_GFP_Cherry_miltenyibeads.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_113_Citrine-SYDE2_V4395.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\235_GFP_Cherry_V4534_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_61_3FLAG_Grb2_M2-sepharose_090614175838.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\240_Citrine-KIAAI688_V5366_GFPtrap_sepharose_RHOG_HSre.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\264_Citrine_PLEKHG7_V4346_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\245_Citrine_KIAA1688_V5366_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1784_123_PLEKHG6_V3689_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\182_Citrine_Arhgap8_V3773_GFPTrapSepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_36_Citrine_Cdc42_T17N_miltenyibeads.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\244_Citrine_KIAA1688_V5366_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_26_Citrine_ARHGAP22_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1788_128_RHGXX_V4950_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\226_Cit_RASGRF2_V3583_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\189_3FLAG_Arhgap8_V3772_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packet6_100_3FLAG-DOCK8_V4982_M2_rename.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\251_Citrine_Cdc42_G12V_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\188_MCF2L2_3FLAG_V5030_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_71_3FLAG_DEPDC1B_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\156_Citrine_ARHGAP9_V3737_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1773_110_Plekhg2_V4737_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packet6_89_3FLAG_FAM13B1_M2_Sepharose_090804165325.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_85_GFP_Cdc42_G12V_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\238_3F_LFDH_V4369_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_8_3Flag_solo_3F_beads.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\242_Cit_OCRL_V3607_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\254_3F_Dock3_V4059_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\200_3FLAG_RHGXXshort_V4033_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_48_Citrine_3xFLAG_Rich1_M2-sepharose_Question.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\151_3FLAG_Arhgap15_V3658_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_51_GFP_Cdc42_T17N_GFPTrap_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_20_3FLAG_RHGXX_M2_Sepharose2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\236_Cit_ELMO3_V5386_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1804_144_STARD8_V3609_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\212_3F_FGD2_V3670_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packet6_90_3FLAG_ARHGEF15_M2_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\196_Citrine_Snx26_V5338_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_112_3FLAG-SYDE2_V4351.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\247_Citrine_ARHGAP23_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\193_3FLAG_PLEKHG4B_V5345_M2_091211123613.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\198_3F_ARHGEF5_V5104_M2_sepharose_rerun.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\149_3FLAG_ARHGEF16_V4966_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\241_3F-ELMO3_V5383_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\214_3F_ARHGEF10_V3753_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\192_Citrine_PLEKHG4B_V5342_GFPTrapSepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_69_3FLAG_DOCK180_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\250_Citrine_Cdc42_G12V_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_57_Citrine_RICH1_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_53_V3574_GFPtrap_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\154_Citrine_SYDE1_V3718_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\174_3FLAG-ELMO3_V5099_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\157_3FLAG_ARHGAP9_V3735_M2sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_35_3FLAG_Citrine_Rac1T19N_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\208_3F_FGD4_V4377_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\158_3FLAG_ArhGEF3_V3730_M2sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1786_126_SOLO_V4960_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\155_3FLAG_Rac1_Q61L_v4575_M2sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_18_3FLAG_DOCK10_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1798_138_MCF2L2_V5030_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1790_130_3FLAG_V4541_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\228_3F_NET1_V3707_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\218_3F_FGD3_V3666_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_116_MCF2L2-3FLAG_V5030.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_5_Citrine_Dock3_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_106_GFP-ELMO2_fromGiselle_GFPtrap.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\258_3F_ARHGEF16_shorter_V3800_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\164_Citrine_ARHGAP27_V4570_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\219_3FLAG_Cherry_V5250_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1787_127_SOLO_V4960_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\222_Cit_ARHGAP29_V4093_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_64_3FLAG_ARHGAP21_M2_sepharose_injection2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_25_3FLAG_RHGXX_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_68_Citrine_FGD1_M2_sepharose_reinjection.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_13_c9orf100_Citrine_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_84_GFP_Cdc42_G12V_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_81_Citrine_Cdc42_G12V_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\249_Citrine_Cdc42_G12V_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\224_Cit_DOCK5_V4381_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets_43_Citrine_Rich1_SepharoseGFPTrap.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_17_3FLAG_DOCK5_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\255_3FLAG_ARHGAP20_V3654_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\183_ARHGAP9_Citrine_V5142__GFPTrapSepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\206_Citrine_ARHGAP20_V3656_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_102_MCF2L2-3FLAG_V5030_M2_partialrun.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_16_3FLAG_DOCK3_M2_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\187_GFP-Cherry_V4534_GFPTrapSepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\233_Cit_LFDH_V4368_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_31_Citrine_Cdc42T17N_Magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\227_GFP_Cherry_V4534_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\201_3F_ARHGEF16_Shorter_V3800_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\261_Citrine_ARHGAP20_V3656_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_21_3FLAG_ARHGAP23_M2_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\181_3FLAG_ARHGAP27_V4571_M2Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_28_Citrine_ARHGAP23_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\263_Cit_DOCK10_V4394_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_44_Citrine_Tiam1_SepharoseGFPTrap_.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\248_Citrine_Cdc42_G12V_GFPtrap_sepharose_autosamplerstophalfway_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\184_3FLAG_SOLO_shorter_V3706_M2Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\152_Citrine_Arhgap15_V3660_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_105_GFP-ELMO1_V4705_GFPtrap.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\277_3FLAG_ARHGAP11A_V4084_M2_sepharose_RHOG_HS_re.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\205_Citrine_SGEF_5346_GFPtrap_sepharose_RHOG_HS_2ndinjection.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_54_V4035_GFPtrap_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_72_3FLAG_ARHGAP20_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_6_Citrine_Dock3_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_41_Citrine_FGD5_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\204_3FLAG_SGEF_V5341_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packet6_101_3FLAG-ELMO1_V4680_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\274_3F_ARHGEF5_V5104_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_22_Citrine_DOCK5_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\257_3F_SYDE1long_V4945_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1800_140_ARHGEF15_V4547_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_63_3FLAG_STARD13_M2_sepharose_2nd_injection.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_10_Citrine_Solo_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\259_3F_Cdc42_Q61L_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\252_3F_TUBA_V5055_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1799_139_CDC42_Q61L_V1834_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_87_3FLAG_Cdc42_G12V_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\207_3FLAG_ARHGAP20_V3654_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\273_3F_FARP2_V3662_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1792_132_ARHGAP12_V4694_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\216_3F_PLEKHG3_V5334_M2_Sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_45_Citrine_Tiam1_Miltenyibead.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_Citrine_RhoAT17N_MiltenyiBead.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\161_Citirne_Dock3_V4057_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1801_141_FGD5_V3845_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\220_3F_DOCK5_V4384_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_Citrine_Rac1_T19N_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\223_Cit_PLEKHG3_V5331_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_88_3FLAG_ARHGAP23_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\165_3FLAG_Arhgap30_V4697_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\221_Cit_FGD2_V3672_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1771_108_PLEKHG7_V4345_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_24_3FLAG_RHGXX_GFPtrap_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\205_Citrine_SGEF_5346_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_46_Citrine_Rich1_Miltenyibead.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\195_3FLAG_Cherry_V5250_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_2_GFP_Cherry_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_50_GFP_Cdc42_G12V_GFPTrap_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_29_Citrine_ARHGAP23_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\170_Citrine_PLEKHG7_V4346_M2_GFPtrapsepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\213_3F_Arhgap30_V4697_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_58_Citrine_RICH1_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\199_Cit_ARHGEF5_V5105_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\239_3F-FAM13A1_V4560_M2_sepharose_RHOG_HSre.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1796_136__Pik3r2_V3722_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\217_3F_ARHGAP22_V3681_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_49_3FLAG_Cdc42_T17N_M2_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\260_Citrine_TUBA_v4344_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packet6_92_3FLAG_ARHGAP11A_M2_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\202_3FLAG_PLEKHG6_V3766_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1783_124_ARHGAP23_V4386_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_86_GFP_Cdc42_G12V_Miltenyibeads.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_52_Citrine_Cdc42_T17N_GFPtRAP_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_7_Citrine_Dock3_GFPtrap_miltenyi.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_118_3FLAG-PLEKHG6_V3766.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_104_Citrine-DOCK8_V4983_M2_rename.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1789_129_RHGXX_V4949_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1802_142_STARD8_V3611_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_56_V4344_GFPtrap_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_102_MCF2L2-3FLAG_V5030_M2_rerun.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\160_3FLAG_Dock3_V4059_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_40_Citrine_FGD5_GFPtrap_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\153_3FLAG_SYDE1_V3717_M2sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\246_Citrine_ARHGAP23_V4387_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\190_Ctrine_KIAA1688_V5366_GFPTrapSepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\210_Cit_ARHGEF10_V3752_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\248_Citrine_Cdc42_G12V_GFPtrap_sepharose_RHOG_HS_BSA1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_82_Citrine_Cdc42_G12V_GFPtrap_magnet.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\159_Citrine_ArhGEF3_V3727_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_119_3FLAG-DOCK6_V4954.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\229_3F_FARP1_V4037_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_66_Citrine_FGD1_gfptrap_magnet_090621154123.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_30_Citrine_Cdc42T17N_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_105_Citrine-ELMO1_V4705_GFPtrap_partialrun.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_28_Citrine_ARHGAP23_GFPtrap_sepharose_repeat.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\150_Cit_ARHGEF16_V4964_GFPTRAP_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packet6_90_3FLAG_ARHGEF15_M2_Sepharose_blankafter.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\148_ARHGAP26_Citrine_V5033_GFPTRAP_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_120_3FLAG-CDC42_Q61L_V1834.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\232_Cit_NET1_V3708_GFPtrap_sepharose_RHOG_HS_2ndinjection.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\185_Citrine_SOLO_shorter_V3704_GFPTrapSepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\203_3FLAG_Cherry_V5250_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\206_Citrine_ARHGAP20_V3656_GFPtrap_sepharose_RHOG_HS_2ndinjection.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1803_146_PLEKHG7_V4346_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packet6_97_C9orf100_Citrine_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_15_c9orf100_Citrine_GFPtrap_beads.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_9_Citrine_Solo_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1803_143_STARD13_V3633_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1785_125_ARHGAP23_V4387_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\230_3F_KIAA1688_V5365_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\231_Cit_FARP2_V3665_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\225_Cit_FGD3_V3668_GFPtrap_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_111_Citrine-Plekhg2_V4735.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_68_Citrine_FGD1_M2_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_55_V4039_GFPtrap_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\215_3F_ARHGAP29_V3781_M2_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_1_GFP_Cherry.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_59_Citrine_RICH1_Miltenyi_beads.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\234_3F_FARP2_V3662_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1791_131_Cdc42_G12V.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\256_3FLAG_PLEKHG7_V4345_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\Packet6_107_MCF2L2-citrine_V4943_GFPtrap.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packet6_91_3FLAG_ARHGAp27_M2_Sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_62_3FLAG_STARD8_M2_sepharose_2nd_injection.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\194_3FLAG_ARHGAP11A_V4084_M2_091214212458.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\237_3F_ORCL_V3605_M2_sepharose_RHOG_HS_2ndinjection.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_44_Citrine_Tiam1_SepharoseGFPTrap_repeat.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\191_3FLAG_KIAA1688_V5365_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1805_145_STARD13_V327_M2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1782_121_DOCK6_V4953_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\180_Citrine_ARHGAP27_V4570_GFPTrapSepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_83_Citrine_Cdc42_G12V_Miltenyibeads.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\253_3F_PLEKHG3_V5334_M2_sepharose_RHOG_HS.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\175_Citrine_ELMO3_V5097_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\170_Citrine_PLEKHG7_V4346_M2_GFPtrapsepharose_091110225819.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\177_Cit_ARHGEF16_shorter_V3788_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\1\Packets6_39_Citrine_FGD5_Miltenyi.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1793_133_ARHGAP12_V4547_GFP.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\173_Citrine_RHGXX_short_V4035_GFPtrap_sepharose.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\larsen\2\1795_135_ARHGAP28_V4682_GFP.RAW.cmn'</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

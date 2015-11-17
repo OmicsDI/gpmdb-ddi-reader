@@ -247,7 +247,10 @@ sub create_xml_files {
         $xml->{pepatlas} = $1;
       }
 
-      push($xml->{models}, $terms[3]);
+      #push($xml->{models}, $terms[3]);
+      my @models = @{$xml->{models}};
+      push(@models, $terms[3]);
+      $xml->{models} = \@models;
       $group{$key} = $xml;
 
     } else {

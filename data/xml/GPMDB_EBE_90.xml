@@ -1,0 +1,97 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-17</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1_10min_4G10_IP2.RAW.cmn'">
+      <name>ORBITRAP Claus_25 cmn other</name>
+      <description>Not available</description>
+      <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="2009-09-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">human</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Pawson Lab</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">SLRI</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1DIC_10min_pY100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1DIC_10min_4G10_IP1_080708205936.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\171107_bidirA_150s_ptyr100_1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1DV_10min_pY100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1DV_10min_pY100_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070608_BidirA_B2DW_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\061107_bidirA_4G10_1_Icol.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\100308_B2DW_B1Fc_5minptyr100_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\060308_bidirA_10min_4G10_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070708_DWBidirA_b1DV_4G10_10min_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\100308_B2DW_B1Fc_5min_4G10_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1DV_10min_4G10_IP1_080708171340.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070707_bidirA_b1DV_pY100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\020308_bidirB2DW_A_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\010707_bidirA_b1DIC_4G10_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1DV_10min_4G10_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\061107_bidirA_4G10_1_IcolFT.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\060308_B2DW_bidirA_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\200308_BidirA+B1_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\140308_DW_BidirA+B1DIC_15min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\020308_bidirB2sort_A_b1DV_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070608_BidirA_B2DW_10min_4G10_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\181207_BidirB_B1-B2D_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1DIC_10min_pY100_IP1_080717173854.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\160308_Bidir_B+B2DIC_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\160308_Bidir_B_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070608_BidirA_B2DW_10min_pY100_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\091207_BidirA_10min_2E6_4G10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070608_BidirA_B2DW_10min_pY100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\160308_BidirB+B2_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070708_DWBidirA_b1_10min_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1_10min_pY100_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\061107_bidirA_pY100_2_IcolFT.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\100308_B2DW_b1Fc_5min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\090308_BidirADIC+b1DIC_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\140308_DW_BidirA+B1DV_15min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\181207_BidirA_B1-B2D_10min_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\060308_B2DW_bidirB_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\160308_BidirB+B2DIC_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\140308_BidirA+B1DV_15min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\060308_bidirA_10min_ptyr100_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070708_DWBidirA_b1DIC_10min_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\171107_bidirA_5min_ptyr100_1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070708_DWBidirA_b1_10min_pY100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\060308_B2DW_bidirB_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\100308_b1DW_B2Fc_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070708_DWBidirA_b1DIC_10min_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\021107_DWbidirA_4G10_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070708_DWBidirA_b1_4G10_10min_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\140308_BidirA+B1DIC_15min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\100308_B2DW_B1Fc_5min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\061107_BidirA_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\020308_bidirB2sort_A_b1DIC_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\181207_BidirA_B2-B1D_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\021107_DWbidirA_pY100_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\181207_BidirA_B2-B1D_10min_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\060308_B2DW_bidirA_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\200308_BidirA+B1DIC_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\200308_BidirA+B1_10min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\070708_DWBidirA_b1DV_10min_IP2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\091207_BidirA_10min_1E6_4G10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\200308_BidirA+B1DV_10min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\061107_bidirA_2_pYpeptide_Is.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\140308_DW_BidirA_15min_ptyr100_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done1\140308_DW_BidirA_15min_4G10_IP1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\other\done\010708_DWBidirA_b1_10min_4G10_IP2.RAW.cmn'</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>

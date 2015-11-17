@@ -1,0 +1,41 @@
+<database>
+  <name>PRIDE Archive</name>
+  <description/>
+  <release>3</release>
+  <release_date>2015-10-17</release_date>
+  <entry_count>1</entry_count>
+  <entries>
+    <entry id="Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\030807_DLD_eB1_SILAC3_IMACSPIN_A1.RAW.cmn'">
+      <name>ORBITRAP Claus_25 cmn imac</name>
+      <description>Not available</description>
+      <cross_references></cross_references>
+      <dates>
+        <date type="submission" value="2009-09-17"/>
+      </dates>
+      <additional_fields>
+        <field name="omics_type">Proteomics</field>
+        <field name="repository">GPMDB</field>
+        <field name="instrument_platform">Instrument</field>
+        <field name="disease">Not available</field>
+        <field name="species">human</field>
+        <field name="publication">Not available</field>
+        <field name="brenda_tissue">Not available</field>
+        <field name="cell_type">Not available</field>
+        <field name="submitter">Pawson Lab</field>
+        <field name="submitter_mail">Not available</field>
+        <field name="submitter_affiliation">SLRI</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\010709_R3A_OK_IMAC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\010909_R3_NOC_IMAC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\010709_R3A_CA_IMAC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\020807_NUK5eB1_SILAC3_IMAC_B.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\010807_DLD_B61_SILAC3_IMACSPIN_B1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\010709_R3A_DMSO_IMAC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\050709_IMAC_PHOSSECT_TEST_NL.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\050807_DLDeB1A_SILAC3_IMACcol_2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\020807_NUK5eB1_SILAC3_IMAC_A.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\070707_B35eb1_SILAC2_spinIMAC1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'Z:\spectra\ORBITRAP\Claus_25\cmn\imac\done\030807_DLD_eB1_SILAC3_IMACSPIN_A1.RAW.cmn'</field>
+      </additional_fields>
+    </entry>
+  </entries>
+</database>
