@@ -29,7 +29,7 @@ sub create_reference_files {
 	say "Processing directory $dir...";
 
   # instantiate parallel processing module
-  my $pm = Parallel::ForkManager->new($self->{procs}, '/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp');
+  my $pm = Parallel::ForkManager->new($self->{procs}, './data/temp/');
   my %responses = ();
   my @responses;
 
