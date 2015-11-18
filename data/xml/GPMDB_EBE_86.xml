@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\pawson\Giselle_P25\GW_2_lgl2.mgf'">
-      <name>Giselle_P25</name>
+    <entry id="Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\CHEK2_FC118_KP060_090809.mgf'">
+      <name>Kinase Project 2009 2009_04_03_KP061</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-19"/>
+        <date type="submission" value="2009-09-24"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,8 +24,18 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Giselle_P25\GW_3_lgl2mut.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Giselle_P25\GW_2_lgl2.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\TESK1_FC193_KP061_040409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\IRAK4_FC191_KP061_040409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\PRKY_FC156_KP061_110509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\ABL2_FC153_KP063_040409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\SGK2_FC107_KP060_090809.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\eGFP_FC222_KP060_090809.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\FRK_FC214_KP060_090809.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\SRPK1_FC232_KP063_100809.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\eGFP_FC222_KP063_100809.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\RPS6K2A_FC223_KP061_090809.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\MAST3_FC202 _KP063_100809.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_04_03_KP061\CHEK2_FC118_KP060_090809.mgf'</field>
       </additional_fields>
     </entry>
   </entries>

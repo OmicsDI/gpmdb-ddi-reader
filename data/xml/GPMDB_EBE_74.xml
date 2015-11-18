@@ -5,26 +5,35 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="GPM64200005151">
-      <name>pre run phos</name>
-      <description>Not available</description>
-      <cross_references></cross_references>
+    <entry id="GPM64200006322">
+      <name>Analysis of root plasma membrane aquaporins from Brassica oleracea: post-translational modifications, de novo sequencing and detection of isoforms by high resolution mass spectrometry.</name>
+      <description>PRIDE ID: 9747. Trypsin digest. Published in J Proteome Res. 2010 Jul 2;9(7):3479-94 ([[http://www.ncbi.nlm.nih.gov/pubmed/20462273 PubMed]]). From Abstract: {{i}}In this study, we combined three endoproteases (trypsin, Glu-C and Lys-C) with HPLC-MS/MS analysis and two types of peptide fragmentations, CID (collision induced dissociation) and HCD (higher-energy C-trap dissociation), to identify PIP isoforms and PTMs from broccoli roots. {{/i}}</description>
+      <cross_references>
+      <ref dbkey="20462273" dbname="pubmed"/>
+      <ref dbkey="9747" dbname="PRIDE"/>
+      </cross_references>
       <dates>
-        <date type="submission" value="2009-11-09"/>
+        <date type="submission" value="2010-09-27"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">thalecress, Arabidopsis thaliana</field>
-        <field name="publication">Not available</field>
+        <field name="species">thalecress, Brassica napus</field>
+        <field name="publication">20462273</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">GUO Guangyu</field>
-        <field name="submitter_mail">GUOGUANG</field>
-        <field name="submitter_affiliation">HKUST</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200005151</field>
+        <field name="submitter">Casado-Vela J, et al.</field>
+        <field name="submitter_mail">jcasado@cicbiogune.es</field>
+        <field name="submitter_affiliation">Plataforma de Prote-mica, CIC bioGUNE, CIBERehd, ProteoRed</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200006317</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200006319</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200006318</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200006316</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200006323</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200006321</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200006322</field>
       </additional_fields>
     </entry>
   </entries>

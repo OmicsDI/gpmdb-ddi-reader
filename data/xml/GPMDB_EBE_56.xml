@@ -5,32 +5,28 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\LTQ1\20060726_DP35NJ_P17\B03_3353.RAW.cmn'">
-      <name>LTQ1 20060726_DP35NJ_P17</name>
-      <description>Not available</description>
-      <cross_references></cross_references>
+    <entry id="GPM45100005264">
+      <name>Comparative phosphoproteomics of zebrafish Fyn/Yes morpholin o knockdown embryos</name>
+      <description>PRIDE ID: 3304 Fractie20_FT, Digest zebrafish lysate, WT vs Fyn/Yes knockdown.</description>
+      <cross_references>
+      <ref dbkey="3304" dbname="PRIDE"/>
+      </cross_references>
       <dates>
-        <date type="submission" value="2009-10-02"/>
+        <date type="submission" value="2009-01-13"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">zebrafish</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Pawson Lab</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'c:\spectra\LTQ1\20060726_DP35NJ_P17\B11_3361.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'c:\spectra\LTQ1\20060726_DP35NJ_P17\B03_3353.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'c:\spectra\LTQ1\20060726_DP35NJ_P17\C12_3375.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\LTQ1\20060726_DP35NJ_P17\E04_3390.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\LTQ1\20060726_DP35NJ_P17\B11_3361.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'c:\spectra\LTQ1\20060726_DP35NJ_P17\E04_3390.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\LTQ1\20060726_DP35NJ_P17\B03_3353.RAW.cmn'</field>
+        <field name="submitter">Simone Lemeer</field>
+        <field name="submitter_mail">s.m.lemeer@uu.nl</field>
+        <field name="submitter_affiliation">Biomolecular Mass Spectrometry and Proteomics Group, Bijvoet Center for Biomolecular Research and Utrecht Institute for Pharmaceutical Sciences, Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005264</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\Elite\2009_03_18_arl8b-WT_ar18b_180309-s1.mzXML.cmn'">
-      <name>QStar Elite data</name>
+    <entry id="Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B09_5265.mgf'">
+      <name>20080421_DP47_A128_P17</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-10-21"/>
+        <date type="submission" value="2009-09-04"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,210 +24,13 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_07_21-Vasa_240708-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_12_Dock_RHG-6_RHGXX_seph_tran_120309_P43-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_17_KP035-GRK1_FC176_KP035-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-VI_Grb2_ut_2509-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_08_28-Rod-_2108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_11_MK-noDNA_MK_111108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_06_KP034_JS-PDPK1_FC154_KP034-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_08_KP029-JAK1_FC170_KP029-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_08_28-Rod+_2108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_06_10-Nck2_wt_Eph2A_0612_03-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_05_28_various-Nck2_PN2_0519_080528-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_12_Dock_RHG-7_RHGXX_mag_stab_120309_P43-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_05_28_various-Nck1_EphA4_WT_20uL_0529-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_11_MK-F6__MK_111108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_18_KP033-NRA_SH2B5_190908-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2009_03_10-G1d_p66ShcA_100309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_12_Dock_RHG-8_RHGXX_mag_tran_120309_P43-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_15-CDK2_FC117_KP043_161208-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_05_KP030_pr_pY-STK11_pr_FC125_KP030-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_06-ABL2_FC153_KP038-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_29-SH2D5_293T_perv_0210-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_19_NCK-NCK_1 -s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_03_SGK_YZ-S4_SGK223-_2810_031108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_17_KP035-LIMK1_FC184_KP035-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_28-HS_cell Lysate_291008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_15-NCK2_PV_1609-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_09-SH2D5_101008_293-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_18_arl8b-NT_ar18b_180309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_15-CDKL1_FC186_KP043_171208-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_05_KP030_pr_pY-B24G10_030908-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_16_NCK-NCK2_A4WT_0416-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_19_NCK-NCK_1-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_17_KP035-CHEK1_FC183_KP035-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2009_03_10-G2d_p66ShcA_100309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_14_KP040-FC122_141108_KP040-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_03_KP055-IRAK4_FC191_KP055_060309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_08-RPSKB1_FC169_KP042-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_21_KP041-ILK_FC189_211107_KP041-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_14_0112_2-CDK2m-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2009_03_10-Md_p66ShcA_100309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_29-Grb2_wt_(-)_290908_correct-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_01_KP018-0325_R2_yz-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_03_KP055-SCYL2_FC166_KP055_050309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_31_KP038_36-MAPK3_FC112_KP038-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-PAK4_FC164_KP032-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_07_KP037-STK10_FC_KP037-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-AAK1_P6_FC142_KP031-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_06_05_ARAF_KP023-ARAF_FC116_Trail_FT_KP023-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_21_KP036-DAPK1_FC155_KP036-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_18_KP033-B35_SH2B5_190908-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_07_21-IgG_cx_230708-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_08_KP029-PDPK1_FC154_KP029-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_03_SGK_YZ-S3_SGK269+_2810_031108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_08_KP029-PRKCA_FC147_KP029-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_14_0112_2-FESm-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_07_21-STK_230708-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_08_07_TPlab-Grb2_sample1_080708-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_02-48ptn_DR_pr_2tryp_0308-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_06_KP034_JS-Caspase_8__061008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_07_KP037-CDK2_FC_KP037-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_26_iTRAQ_reactor-empty_PV_281108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_16_NCK-ShcA_0325_R4-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-IV_Grb2_2_3_2609-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_07_21-Nck1_220708-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_19_NCK-NCK 1 -s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_16_NCK-0325_W4_0416-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_03_Nck_Lgl2-CASK_FC148_KP034-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_15-GFP_293T_cont_egray_101008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_22_KP019repeat-SGK2_C107_KP019_repeatA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_28-PAK1_NB291008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_18_arl8b-NT_ar18b_180309_P43-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_11_MK-F7_MK_111108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-CASK_P6_FC148_KP031-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-STYK1_P6_FC157_KP031-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_06_KP034_JS-Caspase_3__061008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_16_NCK-NCK1_A4KD_0416_repeatA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_14_KP040-FC131_141108_KP040-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_03_SGK_YZ-S2_SGK269-_2810_031108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-V_Grb2_3mut_2509-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_11_MK-F3_MK_111108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_12_Dock_RHG-2_Dock3_seph_tran_120309_P43-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_11_MK-CMV_MK_111108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_06-RPSKC1_FC180_KP038-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_03_Nck_Lgl2-AATK_FC143_KP034-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_10_KP042_SHB-IRAK4_FC191_KP042_101208-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_17-0112_5_yz_02-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_05_05_KP021-ARAF_C116_KP021-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_08_28-HS-1_1_2908-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_15-Grb2 WT_1609_1-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_19_NCK-NCK_2-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-AATK_P6_FC143_KP031-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_20_KP019-AurkA_C106_KP019_recovery_2uL-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_18_KP033-FES_3ul_FC119_KP033-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-HS1_120908-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_16_NCK-NCK1_A4KD_0416-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_10-Nck2_Pods0303_100309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_06_KP034_JS-LIMK2_FC174_KP034-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-RAF1_P6_FC151_KP031-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_10-Grb2_Pods0303_100309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_11_MK-F2_MK_111108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_07_21-Nck2_220708-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_29-T_minus_PS_0210-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_06_KP034_JS-RAF1_FC151_KP034-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_27-1_msmr_meIF4E-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_07_KP037-ADBRK1_FC_KP037-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_07_KP037-ABL1_FC_KP037-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_29-Grb2_wt_(-)_290908-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_18_arl8b-WT_ar18b_180309_P43-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_03_SGK_YZ-S1_GFPcontrol_2810_031108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_07_KP037-TRIB1_FC_KP037-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_08_KP042-PRKY_FC156KP042-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_14_KP040-FC113_141108_KP040-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_14_0112_2-0112_2_yz_03-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_16_NCK-ShcA_0325_R5-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_15-Grb2_W193K_1509_5-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_31_KP038_36-IKBKE_FC108_KP038-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_02-48ptn_DR_pr_1tryp_0308-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_01_KP018-0328_R1_yz-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_08_KP042-BLK_FC172_KP042-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_17-SCYL2_FC166_201108_KP040-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_26_iTRAQ_reactor-FES_wt_PV_281108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_08_25-ShcA_K1_2508-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_17-0112_5_yz_01-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_14_KP040-FC1117_141108_KP040-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_17_KP035-SRMS_FC182_KP035-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_03_Nck_Lgl2-Nck2_perv_0310-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_15-Grb2_W36K_1509_2-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_21_KP041-TNK1_FC194_211107_KP041-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_29-GFP_PS_0210-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-BMX_FC173_KP032-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_31_KP038_36-MAST1_FC145_KP038-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_08_28-GFP_27_8-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-II_Grb2_1_2_2609-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_17_KP035-SNFILK2_FC185_KP035-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_29-Grb2_I146R_(-)_290908-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-III_Grb2_1_3_2609-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_02-48ptn_DR_pr_1tryp_0308_R1-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-IKBKB_P6_FC144_KP031-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_07_07-Rin3_control_0702-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_08_25-ShcA_G66_2508-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_07_KP037-MAPK8_FC_KP037-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_08-BLK_FC172_KP042-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_22_KP032-MARK3_FC163_KP032-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_08_KP029-AKT1_FC150_KP029-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_08_KP029-JAK2_FC168_KP029-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_21_KP041-PTK6_FC111_211107_KP041-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_08_25-WASL_2508-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_26_iTRAQ_reactor-FES_K590A_PV_281108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_03_KP055-JAK1_FC170_KP055_060309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_08_20-25ptn_80f_sol_2108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_16_NCK-ShcA_0325_R3-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_05_KP030_pr_pY-CDK2_pr_FC117_KP030-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_08_KP042-RPSKB1_FC169_KP042-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_02-48ptn_DR_sol_2tryp_0308-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_21_KP041-ZAP70_FC196_211107_KP041-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_03_Nck_Lgl2-Gisselle_3xflag_0310-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_03_Nck_Lgl2-Lgl2_0310-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_27-4_pspr_meIF4E-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_01_KP018-C107_SGK2_KP018-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_06_10-Nck1_wt_Eph2A_0611_01-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-I_Grb2_wt_2609-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-CSK_P6_FC141_KP031-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_03_KP039_042-AAK1_FC142_KP039-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_21_KP036-Grb2_egray_211008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_11_KP031-PRKY_P6_FC156_KP031-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_31_KP038_36-SNFILK2_FC185_KP036-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_03_Nck_Lgl2-Nck1_perv_0310-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_05_KP030_pr_pY-FES_pr_FC119_KP030-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_22_KP032-PTK2B_FC171_KP032-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_12_15-ROCK2_FC146_KP043_161208-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_28-G_Fab1_NB_291008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_06_12_DR5-DR5_080604_untreated-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_28-A_Fab1_NB_291008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_21_KP041-MAST3_FC202_211107_KP041-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_03_SGK_YZ-S5_SGK223+_2810_031108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_18_KP033-CDK2_12ul_FC117_KP033-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_03_Nck_Lgl2-Lgl2-PBR_0310-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_04_20_KP019-SGK2_C107_KP019-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_12_Dock_RHG-5_RHGXX_seph_stab_120309_P43-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_29-Grb2_I146R_(+)_290908-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_31_KP038_36-CKD2_FC117_KP038-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_12_Dock_RHG-3_Dock3_mag_stab_120309_P43-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_08_07_TPlab-Grb2_sample2_080708-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_18_KP033-PINK_FC159_KP032-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_27-2_psmr_meIF4E-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_07_KP037-AURKA_FC_KP037-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_09_25_grb2-N2A_perv_2609-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_26_iTRAQ_reactor-FES_K590A_ut_281108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_27-3_mspr_meIF4E-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_03_KP055-MNK1_FC115_KP055_060309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_14_KP040-FC1114_141108_KP040-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_21_KP041-IRAK1_FC190_211107_KP041-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_28-Grb2_WT_291008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_07_KP037-PRKAA1_FC_KP037-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_03_14_0112_2-0112_2_yz_01-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_26_iTRAQ_reactor-FES_wt_ut_281108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_17-BMX_FC173_201108_KP040-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_03_KP055-TESK1_FC193_KP055_030309-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_08_15-ShcA_1_150808-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_31_KP038_36-ROCK2_FC146_KP038-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_24_SGKgelbands-SGK223_yz_241108-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_10_28-SAKS1_NB_291008-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2008_11_17-PCTK1_FC122_201108_KP039-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\2009_03_18_arl8b-WT_ar18b_180309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B05_5261.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\A10_5254re.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\C12_5280re.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B01_5257.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B08_5264.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B07_5263.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B09_5265.mgf'</field>
       </additional_fields>
     </entry>
   </entries>

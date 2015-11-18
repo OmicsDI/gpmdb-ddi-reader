@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'F:\thegpm\spectra\pawson\20090303_Joso_P32\Caspase9_with_sample.mgf'">
-      <name>20090303_Joso_P32</name>
+    <entry id="Models from 'F:\thegpm\spectra\pawson\20090112_Yosr\VN2009013_E4.mgf'">
+      <name>20090112_Yosr</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-29"/>
+        <date type="submission" value="2009-09-24"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,7 +24,7 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090303_Joso_P32\Caspase9_with_sample.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090112_Yosr\VN2009013_E4.mgf'</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'c:\spectra\LTQ1\20070314_CPAdam1_A109_P42\A11_4376.RAW.cmn'">
-      <name>LTQ1 20070314_CPAdam1_A109_P42</name>
+    <entry id="Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\A04_5714.mgf'">
+      <name>20080707_DP49_A134_P17</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-10-09"/>
+        <date type="submission" value="2009-09-15"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,7 +24,19 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'c:\spectra\LTQ1\20070314_CPAdam1_A109_P42\A11_4376.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\C12_5746.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\G02_5783.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\E11_5769RE.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\E02_5760.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\H06_5706.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\C11_5745.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\E03_5761.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\A12_5722.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\C10_5744.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\F11_5780.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\G01_5782.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\F12_5781.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080707_DP49_A134_P17\A04_5714.mgf'</field>
       </additional_fields>
     </entry>
   </entries>

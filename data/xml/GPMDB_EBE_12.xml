@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\ADRBK1_FC133_KP070_280509.mgf'">
-      <name>Kinase Project 2009 2009_05_28_KP070</name>
+    <entry id="Models from 'D:\spectra\Claus_25\silac\silac3\151007_Bbidir_SILAC3_b1_B2_Icol.RAW.cmn'">
+      <name>Claus_25 silac3</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-30"/>
+        <date type="submission" value="2009-09-20"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,13 +24,21 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\CDK2_FC117_KP070_050609.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\TRIB1_FC152_KP070_050609.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\GFP_FC222_KP070_050609.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\PRKCZ_FC192_KP070_050609.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\MAP3K5_FC161_KP070_050609.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\PINK1_FC159_KP070_280509.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\ADRBK1_FC133_KP070_280509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\071007_bidir_SILAC3_B2_b1_Icol.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\010707_dynrange_SILAC3_A4.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\221007_Bbidir_SILAC3_b1_B2_Icol.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\041007_NUK5eB1_SILAC3_A_Icol_2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\010707_dynrange_SILAC3_A2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\270907_bidir_SILAC3_B2_b1_Icol.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\151007_Abidir_SILAC3_B2_b1_Icol.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\041007_NUK5eB1_SILAC3_A_Icol_1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\010707_dynrange_SILAC3_A5.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\041007_NUK5eB1_SILAC3_B_Icol_1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\041007_NUK5eB1_SILAC3_B_Icol_2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\221007_Abidir_SILAC3_B2_b1_Icol.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\231007_bidir_SILAC3_b1_B2_Icol.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\010707_dynrange_SILAC3_A1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\silac3\151007_Bbidir_SILAC3_b1_B2_Icol.RAW.cmn'</field>
       </additional_fields>
     </entry>
   </entries>

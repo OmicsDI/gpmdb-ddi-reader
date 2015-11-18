@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'F:\thegpm\spectra\pawson\20080722_DP_220708_A136_P28\D10_5885.mgf'">
-      <name>20080722_DP_220708_A136_P28</name>
+    <entry id="Models from 'c:\spectra\LTQ1\20070314_CPAdam1_A109_P42\A11_4376.RAW.cmn'">
+      <name>LTQ1 20070314_CPAdam1_A109_P42</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-17"/>
+        <date type="submission" value="2009-10-09"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,13 +24,7 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080722_DP_220708_A136_P28\D09_5884.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080722_DP_220708_A136_P28\D11_5886.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080722_DP_220708_A136_P28\D05_5880.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080722_DP_220708_A136_P28\D12_5886.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080722_DP_220708_A136_P28\D02_5877.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080722_DP_220708_A136_P28\D07_5882.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080722_DP_220708_A136_P28\D10_5885.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'c:\spectra\LTQ1\20070314_CPAdam1_A109_P42\A11_4376.RAW.cmn'</field>
       </additional_fields>
     </entry>
   </entries>

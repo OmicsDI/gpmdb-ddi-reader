@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\D08_5395re.mgf'">
-      <name>20080529_Sushi1_A130_P17</name>
+    <entry id="Models from 'C:\spectra\Claus_25\other\done3\CJ_12-15_Anorm.RAW.cmn'">
+      <name>Claus_25 done 3</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-05"/>
+        <date type="submission" value="2009-10-05"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,17 +24,70 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\D11_5398re.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\E02_5401.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\H06_5441.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\D12_5399re.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\D06_5393re.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\D02_5389.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\E01_5400.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\D07_5394re.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\H05_5440.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\D09_5396re.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi1_A130_P17\D08_5395re.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJnorm_7-7_AdeltaV.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJnorm_7-7_A_deltaIC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_2701_BdeltaIC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\DHX38_DMSO_280908.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_6-3-7_Anorm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\rafteA2_1_140407.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\48dyn_oncolumn_1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CG_GB_Bnor15-10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\ELOH_GB1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_IP_ShcD.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\spt5_280908.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\mdm2_fl_p53_batch2_orbirun2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_18-12_Anorm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_0107deltaIC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_0203blA.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_0603A.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\Cj_IP_Dok1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\mdm2_fl_p53_batch2_orbirun3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CG_GB_Anor22-10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_SHB+eb1-FC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_IP_ITSN2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJnorm_30-7_A_b1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\orbi_116_090123202000.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_0107A_norm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\F8recover.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\mdm2_fl_p53_batch2_orbirun5.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_25-3_norm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\F11recover.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_18-12_Bnorm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CG_GB_Bnor22-10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_A2302_DW.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_sash1_rep.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_pcDNA3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\IGFR_GB1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_12-15_Bnorm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_0603B.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\mdm2_360_p53_batch2_orbirun3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\DHX38_OK_280908.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CG-bnorm-06-11.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\ELOH_GB3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_PtPn11.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_SHB.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\mdm2_fl_p53_batch2_orbirun1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\orbi_143_bd.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_0203deltaVA.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJnorm_30-7_A_deltaV.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_30-3_Adeltadeltanorm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_SASH1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_0107deltaV_norm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CG_GB_Anor15-10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\py_test_081118151030.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\MC_YNL224C_gelband_magbead.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_6-3-7_B.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\ELOH_GB2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_30-3_Bdeltadeltanorm.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\MM_Palpha+S.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_CCDCSD.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_1_2302_sort_5uldil.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\mdm2_360_p53_orbirun2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_A2302_sort.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\GC_PP4C12_PP6C13_1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJnorm_7-7_A-b1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_norm_0203deltaKA.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Claus_25\other\done3\CJ_12-15_Anorm.RAW.cmn'</field>
       </additional_fields>
     </entry>
   </entries>

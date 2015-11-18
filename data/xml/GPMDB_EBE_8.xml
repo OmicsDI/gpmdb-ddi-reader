@@ -5,26 +5,28 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\temp\20060816_DP34_NJ_P17\D08_3223.RAW.cmn'">
-      <name>LTQ1 20060816_DP34_NJ_P17</name>
-      <description>Not available</description>
-      <cross_references></cross_references>
+    <entry id="GPM64200005172">
+      <name>Maize_test</name>
+      <description>TRANCHE KEY: kEMImQC+87mxYXXxlXM9rMh1rZcumlPgfJ4BKhlXzo9gYiTM2GIv2Nop79kJIgFRGf4yI0N7wIYvuuVxztYw6OyPpW0AAAAAAAABOQ== Zea mays data.</description>
+      <cross_references>
+      <ref dbkey="MSV000074095" dbname="massive"/>
+      </cross_references>
       <dates>
-        <date type="submission" value="2009-10-06"/>
+        <date type="submission" value="2009-11-10"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">Zea mays, Zea mays refseq</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Pawson Lab</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\temp\20060816_DP34_NJ_P17\D08_3223.RAW.cmn'</field>
+        <field name="submitter">Dr. Anton Poliakov</field>
+        <field name="submitter_mail">ap586@cornell.edu</field>
+        <field name="submitter_affiliation">Department of Plant Biology, Cornell University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200005172</field>
       </additional_fields>
     </entry>
   </entries>

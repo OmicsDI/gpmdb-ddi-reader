@@ -5,8 +5,8 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'D:\spectra\Claus_25\silac\other\110109_SHB_5_SILAC.RAW.cmn'">
-      <name>Claus_25 silac</name>
+    <entry id="Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C7.RAW.cmn'">
+      <name>Claus_25 dld_silac3</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
@@ -24,33 +24,93 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\271208_B2_PTK2_28_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\190409_140L_179H_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\271208_B_30_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\180409_139L_179H_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\050708_SASH1_20mvs2h_SILAC2.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\271208_B2_SHC1_25_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\121107_GC_SILAC_PP6_PP4.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\110109_SHB_10_SILAC.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\140109_104_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\281208_B2_41_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\190409_139L_179H_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\271208_B_29_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\180409_179L_179H_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\271208_B2_SHB_27_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\281208_B2_37_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\281208_B2_39_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\050708_NCK2_20mvs2h_SILAC2.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\281208_B2_40_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\110109_CRKa_10_SILAC.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\180409_140L_179H_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\110109_B2_CRK_5_SILAC.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\140109_101_bd_SILAC.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\140109_107_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\291208_B2_DVL3_bd_SILAC.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\281208_B2_38_bd_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\190409_179L_179H_SILAC_orbi.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\Claus_25\silac\other\110109_SHB_5_SILAC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A4.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B6.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2406_DLD_eB1_SILAC3_NA.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A6.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A12.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A18.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A11.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A7.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B5.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A16.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C9.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C8.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C14.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_NB.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B12.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A1_070629204801.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A8.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_C1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B7.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_NA.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B19.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A6.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C5.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2406_DLD_eB1_SILAC3_NB.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A20.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C11.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B4.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A9.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A14.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B6.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B13.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_NC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B16.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B15.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B8.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B18.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B5.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A8.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A4.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B11.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A14.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C6.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B17.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A7.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A9.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A11.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C4.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A15.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A12.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A13.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B13.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B8.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B12.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A2.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B14.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2406_DLD_eB1_SILAC3_NC.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B14.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C12.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C13.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B11.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B20.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_A5.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B7.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B9.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C3.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A13.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B9.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_B4.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_B10.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A5.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2404_DLD_Silac3_A1.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Claus_25\silac\dld_silac3\2707_DLD_B61_SILAC3_C7.RAW.cmn'</field>
       </additional_fields>
     </entry>
   </entries>

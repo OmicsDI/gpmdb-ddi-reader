@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\temp\20061006_DP37_A97_P28\F08_3715.RAW.cmn'">
-      <name>LTQ1 20061006_DP37_A97_P28</name>
+    <entry id="Models from 'C:\spectra\kinase\1\cmn\CDK2_FC117_KP070_050609-s1.mzXML.cmn'">
+      <name>kinase project 2009</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-10-07"/>
+        <date type="submission" value="2009-10-11"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -21,11 +21,67 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Pawson Lab</field>
+        <field name="submitter">Karen Colwill, Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\temp\20061006_DP37_A97_P28\H05_3736.RAW.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\temp\20061006_DP37_A97_P28\F08_3715.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\MAP3K5_C161_KP072_220609-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\JAK3_FC117_03-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\eGFP_FC222_KP063_100809-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\GFP_FC222_KP070_050609-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\GFP_FC222_KP055_130309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\GFP_FC222_KP059_270309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\MAP3K8_FC114_KP065_240409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDKL1_FC186_KP069_220509-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDK2_FC117_KP057_270309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\JAK3_FC177_KP057_200309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\MAP3K11_FC165_KP068_040509-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\ATR_FC199_KP057_270309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDK2_FC117_03-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDK2_FC117_02-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\BMX_FC173_KP063_140409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDK2_C117_KP072_190609-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\JAK3_FC117_02-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CSK_FC141_KP063_140409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CHEK2_FC118_KP060_090809-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\MAP3K5_FC161_KP055_130309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\GFP_FC222_KP065_240409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDK2_FC117_01-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\JAK3_FC117_01-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\MAP3K5_FC161_KP070_050609-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\IRAK4_FC191_KP061_040409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\BUB1B_FC213_KP069_220509-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\LIMK1_FC184_KP056_190309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\FES_FC119_KP067_080509-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\ADRBK1_FC133_KP070_280509-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\AURKA_FC106_KP057_200309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\IgG_control_170309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\GFP_FC222_KP056_200309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\MAK_FC179_KP070_050609-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\eGFP_FC222_KP060_090809-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CAMK2A_FC227_KP056_190309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDK2_FC117_KP060_030409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\JAK3_FC177_KP056_190309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\ABL2_FC153_KP063_040409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\FRK_FC214_KP061_090809-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\Aq_CDK2_FC117_iTraq_070409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\MAK_FC179_KP056_190309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\ABL2_FC153_KP060_030409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CHEK2_FC118_KP061_090809-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\IKBKB_FC144_KP064_300409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CSNK2A1_FC224_KP071_120614-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\GFP_FC222_KP071_120613-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\MAP3K8_FC114_KP071_120611-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\IKBKB_C144_KP072_190609-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\ATR_FC199_KP068_030509-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\ABL1_FC149_KP068_040509-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\AAK1_FC142_300409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\ABL1_FC149_KP067_110509-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\FRK_FC214_KP060_090809-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDC2_FC228_KP056_200309-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\eGFP_FC222_KP061_090809-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\ctrl_CDK2_030409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDK2_FC117_300409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\kinase\1\cmn\CDK2_FC117_KP070_050609-s1.mzXML.cmn'</field>
       </additional_fields>
     </entry>
   </entries>

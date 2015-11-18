@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B09_5265.mgf'">
-      <name>20080421_DP47_A128_P17</name>
+    <entry id="Models from 'C:\spectra\temp\20061006_DP37_A97_P28\F08_3715.RAW.cmn'">
+      <name>LTQ1 20061006_DP37_A97_P28</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-04"/>
+        <date type="submission" value="2009-10-07"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,13 +24,8 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B05_5261.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\A10_5254re.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\C12_5280re.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B01_5257.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B08_5264.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B07_5263.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080421_DP47_A128_P17\B09_5265.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\temp\20061006_DP37_A97_P28\H05_3736.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\temp\20061006_DP37_A97_P28\F08_3715.RAW.cmn'</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p66ShcA_H2O2_treatment3.mgf'">
-      <name>20090220_Yong_P17</name>
+    <entry id="Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\ADRBK1_FC133_KP070_280509.mgf'">
+      <name>Kinase Project 2009 2009_05_28_KP070</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-26"/>
+        <date type="submission" value="2009-09-30"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,17 +24,13 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p66ShcA_Sgk223_con-transfection_EGF_treatment.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p52ShcA_EGF_treatment.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\p66ShcA_EGF_treatment.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP-p66ShcA_H2O2_treatment.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\p66ShcA_EGF_treatment3.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p52ShcA_EGF_treatment_3.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p66ShcA_EGF_treatment.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p52ShcA_Sgk269_co-transfection_EGF_treatment3.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p52ShcA_Sgk269_co-transfection_EGF_treatment.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p66ShcA_EGF_treatment3.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090220_Yong_P17\GFP_p66ShcA_H2O2_treatment3.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\CDK2_FC117_KP070_050609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\TRIB1_FC152_KP070_050609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\GFP_FC222_KP070_050609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\PRKCZ_FC192_KP070_050609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\MAP3K5_FC161_KP070_050609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\PINK1_FC159_KP070_280509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_05_28_KP070\ADRBK1_FC133_KP070_280509.mgf'</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'F:\thegpm\spectra\pawson\20080702_Jing_P17\F05_Jing_080703095335.mgf'">
-      <name>20080702_Jing_P17</name>
-      <description>Not available</description>
+    <entry id="GPM45100005493">
+      <name>Human Ccr4-Not complexes contain variable deadenylase subunits</name>
+      <description>TRANCHE KEY: EKYhwbHIfbis7ocZqc+18hDwmT7WZvSLAWp1dVKjhBWF9W2Ubb8IEScvJqhwZMJQMYBpaPATHB/yVedmNlPMeNej10cAAAAAAAADPw== [[http://www.biochemj.org/bj/422/bj4220443.htm Biochem. J. 2009 422:443]]. Data set: CNOT6 (6N7).</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-14"/>
+        <date type="submission" value="2010-01-07"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -21,10 +21,10 @@
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Pawson Lab</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080702_Jing_P17\F05_Jing_080703095335.mgf'</field>
+        <field name="submitter">Annemieke Kolkman, et al.</field>
+        <field name="submitter_mail">a.kolkman@umcutrecht.nl</field>
+        <field name="submitter_affiliation">Utrecht University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM45100005493</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\pawson\Jing_p25\Jing_H09_silacL_080704151846.mgf'">
-      <name>Jing_p25</name>
+    <entry id="Models from 'F:\thegpm\spectra\pawson\20090303_Eppendorfs_A142_P17\A06_6627.mgf'">
+      <name>20090303_Eppendorfs_A142_P17</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-09-19"/>
+        <date type="submission" value="2009-09-29"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -23,18 +23,8 @@
         <field name="cell_type">Not available</field>
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">Not available</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_B3_B4_B5_orbi.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_B6_B7_B8_orbi.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_A12_B1_B2_orbi.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_A5_6_orbi.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_A7_8_orbi.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_22_07.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_B9_B10_B11_orbi.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_H10_silacL.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_A9_10_11_orbi.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_A1_2_orbi.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Jing_p25\Jing_H09_silacL_080704151846.mgf'</field>
+        <field name="submitter_affiliation">SLRI</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20090303_Eppendorfs_A142_P17\A06_6627.mgf'</field>
       </additional_fields>
     </entry>
   </entries>

@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\Kinase Project 2009\2009_08_27_KP076\PRKCZ3_KP076_280809.mgf'">
-      <name>Kinase Project 2009 2009_08_27_KP076</name>
+    <entry id="Models from 'C:\spectra\pawson\Chen_P25\Chen_gtk.mgf'">
+      <name>Chen_P25</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-10-01"/>
+        <date type="submission" value="2009-09-19"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,8 +24,11 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_08_27_KP076\PRKCZ2_KP076_270809.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Kinase Project 2009\2009_08_27_KP076\PRKCZ3_KP076_280809.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Chen_P25\spt5_280908.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Chen_P25\Chen_vasa.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Chen_P25\DHX38_DMSO_280908.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Chen_P25\DHX38_OK_280908.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\pawson\Chen_P25\Chen_gtk.mgf'</field>
       </additional_fields>
     </entry>
   </entries>

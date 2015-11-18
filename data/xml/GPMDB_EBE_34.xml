@@ -5,46 +5,29 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'C:\spectra\Elite\rat\2008_04_19_ShcA_0425_R345W4-0325_W4_0416-s1.mzXML.cmn'">
-      <name>QStar Elite rat data</name>
+    <entry id="Models from 'D:\spectra\temp\20070109_DP41_A103_P39\A07_3971.RAW.cmn'">
+      <name>LTQ1 20070109_DP41_A103_P39</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-10-13"/>
+        <date type="submission" value="2009-10-06"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">rat</field>
+        <field name="species">human</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_28_SchA_0415s_R1_R5-R1_0415_no_bait-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_25_ShcA_0415s-R8_0415_SchA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_28_SchA_0415s_R1_R5-R3_0415_GFP_p52_EGF10min__repeatA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_25_ShcA_0415s-R7_0415_SchA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_19_ShcA_0425_R345W4-ShcA_0325_R4_repeatA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_03_03-rat1 20080112_4-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_28_SchA_0415s_R1_R5-R4_GFP_p66_un-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_19_ShcA_0425_R345W4-ShcA_0325_R4-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_03_03-rat1 20080112_2-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_25_ShcA_0415s-R9_0415_SchA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_28_SchA_0415s_R1_R5-R4_GFP_p66_un_repeatA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_25_ShcA_0415s-R9_0415_SchA_repeatA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_25_ShcA_0415s-R6_0415_SchA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_19_ShcA_0425_R345W4-ShcA_0325_R3_repeatA-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_28_SchA_0415s_R1_R5-R5_0415_GFP_p66_EGF10min-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_19_ShcA_0425_R345W4-ShcA_0325_R5-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_28_SchA_0415s_R1_R5-R3_0415_GFP_p52_EGF10min-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_28_SchA_0415s_R1_R5-R2_0415_GFP_p52_un-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_03_03-rat1 20080112_1-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_19_ShcA_0425_R345W4-ShcA_0325_R3-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\rat\2008_04_19_ShcA_0425_R345W4-0325_W4_0416-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\temp\20070109_DP41_A103_P39\B12_3988.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\temp\20070109_DP41_A103_P39\B01_3977.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\temp\20070109_DP41_A103_P39\C10_3998.RAW.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'D:\spectra\temp\20070109_DP41_A103_P39\A07_3971.RAW.cmn'</field>
       </additional_fields>
     </entry>
   </entries>

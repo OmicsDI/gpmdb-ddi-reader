@@ -5,12 +5,12 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'F:\thegpm\spectra\pawson\2009_04_02_NickB\Data\cmn\G2_Grb2_020409-s1.mzXML.cmn'">
-      <name>20090402 NickB Grb2</name>
+    <entry id="Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_22_CrkII_NB-CRKII_PV_220509.mgf'">
+      <name>Elite data</name>
       <description>Not available</description>
       <cross_references></cross_references>
       <dates>
-        <date type="submission" value="2009-08-19"/>
+        <date type="submission" value="2009-10-02"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
@@ -24,10 +24,125 @@
         <field name="submitter">Pawson Lab</field>
         <field name="submitter_mail">Not available</field>
         <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\2009_04_02_NickB\Data\cmn\T2_Grb2_020409-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\2009_04_02_NickB\Data\cmn\G3_Grb2_020409-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\2009_04_02_NickB\Data\cmn\G1_Grb2_020409-s1.mzXML.cmn'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\2009_04_02_NickB\Data\cmn\G2_Grb2_020409-s1.mzXML.cmn'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_06_yz_GRP-GRP_0422_yz_060509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_14_KP040-MAP3K8_FC114_141108_KP040.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_08_dmArg_CC-Lin28A_5_090609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_17-MARK2_FC109_KP039.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-DDX4_s3_dmArg_030609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_24_NickB-LS_minus_030709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_RB_ar18b-AR18B_wt_140409_P43.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF1253_4.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_29_SH2D5_Grb2A2-IgG_EG_290409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_03_24_Chen-5_MIWI_250309.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_29_SH2D5_Grb2A2-Grb2_A2_290409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_01_23_KP-MAP3K8_FC114_KP046.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_03_24_Chen-3_RDRKH_240309.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_02_NickB-G2_Grb2_020409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_03_24_Chen-4_IgG_250309.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF1251_5.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_08_dmArg_CC-Miwi_1_080609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_08_dmArg_CC-DDX4_3_190509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_06_yz_GRP-IC_0422_yz_060509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_03_FredF_f1251_3-1_F1253_FF_030609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_Liz2samples-2_Control_Rab_IgG__260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_14_KP040-TSSK6_FC131_141108_KP040.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF4_060709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-1_Stk31_210409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_03_FredF_f1251_3-3_F1251_FF_040609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_10_31_KP038_36-CDK2_FC117__KP038.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_19_Chen_dmArg-Miwi2_4_190509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_14_FredF-F1277_06_140709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_21_KP041-CDK2_FC117_211107_KP041.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_19_Chen_dmArg-PiwiL2_s2_150609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_24-Casp3_FT_270409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_17-ARAF_FC116_KP039.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_RB_ar18b-AR18B_NT_140409_P43.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_24-Casp9_FT_270409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_14_KP040-CDC2L5_FC129_141108_KP040.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_28_LNK-G66_YZ_280409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_MichaelK-5_MVC_Control_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_30_FredF-F1271_16_300609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_MichaelK-1_MVC_taggedShcA_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_17-MAPK14_FC121_KP039.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_01_RickB-V4391.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF8_060709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_24_NickB-5_Syt2_XL_wt_240609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_17_ShcA-0709ShcA_3_170709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_14_KP040-PTK2_FC113_141108_KP040.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF6_060709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-5_Ecat8_220409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_MichaelK-3_MVC_taggedShcC_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_28_LNK-G66_NB_280409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF1251_4.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_02_NickB-T2_Grb2_020409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_02_NickB-T1_Grb2_020409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_24_NickB-2_Nck1_wt_pv_250609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_19_Chen_dmArg-PiwiL2_2_190509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF1253_5.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_17-PRKCB1_FC1138_KP039.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF3_060709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_29_SH2D5_Grb2A2-SH2D5_EG_290409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_24_NickB-4_Syt2_wt_240609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_08_dmArg_CC-IgG_8_090609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_17_ShcA-0709ShcA_E3_170709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_02_NickB-G1_Grb2_020409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_03_FredF_f1251_3-3_F1253_FF_030609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_03_24_Chen-6_TDRKH_250309.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_MichaelK-4_MVC_taggedShcD_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-6_Piwil2_220409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_30_FredF-F1271_7_300609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF1254_1.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_14_FredF-F1277_02_140709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_MichaelK-2_FLAG_taggedShcB_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_08_dmArg_CC-Lin28B_6_090609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_14_FredF-F1277_04_140709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_17_ShcA-0709ShcA_A3_170709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF7_060709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_09_29-NBeliteGrb2I146R-.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_03_FredF_f1251_3-1_F1251_FF_040609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_19_Chen_dmArg-Miwi_s1_050609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_19_Chen_dmArg-Sym11_5_190509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_24_NickB-1_CrkII_wt_pv_240609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_14_FredF-F1277_01_140709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_03_24_Chen-1_IgG_240309.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_22_CrkII_NB-CRKII_ctrl_220509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_Liz2samples-1_BCR_end_mouse_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_03_24_Chen-3_TDRKH_240309.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_MichaelK-7_FLAG_Fes_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_19_Chen_dmArg-DDX4_3_190509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_19_Chen_dmArg-Miwi_1_190509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_09_29-NBeliteGrb2WT-.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_08_dmArg_CC-PiwiL2_2_080609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF1254_2.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_14_FredF-F1277_07_140709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_01_RickB-V4392.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-8_SND1_220409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_03_FredF_f1251_3-2_F1251_FF_040609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_24_NickB-3_Vamp2_wt_250609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF2_060709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2008_11_14_KP040-CDK2_FC117_141108_KP040.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF5_080709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_14_FredF-F1277_03_140709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_24_NB_41BB-LL1_240709.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-7_IgG_control_200409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_MichaelK-8_FLAG_FBAR_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_03_FredF_f1251_3-2_F1253_FF_030609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_30_FredF-F1271_9_300609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_05_Jing_14_3_3-1_14_3_3_jj_050509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_03_24_Chen-2_MIWI_240309.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-3_Vasa_210409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_05_Jing_14_3_3-2_14_3_3_jj_050509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-2_Tdrd6_210409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_30_FredF-F1271_15_300609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_07_06_FredF-FF1254_3.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_20_Chen-4_Tdrd5_210409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_26_MichaelK-6_FLAG_Control_260609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_08_dmArg_CC-TDRKH_4_090609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_06_08_dmArg_CC-Y12_7_090609.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_04_02_NickB-G3_Grb2_020409.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_05_Jing_14_3_3-22_14_3_3_jj_140509.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-Andrew-2009_01_23_KP-PAK4_FC164_KP044.mgf'</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'C:\spectra\Elite\QSTARELITE-PawsonLab_2009-2009_05_22_CrkII_NB-CRKII_PV_220509.mgf'</field>
       </additional_fields>
     </entry>
   </entries>

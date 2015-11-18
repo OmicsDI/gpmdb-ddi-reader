@@ -5,37 +5,28 @@
   <release_date>2015-10-17</release_date>
   <entry_count>1</entry_count>
   <entries>
-    <entry id="Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\E01_5496.mgf'">
-      <name>20080529_Sushi2_A131_P17</name>
-      <description>Not available</description>
-      <cross_references></cross_references>
+    <entry id="GPM64200000023">
+      <name>Proteomic analysis of shoot tissue during photoperiod induced growth cessation in V. riparia Michx. grapevines</name>
+      <description>PRIDE ID: 16374. Data published in Proteome Sci. 2010 Aug 12;8:44 ([[http://www.ncbi.nih.gov/pubmed/20704748 PubMed]]). From PRIDE: {{i}}To begin understanding transduction of the photoperiod signal, Vitis riparia Michx. (PI588259) grapevines that had grownfor 35 days in long photoperiod (long day, LD, 15h) were subjected to either continued LD or a short photoperiod (short day, SD, 13h) treatment. Shoot tips (4-node shoot terminals) were collected from each treatment at 7 and 28 days of LD and SD for proteomic analysis via two-dimensional (2D) gel electrophoresis. The peptides were identified using MALDI-TOF_TOF mass spectrometer after trypsin digestion. A master gel was made and mapped with all p roteins from both photoperiod treatments. The proteins were identified by matching thepeptide sequences against the 12X Vitis vinifera grape genome in NCBI. This study was funded in part by NSF grant DBI064755 and the South Dakota Agriculture Experiment Station.{{/i}}</description>
+      <cross_references>
+      <ref dbkey="16374" dbname="PRIDE"/>
+      </cross_references>
       <dates>
-        <date type="submission" value="2009-09-05"/>
+        <date type="submission" value="2011-01-28"/>
       </dates>
       <additional_fields>
         <field name="omics_type">Proteomics</field>
         <field name="repository">GPMDB</field>
         <field name="instrument_platform">Instrument</field>
         <field name="disease">Not available</field>
-        <field name="species">human</field>
+        <field name="species">grape</field>
         <field name="publication">Not available</field>
         <field name="brenda_tissue">Not available</field>
         <field name="cell_type">Not available</field>
-        <field name="submitter">Pawson Lab</field>
-        <field name="submitter_mail">Not available</field>
-        <field name="submitter_affiliation">SLRI</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\B06_5468.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\C03_5474.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\C07_5478.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\C08_5479.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\B11_5473.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\B07_5469.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\B12_5474.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\C04_5475.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\B09_5471.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\B10_5472.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\B08_5470.mgf'</field>
-        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=Models from 'F:\thegpm\spectra\pawson\20080529_Sushi2_A131_P17\E01_5496.mgf'</field>
+        <field name="submitter">Victor, KJ, et al.</field>
+        <field name="submitter_mail">anne.fennell@sdstate.edu</field>
+        <field name="submitter_affiliation">South Dakota State University</field>
+        <field name="model">http://gpmdb.thegpm.org/~/dblist_gpmnum/gpmnum=GPM64200000023</field>
       </additional_fields>
     </entry>
   </entries>
