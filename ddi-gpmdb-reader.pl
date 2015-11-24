@@ -31,6 +31,7 @@ use Getopt::Long qw(GetOptions);
 # parameter variables
 my $up;
 my $proc;
+my $temp;
 my $gen;
 my $help;
 my $data;
@@ -40,10 +41,10 @@ my $source_files;
 my @dir;
 
 GetOptions(
-  'update!'   =>  \$up,
-  'process'   =>  \$proc,
-  'generate!' =>  \$gen,
-  'help!'     =>  \$help,
+  'update:s'    =>  \$up,
+  'process:s'   =>  \$proc,
+  'generate:s'  =>  \$gen,
+  'help!'       =>  \$help,
   ) or die "Incorrect usage!\n";
 
 ### PARAMETERS ###
@@ -54,6 +55,8 @@ while( my $line = <$param> ) {
     $data = $1;
   } elsif ( $line =~ m/processors=(.*)/ ) {
     $procs = $1;
+  } elsif ( $line =~ m/temp_dir=(.*)/ ) {
+    $temp = $1;
   } elsif( $line =~ m/ignore=(.*)/ ) {
     $ignore = $1;
   } elsif( $line =~ m/source_files=(.*)/ ) {
@@ -65,47 +68,65 @@ while( my $line = <$param> ) {
 }
 ### END PARAMETERS ###
 
-if ( !$help && !$up && !$proc && !$gen) {
-  say "No parameter found! Run -help for more information on how to use DDI::GPMDB";
-  exit;
-}
+
+#if ( !$help && $up_length < 1 && !$proc && !$gen) {#
+#  say "No parameter found! Run -help for more information on how to use DDI::GPMDB";
+#  exit;
+#}
 
 if( $help ) {
 
-    say "DDI::GPMDB Module!";
-    say "-update\t\tUpdates the local GPMDB files using GPMDB ftp server";
-    say "-process\tCreates reference files for every model in each folder (long process!)";
-    say "-generate\tGenereate XML files from reference files";
+  say "DDI::GPMDB Module!";
+  say "-update\t\tUpdates the local GPMDB files using GPMDB ftp server";
+  say "-process\tCreates reference files for every model in each folder (long process!)";
+  say "-generate\tGenereate XML files from reference files";
 
 } else {
 
   my @files_to_download;
 
-  if ( $up ) {
+  if ( defined($up) ) {
 
-      # getting the latest file list
-      say "Generating local model list";
-      system("find $source_files -type f > $data");
+    unless ( $up =~ m/param/ig || $up =~ m/^$/ig ) {
+      undef(@dir);
+      @dir = split(/\,/, $up);
+    }
 
-      # initialize sync object and query GPMDB FTP server for new files.
-      # New files are downloaded and stores as .gz file on the proper folder.
-      my $sync = DDI::GPMDB::Sync->new();
-      @files_to_download = $sync->process_files($data, $ignore, \@dir);
-      $sync->fetch($source_files, $data, $ignore, \@files_to_download);
+    # getting the latest file list
+    say "Generating local model list";
+    system("find $source_files -type f > $data");
 
-  } elsif ( $proc ) {
-      for my $dir ( @dir ) {
-          my $reader = DDI::GPMDB::Reader->new();
-          $reader->{procs} = $procs;
-          $reader->create_reference_files($source_files, $data, $dir);
-          say "done with directory $dir";
-      }
+    # initialize sync object and query GPMDB FTP server for new files.
+    # New files are downloaded and stores as .gz file on the proper folder.
+    my $sync = DDI::GPMDB::Sync->new();
+    @files_to_download = $sync->process_files($data, $ignore, \@dir);
+    $sync->fetch($source_files, $data, $ignore, \@files_to_download);
 
-  } elsif ( $gen ) {
+  } elsif ( defined($proc) ) {
 
-  	  my $reader = DDI::GPMDB::Reader->new();
-  	  $reader->generate($source_files, $data, \@dir);
-  	  say "done";
+    unless ( $proc =~ m/param/ig || $proc =~ m/^$/ig ) {
+      undef(@dir);
+      @dir = split(/\,/, $proc);
+    }
+
+    for my $dir ( @dir ) {
+        my $reader = DDI::GPMDB::Reader->new();
+        $reader->{procs} = $procs;
+        $reader->{temp}  = $temp;
+        $reader->create_reference_files($source_files, $data, $dir);
+        say "done with directory $dir";
+    }
+
+  } elsif ( defined($gen) ) {
+
+    unless ( $gen =~ m/param/ig || $gen =~ m/^$/ig ) {
+      undef(@dir);
+      @dir = split(/\,/, $gen);
+    }
+
+	  my $reader = DDI::GPMDB::Reader->new();
+	  $reader->generate($source_files, $data, \@dir);
+	  say "done";
 
   }
 

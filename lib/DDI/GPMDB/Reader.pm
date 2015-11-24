@@ -13,6 +13,7 @@ sub new {
     my $class   = shift;
     my $self    = {
       procs =>  undef,
+      temp  =>  undef,
     };
 
     bless($self, $class);
@@ -29,7 +30,7 @@ sub create_reference_files {
 	say "Processing directory $dir...";
 
   # instantiate parallel processing module
-  my $pm = Parallel::ForkManager->new($self->{procs}, '/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp');
+  my $pm = Parallel::ForkManager->new($self->{procs}, $self->{temp});
   my %responses = ();
   my @responses;
 
