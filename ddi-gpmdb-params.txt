@@ -5,7 +5,7 @@ data_file=data/files.txt
 processors=8
 
 # temp folder for parallel processing
-temp_dir=/home/felipevl/Workspace/DDI-GPMDB-Reader/data/temp
+temp_dir=./data/temp/
 
 # location of the list of files to be ignored
 ignore=data/ignore.txt
